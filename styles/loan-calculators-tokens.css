@@ -1,0 +1,26 @@
+/* Loan Calculators scoped tokens. Inherits root color palette from tokens.css */
+.loanCalculatorsStory {
+  --calc-ink: var(--color-ink);
+  --calc-light: var(--color-canvas);
+  --calc-pale: var(--color-pale);
+  --calc-primary: var(--color-primary);
+  --calc-primary-strong: var(--color-primary-strong);
+  --calc-accent: var(--color-accent);
+  --calc-surface: var(--color-surface);
+  --calc-border: var(--color-rule);
+  --calc-control: var(--color-control);
+
+  --calc-title: var(--text-hero);
+  --calc-heading: clamp(2rem, 3.8vw, 3.75rem);
+  --calc-subheading: clamp(1.15rem, 1.5vw, 1.375rem);
+  --calc-body: clamp(0.9375rem, 1.2vw, 1.0625rem);
+  --calc-lead: clamp(1.0625rem, 1.4vw, 1.3rem);
+  --calc-caption: 0.8125rem;
+  --calc-gutter: clamp(1.5rem, 5vw, 5.5rem);
+  --calc-space: clamp(4.5rem, 8.5vw, 8.5rem);
+  --calc-gap: clamp(1.5rem, 3.5vw, 3.5rem);
+  --calc-width: 1440px;
+  --calc-radius: 16px;
+  --calc-control-height: 48px;
+  --calc-ease: cubic-bezier(0.16, 1, 0.3, 1);
+}

@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/request-quote/layout,_N_T_/request-quote/page,_N_T_/request-quote"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/_index",
+    "/request-quote/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/27a61fdde926b964e36fdcb016ad3b23b0673cd77ce72c43fcf8da0c911a5a2d/$/request-quote",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/request-quote/page"
+    },
+    "isFallback": false
+  }
+}

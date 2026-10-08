@@ -1,0 +1,11 @@
+{
+  "pages": {},
+  "app": {
+    "[project]/app/driversapp/page": [
+      "static/media/5ee884228e72c58d-s.p.0kspp8hy-z47w.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.2adce56gso3ku.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pagesUsingSizeAdjust": false
+}

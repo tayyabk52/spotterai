@@ -1,0 +1,199 @@
+{
+  "checkedAt": "2026-10-08T16:24:18.839Z",
+  "filters": [
+    {
+      "query": "",
+      "count": 15,
+      "identical": true
+    },
+    {
+      "query": "query=Django",
+      "count": 2,
+      "identical": true
+    },
+    {
+      "query": "department=Software+Developement",
+      "count": 4,
+      "identical": true
+    },
+    {
+      "query": "location=Pakistan",
+      "count": 3,
+      "identical": true
+    },
+    {
+      "query": "remote_status_id=fully",
+      "count": 10,
+      "identical": true
+    },
+    {
+      "query": "query=Django&location=Pakistan",
+      "count": 2,
+      "identical": true
+    },
+    {
+      "query": "remote_status_id=hybrid",
+      "count": 0,
+      "identical": true
+    },
+    {
+      "query": "geobound_coordinates%5Btop_left_lat%5D=45&geobound_coordinates%5Btop_left_lon%5D=60&geobound_coordinates%5Bbottom_right_lat%5D=5&geobound_coordinates%5Bbottom_right_lon%5D=95",
+      "count": 3,
+      "identical": true
+    }
+  ],
+  "details": [
+    {
+      "slug": "709822-afterhours-driver-support-specialist",
+      "status": 200,
+      "originalCharacters": 2768,
+      "localCharacters": 2768,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/709822-afterhours-driver-support-specialist/applications/new",
+      "identicalApplication": true
+    },
+    {
+      "slug": "707632-remote-backend-django-engineer-ai-algorithmic-systems",
+      "status": 200,
+      "originalCharacters": 2648,
+      "localCharacters": 2648,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/707632-remote-backend-django-engineer-ai-algorithmic-systems/applications/new",
+      "identicalApplication": true
+    },
+    {
+      "slug": "702088-transportation-sales-executive-ftl-direct-shipper-remote-or-joliet-il",
+      "status": 200,
+      "originalCharacters": 2853,
+      "localCharacters": 2853,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/702088-transportation-sales-executive-ftl-direct-shipper-remote-or-joliet-il/applications/new",
+      "identicalApplication": true
+    },
+    {
+      "slug": "701476-vp-of-freight-sales-ftl-truckload-remote-or-joliet-il",
+      "status": 200,
+      "originalCharacters": 3467,
+      "localCharacters": 3467,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/701476-vp-of-freight-sales-ftl-truckload-remote-or-joliet-il/applications/new",
+      "identicalApplication": true
+    },
+    {
+      "slug": "699815-eld-specialist",
+      "status": 200,
+      "originalCharacters": 3007,
+      "localCharacters": 3007,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/699815-eld-specialist/applications/new",
+      "identicalApplication": true
+    },
+    {
+      "slug": "690697-accounting-automation-engineer",
+      "status": 200,
+      "originalCharacters": 4093,
+      "localCharacters": 4093,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/690697-accounting-automation-engineer/applications/new",
+      "identicalApplication": true
+    },
+    {
+      "slug": "671154-remote-machine-learning-engineer",
+      "status": 200,
+      "originalCharacters": 2000,
+      "localCharacters": 2000,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/671154-remote-machine-learning-engineer/applications/new",
+      "identicalApplication": true
+    },
+    {
+      "slug": "658644-content-video-editor",
+      "status": 200,
+      "originalCharacters": 2572,
+      "localCharacters": 2572,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/658644-content-video-editor/applications/new",
+      "identicalApplication": true
+    },
+    {
+      "slug": "658068-enterprise-sales-executive-logistics-software-tms",
+      "status": 200,
+      "originalCharacters": 3067,
+      "localCharacters": 3067,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/658068-enterprise-sales-executive-logistics-software-tms/applications/new",
+      "identicalApplication": true
+    },
+    {
+      "slug": "653456-generalist-business-operations-engineer",
+      "status": 200,
+      "originalCharacters": 2419,
+      "localCharacters": 2419,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/653456-generalist-business-operations-engineer/applications/new",
+      "identicalApplication": true
+    },
+    {
+      "slug": "557023-product-manager-remote",
+      "status": 200,
+      "originalCharacters": 2667,
+      "localCharacters": 2667,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/557023-product-manager-remote/applications/new",
+      "identicalApplication": true
+    },
+    {
+      "slug": "557020-quality-assurance-engineer-junior-product-manager-ai-trucking",
+      "status": 200,
+      "originalCharacters": 1901,
+      "localCharacters": 1901,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/557020-quality-assurance-engineer-junior-product-manager-ai-trucking/applications/new",
+      "identicalApplication": true
+    },
+    {
+      "slug": "302005-senior-semi-truck-sales-executive",
+      "status": 200,
+      "originalCharacters": 1734,
+      "localCharacters": 1734,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/302005-senior-semi-truck-sales-executive/applications/new",
+      "identicalApplication": true
+    },
+    {
+      "slug": "158431-enterprise-sales-executive-logistics-software-tms",
+      "status": 200,
+      "originalCharacters": 3067,
+      "localCharacters": 3067,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/158431-enterprise-sales-executive-logistics-software-tms/applications/new",
+      "identicalApplication": true
+    },
+    {
+      "slug": "124025-office-auto-mechanic",
+      "status": 200,
+      "originalCharacters": 1796,
+      "localCharacters": 1796,
+      "identicalDescription": true,
+      "originalApplication": "https://careers.spotter.ai/jobs/124025-office-auto-mechanic/applications/new",
+      "identicalApplication": true
+    }
+  ],
+  "destinations": [
+    {
+      "path": "/connect",
+      "status": 200,
+      "url": "https://careers.spotter.ai/connect"
+    },
+    {
+      "path": "/data-privacy",
+      "status": 200,
+      "url": "https://careers.spotter.ai/data-privacy"
+    },
+    {
+      "path": "/jobs/709822-afterhours-driver-support-specialist/applications/new",
+      "status": 200,
+      "url": "https://careers.spotter.ai/jobs/709822-afterhours-driver-support-specialist/applications/new"
+    }
+  ]
+}

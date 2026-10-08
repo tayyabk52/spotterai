@@ -1,0 +1,322 @@
+"use client";
+import { useRef } from "react";
+import { LazyMotion, m, useInView, useReducedMotion } from "framer-motion";
+import styles from "./CapabilityOverview.module.css";
+import { CubeIcon } from "@phosphor-icons/react/dist/ssr/Cube";
+import { SlidersHorizontalIcon } from "@phosphor-icons/react/dist/ssr/SlidersHorizontal";
+import { PathIcon } from "@phosphor-icons/react/dist/ssr/Path";
+import type { Product } from "@/content/home";
+import { DatabaseIcon } from "@phosphor-icons/react/dist/ssr/Database";
+import { CloudArrowDownIcon } from "@phosphor-icons/react/dist/ssr/CloudArrowDown";
+import { TruckIcon } from "@phosphor-icons/react/dist/ssr/Truck";
+import { ArrowsClockwiseIcon } from "@phosphor-icons/react/dist/ssr/ArrowsClockwise";
+import { IdentificationCardIcon } from "@phosphor-icons/react/dist/ssr/IdentificationCard";
+import { ShieldCheckIcon } from "@phosphor-icons/react/dist/ssr/ShieldCheck";
+import { ListChecksIcon } from "@phosphor-icons/react/dist/ssr/ListChecks";
+import { BrowserIcon } from "@phosphor-icons/react/dist/ssr/Browser";
+import { FunnelIcon } from "@phosphor-icons/react/dist/ssr/Funnel";
+import { MagnifyingGlassIcon } from "@phosphor-icons/react/dist/ssr/MagnifyingGlass";
+
+export type CapabilityVariant = Product["id"];
+
+const loadFeatures = () =>
+  import("./motion-features").then((module) => module.default);
+
+export default function CapabilityIllustration({
+  variant,
+}: {
+  variant: CapabilityVariant;
+}) {
+  const ref = useRef<SVGSVGElement>(null);
+  const inView = useInView(ref, { once: true, amount: 0.3 });
+  const reduced = useReducedMotion();
+  const animation =
+    inView && !reduced ? { y: [12, 0], opacity: [0.65, 1] } : undefined;
+  const transition = (index: number) => ({
+    duration: 0.32,
+    delay: index * 0.08,
+    ease: [0.16, 1, 0.3, 1] as const,
+  });
+  return (
+    <LazyMotion features={loadFeatures} strict>
+      <m.svg
+        ref={ref}
+        className={styles.illustration}
+        viewBox="0 0 560 224"
+        fill="none"
+        aria-hidden="true"
+        focusable="false"
+      >
+        {variant === "lens" ? (
+          <>
+            <circle className={styles.track} cx="280" cy="112" r="104" />
+            <circle className={styles.ring} cx="280" cy="112" r="80" />
+            <path
+              className={styles.track}
+              d="M24 112H176M384 112H536M280 8V32M280 192V216"
+            />
+            <path
+              className={styles.line}
+              d="M68 56H128C156 56 156 88 200 88M68 168H128C156 168 156 136 200 136M360 112H492M484 104L492 112L484 120"
+            />
+            <m.g initial={false} animate={animation} transition={transition(0)}>
+              <circle className={styles.disc} cx="56" cy="56" r="20" />
+              <circle className={styles.accent} cx="56" cy="56" r="6" />
+              <circle className={styles.ring} cx="56" cy="168" r="20" />
+              <circle className={styles.brand} cx="56" cy="168" r="6" />
+            </m.g>
+            <m.g initial={false} animate={animation} transition={transition(1)}>
+              <circle className={styles.core} cx="280" cy="112" r="56" />
+              <circle className={styles.accent} cx="248" cy="96" r="13" />
+              <circle className={styles.brand} cx="248" cy="128" r="13" />
+              <circle className={styles.disc} cx="280" cy="128" r="13" />
+              <circle className={styles.disc} cx="312" cy="128" r="13" />
+              <circle className={styles.accent} cx="354" cy="82" r="5" />
+            </m.g>
+            <m.g initial={false} animate={animation} transition={transition(2)}>
+              <circle className={styles.disc} cx="512" cy="112" r="20" />
+              <path className={styles.line} d="M504 112L510 118L520 106" />
+            </m.g>
+          </>
+        ) : variant === "crm" ? (
+          <>
+            <path className={styles.track} d="M24 112H536" />
+            <path
+              className={styles.line}
+              d="M128 112H216M344 112H432M424 104L432 112L424 120"
+            />
+            <m.g initial={false} animate={animation} transition={transition(0)}>
+              <circle className={styles.disc} cx="80" cy="112" r="48" />
+              <circle className={styles.accent} cx="80" cy="96" r="12" />
+              <path
+                className={styles.line}
+                d="M58 136C58 110 102 110 102 136"
+              />
+              <circle className={styles.ring} cx="80" cy="112" r="64" />
+            </m.g>
+            <m.g initial={false} animate={animation} transition={transition(1)}>
+              <circle className={styles.core} cx="280" cy="112" r="64" />
+              <circle className={styles.track} cx="280" cy="112" r="88" />
+              <path
+                className={styles.line}
+                d="M256 96H304M256 112H292M256 128H304"
+              />
+              <circle className={styles.brand} cx="302" cy="112" r="4" />
+              <circle className={styles.accent} cx="280" cy="24" r="5" />
+            </m.g>
+            <m.g initial={false} animate={animation} transition={transition(2)}>
+              <circle className={styles.disc} cx="480" cy="112" r="48" />
+              <circle className={styles.ring} cx="480" cy="112" r="64" />
+              <path
+                className={styles.line}
+                d="M452 112Q480 80 508 112Q480 144 452 112Z"
+              />
+              <circle className={styles.brand} cx="480" cy="112" r="8" />
+            </m.g>
+          </>
+        ) : variant === "driver-app" ? (
+          <>
+            <circle className={styles.track} cx="280" cy="112" r="88" />
+            <path
+              className={styles.line}
+              d="M100 56H136C176 56 168 112 216 112M100 168H136C176 168 168 112 216 112M344 112H368Q392 112 392 144V152Q392 176 416 176H432Q456 176 456 152V140"
+            />
+            <path
+              className={styles.track}
+              d="M344 112H432M280 24V8M280 200V216"
+            />
+            <m.g initial={false} animate={animation} transition={transition(0)}>
+              <circle className={styles.disc} cx="72" cy="56" r="28" />
+              <circle className={styles.ring} cx="72" cy="168" r="28" />
+              <CubeIcon
+                x={58}
+                y={42}
+                size={28}
+                weight="duotone"
+                className={styles.icon}
+              />
+              <CubeIcon
+                x={58}
+                y={154}
+                size={28}
+                weight="duotone"
+                className={styles.icon}
+              />
+              <circle className={styles.accent} cx="44" cy="56" r="5" />
+            </m.g>
+            <m.g initial={false} animate={animation} transition={transition(1)}>
+              <circle className={styles.core} cx="280" cy="112" r="64" />
+              <SlidersHorizontalIcon
+                x={248}
+                y={80}
+                size={64}
+                weight="duotone"
+                className={styles.icon}
+              />
+              <circle className={styles.accent} cx="280" cy="24" r="5" />
+            </m.g>
+            <m.g initial={false} animate={animation} transition={transition(2)}>
+              <circle className={styles.disc} cx="480" cy="112" r="48" />
+              <circle className={styles.ring} cx="480" cy="112" r="64" />
+              <PathIcon
+                x={456}
+                y={88}
+                size={48}
+                weight="duotone"
+                className={styles.icon}
+              />
+            </m.g>
+          </>
+        ) : variant === "tms" ? (
+          <>
+            <rect
+              className={styles.track}
+              x="168"
+              y="20"
+              width="224"
+              height="184"
+              rx="16"
+            />
+            <path
+              className={styles.line}
+              d="M96 52H152Q176 52 176 76V88Q176 112 216 112M96 172H152Q176 172 176 148V136Q176 112 216 112M344 112H384Q408 112 408 88V76Q408 52 432 52H464M344 112H384Q408 112 408 136V148Q408 172 432 172H464"
+            />
+            <m.g initial={false} animate={animation} transition={transition(0)}>
+              <circle className={styles.disc} cx="72" cy="52" r="28" />
+              <circle className={styles.ring} cx="72" cy="172" r="28" />
+              <DatabaseIcon
+                x={58}
+                y={38}
+                size={28}
+                weight="duotone"
+                className={styles.icon}
+              />
+              <CloudArrowDownIcon
+                x={58}
+                y={158}
+                size={28}
+                weight="duotone"
+                className={styles.icon}
+              />
+            </m.g>
+            <m.g initial={false} animate={animation} transition={transition(1)}>
+              <circle className={styles.core} cx="280" cy="112" r="64" />
+              <TruckIcon
+                x={240}
+                y={72}
+                size={80}
+                weight="duotone"
+                className={styles.icon}
+              />
+              <circle className={styles.accent} cx="168" cy="52" r="5" />
+            </m.g>
+            <m.g initial={false} animate={animation} transition={transition(2)}>
+              <circle className={styles.disc} cx="488" cy="52" r="28" />
+              <circle className={styles.ring} cx="488" cy="172" r="28" />
+              <ArrowsClockwiseIcon
+                x={474}
+                y={38}
+                size={28}
+                weight="duotone"
+                className={styles.icon}
+              />
+              <PathIcon
+                x={474}
+                y={158}
+                size={28}
+                weight="duotone"
+                className={styles.icon}
+              />
+            </m.g>
+          </>
+        ) : variant === "sentinel" ? (
+          <>
+            <circle className={styles.track} cx="280" cy="112" r="104" />
+            <path
+              className={styles.line}
+              d="M128 112H192M368 112H432M280 8A104 104 0 0 1 384 112"
+            />
+            <m.g initial={false} animate={animation} transition={transition(0)}>
+              <circle className={styles.disc} cx="80" cy="112" r="48" />
+              <IdentificationCardIcon
+                x={52}
+                y={84}
+                size={56}
+                weight="duotone"
+                className={styles.icon}
+              />
+            </m.g>
+            <m.g initial={false} animate={animation} transition={transition(1)}>
+              <circle className={styles.core} cx="280" cy="112" r="88" />
+              <ShieldCheckIcon
+                x={220}
+                y={52}
+                size={120}
+                weight="duotone"
+                className={styles.icon}
+              />
+              <circle className={styles.accent} cx="280" cy="8" r="5" />
+            </m.g>
+            <m.g initial={false} animate={animation} transition={transition(2)}>
+              <circle className={styles.disc} cx="480" cy="112" r="48" />
+              <ListChecksIcon
+                x={452}
+                y={84}
+                size={56}
+                weight="duotone"
+                className={styles.icon}
+              />
+            </m.g>
+          </>
+        ) : (
+          <>
+            <path className={styles.track} d="M24 112H536" />
+            <path
+              className={styles.line}
+              d="M128 72H184Q204 72 224 88M128 112H224M128 152H184Q204 152 224 136M336 112H416M408 104L416 112L408 120"
+            />
+            <m.g initial={false} animate={animation} transition={transition(0)}>
+              <circle className={styles.disc} cx="80" cy="112" r="48" />
+              <BrowserIcon
+                x={52}
+                y={84}
+                size={56}
+                weight="duotone"
+                className={styles.icon}
+              />
+              <circle className={styles.accent} cx="32" cy="112" r="5" />
+            </m.g>
+            <m.g initial={false} animate={animation} transition={transition(1)}>
+              <rect
+                className={styles.track}
+                x="208"
+                y="32"
+                width="144"
+                height="160"
+                rx="16"
+              />
+              <FunnelIcon
+                x={224}
+                y={56}
+                size={112}
+                weight="duotone"
+                className={styles.icon}
+              />
+            </m.g>
+            <m.g initial={false} animate={animation} transition={transition(2)}>
+              <circle className={styles.disc} cx="480" cy="112" r="48" />
+              <circle className={styles.ring} cx="480" cy="112" r="64" />
+              <MagnifyingGlassIcon
+                x={452}
+                y={84}
+                size={56}
+                weight="duotone"
+                className={styles.icon}
+              />
+            </m.g>
+          </>
+        )}
+      </m.svg>
+    </LazyMotion>
+  );
+}

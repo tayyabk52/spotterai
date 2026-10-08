@@ -1,0 +1,100 @@
+.section {
+  margin-top: var(--space-8);
+  border-top: 1px solid var(--color-rule);
+  padding-top: var(--space-7);
+}
+.form {
+  padding: var(--space-6);
+  background: var(--color-surface);
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-panel);
+}
+.requiredNote {
+  color: var(--color-muted);
+  font-size: 14px;
+}
+.fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-5);
+}
+.field {
+  display: grid;
+  align-content: start;
+  gap: var(--space-2);
+  min-width: 0;
+}
+.fullWidth {
+  grid-column: 1 / -1;
+}
+.field label {
+  font-weight: 600;
+  color: var(--color-ink);
+}
+.field input,
+.field select,
+.field textarea,
+.draft textarea {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--color-control);
+  border-radius: var(--radius-control);
+  font: inherit;
+  font-size: 16px;
+  color: var(--color-ink);
+  background: var(--color-canvas);
+}
+.field textarea,
+.draft textarea {
+  resize: vertical;
+}
+.field :is(input, select, textarea):focus-visible,
+.draft textarea:focus-visible {
+  outline: 2px solid var(--color-primary-strong);
+  outline-offset: 3px;
+}
+.primary {
+  display: inline-flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--space-5);
+  min-height: 52px;
+  padding: var(--space-3) var(--space-5);
+  margin-top: var(--space-6);
+  border: 1px solid var(--color-primary-strong);
+  border-radius: var(--radius-control);
+  background: var(--color-primary-strong);
+  color: var(--color-surface) !important;
+  font-weight: 600;
+  text-decoration: none !important;
+}
+.primary:hover {
+  background: var(--color-ink);
+  border-color: var(--color-ink);
+}
+.error {
+  color: var(--color-error);
+  font-size: 14px;
+}
+.draft {
+  margin-top: var(--space-6);
+}
+.draft h3:focus {
+  outline: none;
+}
+@media (max-width: 599px) {
+  .form {
+    padding: var(--space-5) var(--space-4);
+  }
+  .fields {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-4);
+  }
+  .primary {
+    width: 100%;
+  }
+}

@@ -1,0 +1,76 @@
+.productGrid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 8px;
+}
+.card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-control);
+  border-radius: var(--radius-control);
+  text-align: left;
+  min-height: 78px;
+  width: 100%;
+  color: var(--color-ink);
+  transition:
+    background-color var(--dur-fast) var(--ease-out),
+    border-color var(--dur-fast) var(--ease-out);
+}
+.card:hover {
+  border-color: var(--color-primary-strong);
+  background: var(--color-tint);
+}
+.cardSelected {
+  border-color: var(--color-primary-strong);
+  background: var(--color-tint);
+}
+.iconContainer {
+  display: flex;
+  flex-shrink: 0;
+  color: var(--color-primary-strong);
+}
+.cardContent {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-width: 0;
+}
+.productTitleText {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.25;
+}
+.cardSubtitle {
+  font-size: 13px;
+  color: var(--color-muted);
+  line-height: 1.35;
+}
+.checkbox {
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  border: 1px solid var(--color-control);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--color-surface);
+}
+.checkboxChecked {
+  background: var(--color-primary-strong);
+  border-color: var(--color-primary-strong);
+  color: var(--color-surface);
+}
+@media (min-width: 640px) {
+  .productGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .card {
+    min-height: 74px;
+    padding: 12px;
+  }
+}

@@ -1,0 +1,59 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/2tc5h0-cjbx7e.js"
+3:"/_next/static/chunks/1hoeug4wb54uj.js"
+4:"/_next/static/chunks/3dn1jagfben17.js"
+5:"/_next/static/chunks/3yctxw-37a622.js"
+6:"/_next/static/chunks/04j_-9pshjb4v.js"
+7:"/_next/static/chunks/3no1j6v7clii1.js"
+8:I[90793,["$2","$3","$4","$5","$6","$7"],"default"]
+9:I[7988,["$2","$3","$4","$5","$6","$7"],"default"]
+a:"/_next/static/chunks/42onvq6nokjl2.js"
+b:I[39756,["$a"],"default"]
+c:I[37457,["$a"],"default"]
+d:I[22016,["$2","$3","$4","$5","$6","$7"],""]
+e:I[85437,["$2","$3","$4","$5","$6","$7"],"Image"]
+17:I[68027,["$2","$3","$4","$5","$6","$7"],"default",1]
+:HL["/_next/static/chunks/0o_teiw3ucrl2.css","style"]
+:HL["/_next/static/chunks/2ni3txw811gvs.css","style"]
+:HL["/_next/static/media/47df9ba1c7236d3b-s.p.2adce56gso3ku.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/media/5ee884228e72c58d-s.p.0kspp8hy-z47w.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/_next/static/chunks/2ovpx7xjum00b.css","style"]
+13:X
+14:[["children",{"s":"__PAGE__","h":512,"d":{"r":"$L15","p":false,"v":null}}]]
+11:[["children",{"s":"loan-calculators","h":512,"d":{"r":"$L12","p":false,"v":"$13"},"c":"$Q14"}]]
+0:{"P":null,"c":["","loan-calculators"],"q":"","i":false,"t":{"t":{"s":"","h":528,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0o_teiw3ucrl2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/2ni3txw811gvs.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/2tc5h0-cjbx7e.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/1hoeug4wb54uj.js","async":true,"nonce":"$undefined"}],["$","script","script-2",{"src":"/_next/static/chunks/3dn1jagfben17.js","async":true,"nonce":"$undefined"}],["$","script","script-3",{"src":"/_next/static/chunks/3yctxw-37a622.js","async":true,"nonce":"$undefined"}],["$","script","script-4",{"src":"/_next/static/chunks/04j_-9pshjb4v.js","async":true,"nonce":"$undefined"}],["$","script","script-5",{"src":"/_next/static/chunks/3no1j6v7clii1.js","async":true,"nonce":"$undefined"}]],["$","html",null,{"lang":"en","className":"X0tmKW_variable _5eTUlq_variable","children":["$","body",null,{"suppressHydrationWarning":true,"children":[["$","$L8",null,{}],["$","a",null,{"className":"skip-link","href":"#main-content","children":"Skip to content"}],["$","$L9",null,{}],["$","$Lb",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lc",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]],"forbidden":"$undefined","unauthorized":"$undefined"}],["$","footer",null,{"className":"yg9ahW_footer","children":["$","div",null,{"className":"_7rDl1q_container ","children":[["$","div",null,{"className":"yg9ahW_grid","children":[["$","div",null,{"className":"yg9ahW_brand","children":[["$","$Ld",null,{"href":"/","aria-label":"Spotter.ai home","children":["$","$Le",null,{"src":"/brand/spotter-logo.png","width":640,"height":158,"alt":"Spotter.ai","sizes":"200px","className":"yg9ahW_logo"}]}],["$","p",null,{"children":"Tools for the people who move freight: brokers, carriers, and drivers."}],["$","div",null,{"className":"yg9ahW_downloads","children":[["$","a","App Store",{"href":"https://apps.apple.com/us/app/spotter-ai/id1670506993","children":["App Store",["$","span",null,{"aria-hidden":"true","children":" ↗"}]]}],["$","a","Google Play",{"href":"https://play.google.com/store/apps/details?id=com.spotter.ai&pcampaignid=web_share","children":["Google Play",["$","span",null,{"aria-hidden":"true","children":" ↗"}]]}]]}]]}],[["$","nav","Products",{"aria-label":"Products footer links","children":[["$","h2",null,{"className":"yg9ahW_heading","children":"Products"}],["$","ul",null,{"children":[["$","li","Spotter App",{"children":["$","a",null,{"href":"/driversapp","children":"Spotter App"}]}],["$","li","Extension",{"children":["$","a",null,{"href":"/extension","children":"Extension"}]}],["$","li","TMS",{"children":["$","a",null,{"href":"/tms","children":"TMS"}]}],["$","li","Lens",{"children":["$","a",null,{"href":"/lens","children":"Lens"}]}],["$","li","Sentinel",{"children":["$","a",null,{"href":"https://spotter.ai/sentinel","children":"Sentinel"}]}]]}]]}],["$","nav","Company",{"aria-label":"Company footer links","children":[["$","h2",null,{"className":"yg9ahW_heading","children":"Company"}],["$","ul",null,{"children":[["$","li","About",{"children":["$","a",null,{"href":"/about","children":"About"}]}],["$","li","Careers",{"children":["$","a",null,{"href":"https://careers.spotter.ai/","children":"Careers"}]}],["$","li","Contact",{"children":["$","a",null,{"href":"https://spotter.ai/request-quote","children":"Contact"}]}],["$","li","Insights",{"children":["$","a",null,{"href":"https://spotter.ai/insights","children":"Insights"}]}]]}]]}],"$Lf"]]}],"$L10"]}]}]]}]}]]}],"p":false,"v":null},"c":"$Q11"},"h":{"r":"$L16","p":false,"v":null}},"m":"$undefined","G":["$17",["$L18","$L19"]],"S":true,"r":"$undefined","s":"$undefined","a":"$undefined","l":"$undefined","p":"$undefined","d":"$undefined","b":"bFX097ANa_bKqZrtOK2m3"}
+1b:"/_next/static/chunks/2jrv-1dwa0977.js"
+1c:"/_next/static/chunks/0d2trrq9q0r31.js"
+1d:"StoryMotionProvider"
+1e:I[22078,["$2","$3","$4","$5","$6","$7","$1b","$1c"],"$1d"]
+1f:"LoanCalculatorsHero"
+20:I[40733,["$2","$3","$4","$5","$6","$7","$1b","$1c"],"$1f"]
+21:"CalculatorSuiteChapter"
+22:I[54635,["$2","$3","$4","$5","$6","$7","$1b","$1c"],"$21"]
+23:"EquipmentBenchmarksChapter"
+24:I[74940,["$2","$3","$4","$5","$6","$7","$1b","$1c"],"$23"]
+25:"FleetEconomicsChapter"
+26:I[55016,["$2","$3","$4","$5","$6","$7","$1b","$1c"],"$25"]
+27:"LoanCalculatorsContact"
+28:I[80836,["$2","$3","$4","$5","$6","$7","$1b","$1c"],"$27"]
+29:"LoanCalculatorsNav"
+2a:I[36174,["$2","$3","$4","$5","$6","$7","$1b","$1c"],"$29"]
+2b:I[97367,["$a"],"OutletBoundary"]
+2c:"$Sreact.suspense"
+2e:"ViewportBoundary"
+2f:I[97367,["$a"],"$2e"]
+31:"MetadataBoundary"
+32:I[97367,["$a"],"$31"]
+f:["$","nav","Legal",{"aria-label":"Legal footer links","children":[["$","h2",null,{"className":"yg9ahW_heading","children":"Legal"}],["$","ul",null,{"children":[["$","li","Privacy Policy",{"children":["$","a",null,{"href":"https://spotter.ai/privacy-policy","children":"Privacy Policy"}]}],["$","li","Terms of Service",{"children":["$","a",null,{"href":"https://spotter.ai/terms-and-services","children":"Terms of Service"}]}],["$","li","CCPA",{"children":["$","a",null,{"href":"https://spotter.ai/ccpa","children":"CCPA"}]}]]}]]}]
+10:["$","div",null,{"className":"yg9ahW_bottom","children":[["$","div",null,{"children":[["$","p",null,{"children":["© ",2026," spotter.ai. All rights reserved."]}],["$","p",null,{"children":"251 Little Falls Dr., Wilmington, DE 19808"}]]}],["$","div",null,{"className":"yg9ahW_social","children":[["$","a","LinkedIn",{"href":"https://www.linkedin.com/company/spotter-sentinel/about/?viewAsMember=true","children":"LinkedIn"}],["$","a","Facebook",{"href":"https://www.facebook.com/people/Spotter-Sentinel/61577984011373/","children":"Facebook"}],["$","a","Instagram",{"href":"https://www.instagram.com/sentinel.safety/","children":"Instagram"}]]}]]}]
+12:["$","$1","c",{"children":[null,["$","$Lb",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Lc",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","forbidden":"$undefined","unauthorized":"$undefined"}]]}]
+1a:["$","style",null,{"children":"[data-calc-pin]{min-height:0!important}[data-calc-pin]>div{position:relative!important}"}]
+15:["$","$1","c",{"children":[["$","main",null,{"id":"main-content","tabIndex":-1,"className":"loanCalculatorsStory _3vBaIq_story","children":[["$","noscript",null,{"children":"$1a"}],["$","$L1e",null,{"children":[["$","$L20",null,{}],["$","$L22",null,{}],["$","$L24",null,{}],["$","$L26",null,{}],["$","$L28",null,{}],["$","$L2a",null,{}]]}]]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/2ovpx7xjum00b.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}],["$","script","script-0",{"src":"/_next/static/chunks/2jrv-1dwa0977.js","async":true,"nonce":"$undefined"}],["$","script","script-1",{"src":"/_next/static/chunks/0d2trrq9q0r31.js","async":true,"nonce":"$undefined"}]],["$","$L2b",null,{"children":["$","$2c",null,{"name":"Next.MetadataOutlet","children":"$@2d"}]}]]}]
+16:["$","$1","h",{"children":[null,["$","$L2f",null,{"children":"$L30"}],["$","$L32",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$2c",null,{"name":"Next.Metadata","children":"$L33"}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+18:["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0o_teiw3ucrl2.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+19:["$","link","1",{"rel":"stylesheet","href":"/_next/static/chunks/2ni3txw811gvs.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]
+13:C
+30:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+34:I[27201,["$a"],"IconMark"]
+2d:null
+33:[["$","title","0",{"children":"Truck Loan Calculators | Spotter.ai | Spotter.ai"}],["$","meta","1",{"name":"description","content":"Calculate commercial truck financing payments, amortization schedules, equipment affordability, and implied interest rates for freight operations."}],["$","link","2",{"rel":"canonical","href":"https://spotter.ai/loan-calculators"}],["$","meta","3",{"property":"og:title","content":"Truck Loan Calculators | Spotter.ai"}],["$","meta","4",{"property":"og:description","content":"Calculate commercial truck financing payments, amortization schedules, equipment affordability, and implied interest rates for freight operations."}],["$","meta","5",{"property":"og:url","content":"https://spotter.ai/loan-calculators"}],["$","meta","6",{"property":"og:site_name","content":"Spotter.ai"}],["$","meta","7",{"property":"og:type","content":"website"}],["$","meta","8",{"name":"twitter:card","content":"summary"}],["$","meta","9",{"name":"twitter:title","content":"Truck Loan Calculators | Spotter.ai"}],["$","meta","10",{"name":"twitter:description","content":"Calculate commercial truck financing payments, amortization schedules, equipment affordability, and implied interest rates for freight operations."}],["$","link","11",{"rel":"icon","href":"/icon.svg?icon.1r25-edrsfhf0.svg","sizes":"any","type":"image/svg+xml"}],["$","$L34","12",{}]]

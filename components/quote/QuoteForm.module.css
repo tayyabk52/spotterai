@@ -1,0 +1,252 @@
+.formCard {
+  width: 100%;
+  min-width: 0;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.formHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-bottom: 4px;
+}
+.formHeading h2 {
+  font-size: 25px;
+}
+.formHeading p,
+.productHeading p {
+  color: var(--color-muted);
+  font-size: 14px;
+}
+.row,
+.fleetRow {
+  display: grid;
+  gap: 16px;
+}
+.fieldGroup,
+.fleetGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+.fieldLabel {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8px;
+  color: var(--color-ink);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+.fieldLabel span {
+  color: var(--color-muted);
+  font-size: 13px;
+  font-weight: 400;
+}
+.inputWrapper,
+.selectWrapper {
+  display: flex;
+  align-items: center;
+  position: relative;
+  background: var(--color-surface);
+  border: 1px solid var(--color-control);
+  border-radius: var(--radius-control);
+  transition: border-color var(--dur-fast) var(--ease-out);
+}
+.inputWrapper:hover,
+.selectWrapper:hover {
+  border-color: var(--color-primary-strong);
+}
+.inputWrapper:focus-within,
+.selectWrapper:focus-within {
+  border-color: var(--color-primary-strong);
+  outline: 2px solid var(--color-primary-strong);
+  outline-offset: 3px;
+}
+.inputError {
+  border-color: var(--color-error);
+}
+.inputError:focus-within {
+  outline-color: var(--color-error);
+}
+.inputIcon,
+.textareaIcon {
+  display: flex;
+  padding-left: 14px;
+  color: var(--color-muted);
+  flex-shrink: 0;
+  pointer-events: none;
+}
+/* iOS Safari zooms focused controls below 16px. Keep actual control text at this size, including on phones. */
+.input,
+.textarea,
+.select {
+  width: 100%;
+  min-width: 0;
+  min-height: 48px;
+  border: 0;
+  border-radius: var(--radius-control);
+  background: transparent;
+  padding: 12px 14px 12px 10px;
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-ink);
+  outline: none;
+}
+.input::placeholder,
+.textarea::placeholder {
+  color: var(--color-muted);
+  opacity: 1;
+}
+.textareaWrapper {
+  align-items: flex-start;
+}
+.textareaIcon {
+  padding-top: 15px;
+}
+.textarea {
+  resize: vertical;
+  min-height: 78px;
+}
+.select {
+  appearance: none;
+  padding-right: 36px;
+  cursor: pointer;
+}
+.selectCaret {
+  position: absolute;
+  right: 14px;
+  display: flex;
+  color: var(--color-body);
+  pointer-events: none;
+}
+.errorMessage {
+  font-size: 14px;
+  color: var(--color-error);
+  line-height: 1.4;
+}
+.productSection {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+  padding-top: 20px;
+  border-top: 1px solid var(--color-rule);
+}
+.productHeading {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.productHeading h3 {
+  font-family: var(--font-body);
+  font-size: 20px;
+  letter-spacing: 0;
+}
+.submitButton,
+.resetButton {
+  min-height: 56px;
+  border: 0;
+  border-radius: var(--radius-control);
+  background: var(--color-primary-strong);
+  color: var(--color-surface);
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  transition: background-color var(--dur-fast) var(--ease-out);
+}
+.submitButton {
+  width: 100%;
+  margin-top: 4px;
+}
+.submitButton:hover:not(:disabled),
+.resetButton:hover {
+  background: var(--color-ink);
+}
+.submitButton:disabled {
+  cursor: wait;
+}
+.submitContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+.submittingState {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+.spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid var(--color-pale);
+  border-top-color: transparent;
+  border-radius: 50%;
+  animation: spin 800ms linear infinite;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.serverAlert {
+  padding: 16px;
+  color: var(--color-error);
+  border: 1px solid currentColor;
+  border-radius: var(--radius-control);
+  overflow-wrap: anywhere;
+}
+.successContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  padding-block: 40px;
+}
+.successIconWrap {
+  color: var(--color-primary-strong);
+}
+.successTitle {
+  font-size: 31px;
+}
+.successTitle:focus {
+  outline: none;
+}
+.successDesc {
+  max-width: 52ch;
+  color: var(--color-body);
+  font-size: 20px;
+}
+.referenceBadge {
+  padding-block: 16px;
+  border-block: 1px solid var(--color-rule);
+  color: var(--color-body);
+  overflow-wrap: anywhere;
+}
+@media (min-width: 640px) {
+  .row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+  .formHeading,
+  .productHeading {
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  .fleetRow {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+    gap: 20px;
+  }
+}

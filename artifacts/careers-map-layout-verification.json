@@ -1,0 +1,32 @@
+[
+  {
+    "viewportWidth": 375,
+    "viewportHeight": 812,
+    "documentWidth": 375,
+    "panelHeight": 944.78125,
+    "position": "static",
+    "mapHeight": 360,
+    "roles": 15,
+    "axe": []
+  },
+  {
+    "viewportWidth": 1366,
+    "viewportHeight": 768,
+    "documentWidth": 1366,
+    "panelHeight": 807.328125,
+    "position": "static",
+    "mapHeight": 322.546875,
+    "roles": 15,
+    "axe": []
+  },
+  {
+    "viewportWidth": 1440,
+    "viewportHeight": 1200,
+    "documentWidth": 1440,
+    "panelHeight": 924.78125,
+    "position": "sticky",
+    "mapHeight": 440,
+    "roles": 15,
+    "axe": []
+  }
+]

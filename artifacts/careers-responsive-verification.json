@@ -1,0 +1,422 @@
+[
+  {
+    "engine": "chromium",
+    "width": 320,
+    "view": "list",
+    "documentWidth": 320,
+    "fields": [
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      }
+    ],
+    "h1": 1,
+    "roles": 15,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "view": "map",
+    "documentWidth": 320,
+    "fields": [
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      }
+    ],
+    "h1": 1,
+    "roles": 15,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 320,
+    "view": "detail",
+    "documentWidth": 320,
+    "fields": [],
+    "h1": 1,
+    "roles": 0,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 375,
+    "view": "list",
+    "documentWidth": 375,
+    "fields": [
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      }
+    ],
+    "h1": 1,
+    "roles": 15,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 375,
+    "view": "map",
+    "documentWidth": 375,
+    "fields": [
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      }
+    ],
+    "h1": 1,
+    "roles": 15,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 375,
+    "view": "detail",
+    "documentWidth": 375,
+    "fields": [],
+    "h1": 1,
+    "roles": 0,
+    "axe": [
+      {
+        "id": "heading-order",
+        "nodes": [
+          [
+            "h3:nth-child(4)"
+          ]
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 768,
+    "view": "list",
+    "documentWidth": 768,
+    "fields": [
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      }
+    ],
+    "h1": 1,
+    "roles": 15,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 768,
+    "view": "map",
+    "documentWidth": 768,
+    "fields": [
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      }
+    ],
+    "h1": 1,
+    "roles": 15,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 768,
+    "view": "detail",
+    "documentWidth": 768,
+    "fields": [],
+    "h1": 1,
+    "roles": 0,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1024,
+    "view": "list",
+    "documentWidth": 1024,
+    "fields": [
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      }
+    ],
+    "h1": 1,
+    "roles": 15,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1024,
+    "view": "map",
+    "documentWidth": 1024,
+    "fields": [
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      }
+    ],
+    "h1": 1,
+    "roles": 15,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1024,
+    "view": "detail",
+    "documentWidth": 1024,
+    "fields": [],
+    "h1": 1,
+    "roles": 0,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "view": "list",
+    "documentWidth": 1440,
+    "fields": [
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      }
+    ],
+    "h1": 1,
+    "roles": 15,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "view": "map",
+    "documentWidth": 1440,
+    "fields": [
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      }
+    ],
+    "h1": 1,
+    "roles": 15,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "chromium",
+    "width": 1440,
+    "view": "detail",
+    "documentWidth": 1440,
+    "fields": [],
+    "h1": 1,
+    "roles": 0,
+    "axe": [
+      {
+        "id": "heading-order",
+        "nodes": [
+          [
+            "h3:nth-child(4)"
+          ]
+        ]
+      }
+    ],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 375,
+    "view": "list",
+    "documentWidth": 375,
+    "fields": [
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      }
+    ],
+    "h1": 1,
+    "roles": 15,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 375,
+    "view": "map",
+    "documentWidth": 375,
+    "fields": [
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      },
+      {
+        "font": "16px",
+        "height": 48
+      }
+    ],
+    "h1": 1,
+    "roles": 15,
+    "axe": [],
+    "errors": []
+  },
+  {
+    "engine": "webkit",
+    "width": 375,
+    "view": "detail",
+    "documentWidth": 375,
+    "fields": [],
+    "h1": 1,
+    "roles": 0,
+    "axe": [],
+    "errors": []
+  }
+]

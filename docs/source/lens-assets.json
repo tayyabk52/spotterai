@@ -1,0 +1,44 @@
+[
+  {
+    "tag": "IMG",
+    "src": "https://spotter.ai/static/media/spotter.ai.f4811cd7bfcabdaadfb7.webp",
+    "alt": "Spotter.ai",
+    "width": 640,
+    "height": 158
+  },
+  {
+    "tag": "IMG",
+    "src": "https://spotter.ai/static/media/magnify.288a8d17a436498916924a7ba3f2eaa1.svg",
+    "alt": "search",
+    "width": 24,
+    "height": 24
+  },
+  {
+    "tag": "IMG",
+    "src": "https://spotter.ai/static/media/spotter.ai.f4811cd7bfcabdaadfb7.webp",
+    "alt": "Spotter.ai",
+    "width": 640,
+    "height": 158
+  },
+  {
+    "tag": "IMG",
+    "src": "https://spotter.ai/static/media/facebook.5ce977f329e60dcbb4c6f208a354a544.svg",
+    "alt": "facebook",
+    "width": 40,
+    "height": 40
+  },
+  {
+    "tag": "IMG",
+    "src": "https://spotter.ai/static/media/linkedin.0f9d774c58d4eb1aa1be081708438001.svg",
+    "alt": "linkedin",
+    "width": 40,
+    "height": 40
+  },
+  {
+    "tag": "IMG",
+    "src": "https://spotter.ai/static/media/instagram.4da6a8a476d120a9b591265dffbe36bd.svg",
+    "alt": "instagram",
+    "width": 40,
+    "height": 40
+  }
+]

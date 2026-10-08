@@ -1,0 +1,14 @@
+{
+  "observed": "2026-10-08T16:30:23.682Z",
+  "url": "https://spotter.ai/api/newsletter/subscribe",
+  "method": "POST",
+  "requestBody": {},
+  "status": 400,
+  "contentType": "application/json; charset=utf-8",
+  "server": "Google Frontend",
+  "frameworkHeader": "Express",
+  "response": {
+    "success": false,
+    "message": "Email and source are required"
+  }
+}

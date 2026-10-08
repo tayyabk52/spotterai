@@ -1,0 +1,15 @@
+{
+  "observed": "2026-10-08T16:37:51.847Z",
+  "articles": 51,
+  "checks": [
+    "HTTP 200",
+    "one matching h1",
+    "original SEO title",
+    "original description",
+    "canonical URL",
+    "sequential headings",
+    "structured data",
+    "dynamic menu summaries"
+  ],
+  "errors": []
+}

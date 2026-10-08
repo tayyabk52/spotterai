@@ -1,0 +1,37 @@
+2:"$Sreact.fragment"
+3:"/_next/static/chunks/42onvq6nokjl2.js"
+4:I[39756,["$3"],"default"]
+5:I[37457,["$3"],"default"]
+a:"/_next/static/chunks/2tc5h0-cjbx7e.js"
+b:"/_next/static/chunks/1hoeug4wb54uj.js"
+c:"/_next/static/chunks/3dn1jagfben17.js"
+d:"/_next/static/chunks/3yctxw-37a622.js"
+e:"/_next/static/chunks/04j_-9pshjb4v.js"
+f:"/_next/static/chunks/3no1j6v7clii1.js"
+10:"/_next/static/chunks/2qnmytwfnu426.js"
+11:"QuoteBackground3D"
+12:I[7222,["$a","$b","$c","$d","$e","$f","$10"],"$11"]
+13:"$Sreact.suspense"
+14:"QuoteFormWrapper"
+15:I[34482,["$a","$b","$c","$d","$e","$f","$10"],"$14"]
+16:I[97367,["$3"],"OutletBoundary"]
+19:"ViewportBoundary"
+1a:I[97367,["$3"],"$19"]
+1b:"MetadataBoundary"
+1c:I[97367,["$3"],"$1b"]
+1d:I[27201,["$3"],"IconMark"]
+:HL["/_next/static/chunks/3ersx34yz1tph.css","style"]
+7:X
+7:C
+8:X
+9:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$2","c",{"children":[["$","main",null,{"id":"main-content","className":"qVsCwq_pageWrapper","children":[["$","$L12",null,{}],["$","div",null,{"className":"qVsCwq_contentContainer","children":[["$","header",null,{"className":"qVsCwq_headerSection","children":[["$","h1",null,{"className":"qVsCwq_title","children":[["$","span",null,{"className":"qVsCwq_titleAccent","children":"Request"}]," for Information"]}],["$","p",null,{"className":"qVsCwq_subtitle","children":"Connect with our logistics operations team to explore tailored platform solutions."}]]}],["$","$13",null,{"fallback":["$","div",null,{"className":"qVsCwq_formSkeleton","children":["$","span",null,{"children":"Loading request interface..."}]}],"children":["$","$L15",null,{}]}]]}]]}],[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3ersx34yz1tph.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2qnmytwfnu426.js","async":true}]],["$","$L16",null,{"children":["$","$13",null,{"name":"Next.MetadataOutlet","children":"$@17"}]}]]}],"p":"$@18","v":null,"s":"$8"}}]]
+1:[["children",{"s":"request-quote","h":64,"d":{"r":["$","$2","c",{"children":[null,["$","$L4",null,{"parallelRouterKey":"children","template":["$","$L5",null,{}]}]]}],"p":"$@6","v":"$7","s":"$8"},"c":"$Q9"}]]
+0:{"t":{"t":{"s":"","h":16,"c":"$Q1"},"h":{"r":["$","$2","h",{"children":[null,["$","$L1a",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1c",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$13",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Request for Information | Spotter.ai"}],["$","meta","1",{"name":"description","content":"Request pricing, platform details, and customized operational intelligence for Spotter's unified AI freight technology suite."}],["$","link","2",{"rel":"canonical","href":"https://spotter.ai/request-quote"}],["$","meta","3",{"property":"og:title","content":"Request for Information | Spotter.ai"}],["$","meta","4",{"property":"og:description","content":"Request pricing, platform details, and customized operational intelligence for Spotter's unified AI freight technology suite."}],["$","meta","5",{"property":"og:image","content":"https://spotter.ai/opengraph-image?ef30f65b230fc84e"}],["$","meta","6",{"property":"og:image:type","content":"image/png"}],["$","meta","7",{"property":"og:image:width","content":"1200"}],["$","meta","8",{"property":"og:image:height","content":"630"}],["$","meta","9",{"property":"og:image:alt","content":"Spotter.ai — A clearer road ahead. Connected trucking automation."}],["$","meta","10",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","11",{"name":"twitter:title","content":"Request for Information | Spotter.ai"}],["$","meta","12",{"name":"twitter:description","content":"Request pricing, platform details, and customized operational intelligence for Spotter's unified AI freight technology suite."}],["$","meta","13",{"name":"twitter:image","content":"https://spotter.ai/opengraph-image?ef30f65b230fc84e"}],["$","meta","14",{"name":"twitter:image:alt","content":"Spotter.ai — A clearer road ahead. Connected trucking automation."}],["$","meta","15",{"name":"twitter:image:type","content":"image/png"}],["$","meta","16",{"name":"twitter:image:width","content":"1200"}],["$","meta","17",{"name":"twitter:image:height","content":"630"}],["$","link","18",{"rel":"icon","href":"/icon.svg?icon.1r25-edrsfhf0.svg","sizes":"any","type":"image/svg+xml"}],["$","$L1d","19",{}]]}]}],null]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}],"p":"$@1e","v":null,"s":"$8"}},"a":"$@1f","u":"$@20","b":"bFX097ANa_bKqZrtOK2m3"}
+17:null
+20:true
+8:300
+8:C
+1f:0
+6:"$undefined"
+1e:"$undefined"
+18:"$undefined"

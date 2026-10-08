@@ -1,0 +1,94 @@
+.appBadges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+}
+
+.appBadgeLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  min-width: 44px;
+  border-radius: var(--radius-control);
+  transition: transform 160ms var(--driver-ease), opacity 160ms ease;
+  text-decoration: none;
+  background: transparent;
+}
+
+.appBadgeLink:hover {
+  transform: translateY(-2px);
+  opacity: 0.92;
+}
+
+.appBadgeLink:focus-visible {
+  outline: 2px solid var(--color-pale);
+  outline-offset: 3px;
+}
+
+.appBadgeImg {
+  height: 44px;
+  width: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.carrierNotice {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  font-size: var(--driver-caption);
+  color: var(--color-pale);
+  line-height: 1.5;
+}
+
+.carrierNotice::before {
+  content: "";
+  width: var(--space-2);
+  height: var(--space-2);
+  border-radius: var(--radius-circle);
+  background: var(--color-primary);
+  flex-shrink: 0;
+}
+
+.contactActions {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  align-items: flex-start;
+}
+
+.contactBadges {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--space-4);
+}
+
+.contactBadges .appBadgeLink:focus-visible {
+  outline-color: var(--color-primary-strong);
+}
+
+@media (min-width: 768px) {
+  .contactActions {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--space-6);
+  }
+}
+
+@media (max-width: 479px) {
+  .appBadges,
+  .contactBadges {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .appBadgeLink {
+    width: 100%;
+  }
+  .appBadgeImg {
+    height: 48px;
+  }
+}

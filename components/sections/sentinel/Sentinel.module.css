@@ -1,0 +1,33 @@
+/* Guarantees Grid in CTA */
+.guaranteeGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+  padding-top: var(--space-5);
+  border-top: 1px solid color-mix(in srgb, var(--tms-ink) 15%, transparent);
+}
+
+@media (min-width: 640px) {
+  .guaranteeGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.guaranteeCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-1);
+}
+
+.guaranteeLabel {
+  font-size: 0.9375rem;
+  font-weight: 700;
+  color: var(--tms-ink);
+}
+
+.guaranteeDetail {
+  font-size: var(--sentinel-caption);
+  color: var(--color-body);
+  line-height: 1.4;
+}

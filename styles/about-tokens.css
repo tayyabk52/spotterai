@@ -1,0 +1,39 @@
+/* About scale; the canonical palette is inherited from root tokens.css. */
+.aboutStory {
+  --about-title: clamp(2.625rem, 5vw, 4.5rem);
+  --about-heading: clamp(2.5rem, 4.5vw, 4.5rem);
+  --about-pin-heading: clamp(2.5rem, 4vw, 3.5rem);
+  --about-body: clamp(1.0625rem, 1.3vw, 1.1875rem);
+  --about-lead: clamp(1.125rem, 1.6vw, 1.5rem);
+  --about-subheading: clamp(1.25rem, 1.7vw, 1.625rem);
+  --about-number: clamp(3rem, 6vw, 5.5rem);
+  --about-caption: 0.8125rem;
+  --about-gutter: clamp(1.5rem, 6vw, 6rem);
+  --about-space: clamp(5rem, 9vw, 9rem);
+  --about-gap: clamp(2rem, 5vw, 5rem);
+  --about-width: 1280px;
+  --about-hero-distance: 230svh;
+  --about-scene-distance: 240svh;
+  --about-hero-copy-width: 780px;
+  --about-copy-width: 600px;
+  --about-radius: 24px;
+  --about-ink-overlay: color-mix(in srgb, var(--color-ink) 96%, transparent);
+  /* Shared scene and rail keep their existing contract on all product routes. */
+  --tms-ink: var(--color-ink);
+  --tms-light: var(--color-canvas);
+  --tms-pale: var(--color-pale);
+  --tms-body: var(--about-body);
+  --tms-lead: var(--about-lead);
+  --tms-heading: var(--about-heading);
+  --tms-pin-heading: var(--about-pin-heading);
+  --tms-caption: var(--about-caption);
+  --tms-subheading: var(--about-subheading);
+  --tms-gutter: var(--about-gutter);
+  --tms-space: var(--about-space);
+  --tms-gap: var(--about-gap);
+  --tms-width: var(--about-width);
+  --tms-pin-distance: var(--about-scene-distance);
+  --tms-scene-radius: var(--about-radius);
+  --tms-caption-width: var(--about-copy-width);
+  --tms-ink-overlay: var(--about-ink-overlay);
+}

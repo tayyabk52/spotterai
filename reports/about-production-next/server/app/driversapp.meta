@@ -1,0 +1,35 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/driversapp/layout,_N_T_/driversapp/page,_N_T_/driversapp"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/_index",
+    "/driversapp/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 0,
+    "slots": {
+      "children": {
+        "hints": 64,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/4000d81ce74aee338c8f2c8a347a349277b160dfcee6575c3cc53b994fdc834a/$/driversapp",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/driversapp/page"
+    },
+    "isFallback": false
+  }
+}

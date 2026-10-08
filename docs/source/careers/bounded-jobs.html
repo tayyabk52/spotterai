@@ -1,0 +1,554 @@
+<html>
+  <head>
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="Mm3dqoAQUUfjOidGE0hGEkRJkoZD85xmImrwJc8XgEedYHqrAZDHqXpHd-pz34oFq5CVhwk_a6viz80ETRj-RA" />
+    
+  </head>
+  <body>
+    <turbo-frame id="jobs_list">
+
+
+
+
+
+  <div class="w-full text-lg relative pb-80 @lg:pb-0 @lg:border-b @lg:border-block-base-text/15" data-layout="thick" data-controller="blocks--jobs" data-blocks--jobs-show-map-value="true" data-blocks--jobs-split-view-value="true" data-blocks--jobs-language-code-value="en" data-blocks--jobs-first-block-value="true" data-blocks--jobs-overflow-auto-class="@lg:overflow-auto" data-blocks--jobs-overflow-hidden-class="@lg:overflow-hidden" data-blocks--jobs-sibling-element-padding-class="@lg:[&amp;.bg-block-preset-primary:not(.keep-block-padding)]:pt-80!" data-blocks--jobs-disabled-map-view-toggle-class="cursor-not-allowed" data-blocks--jobs-headquarter-value="{&quot;address&quot;:null,&quot;administrative_area&quot;:&quot;Illinois&quot;,&quot;city&quot;:&quot;Lemont&quot;,&quot;company_id&quot;:5540,&quot;contact_email&quot;:null,&quot;country&quot;:&quot;United States&quot;,&quot;created_at&quot;:&quot;2024-08-22T11:11:08.908-05:00&quot;,&quot;email&quot;:null,&quot;headquarters&quot;:true,&quot;hide_on_careersite&quot;:true,&quot;id&quot;:11707,&quot;import_id&quot;:null,&quot;language_code&quot;:null,&quot;lat&quot;:&quot;41.673642&quot;,&quot;long&quot;:&quot;-88.0017261&quot;,&quot;name&quot;:&quot;Lemont&quot;,&quot;phone&quot;:null,&quot;region_id&quot;:null,&quot;updated_at&quot;:&quot;2025-11-26T04:35:18.923-06:00&quot;,&quot;zip&quot;:null,&quot;state&quot;:&quot;IL&quot;,&quot;division_ids&quot;:[]}" data-blocks--jobs-locations-value="[{&quot;id&quot;:49438,&quot;lat&quot;:&quot;30.375321&quot;,&quot;long&quot;:&quot;69.34511599999999&quot;,&quot;count&quot;:3},{&quot;id&quot;:49439,&quot;lat&quot;:&quot;20.593684&quot;,&quot;long&quot;:&quot;78.96288&quot;,&quot;count&quot;:3}]" data-blocks--jobs-geobounds-value="{&quot;top_left_lat&quot;:&quot;45&quot;,&quot;top_left_lon&quot;:&quot;60&quot;,&quot;bottom_right_lat&quot;:&quot;5&quot;,&quot;bottom_right_lon&quot;:&quot;95&quot;}" id="jobs">
+
+    <div class="relative @lg:grid @lg:grid-rows-[auto_1fr] @lg:grid-cols-[60%_40%] @2xl:grid-cols-[50%_50%] @lg:h-[calc(95vh-84px)]" data-blocks--jobs-target="jobsContainer">
+          <form id="blocks-jobs-filters-form" class="flex text-block-text flex-row block-padding-x @lg:py-12 @lg:items-start @lg:border-b @lg:border-t @lg:border-block-base-text/15 @lg:bg-company-primary col-span-2 sticky z-20 top-0" data-turbo-frame="jobs_list" data-turbo-action="replace" data-controller="blocks--jobs--filters" data-action="submit-&gt;blocks--jobs--filters#handleBefore jobs-map-changed@window-&gt;blocks--jobs--filters#handleMapChange jobs-filters-mobile-submit@window-&gt;blocks--jobs--filters#handleExternalSubmit" data-blocks--jobs--filters-common--options-widget-outlet=".options-widget" data-blocks--jobs--filters-using-map-value="true" data-blocks--jobs--filters-has-search-value="true" data-blocks--jobs--filters-visible-mobile-filters-value="{&quot;department&quot;:&quot;Departments&quot;,&quot;location&quot;:&quot;Locations&quot;,&quot;remote_status_id&quot;:&quot;Remote Statuses&quot;}" data-blocks--jobs--filters-default-mobile-filters-value="{&quot;department&quot;:&quot;Departments&quot;,&quot;location&quot;:&quot;Locations&quot;,&quot;remote_status_id&quot;:&quot;Remote Statuses&quot;}" data-blocks--jobs--filters-more-count-text-value="nbr more" data-blocks--jobs--filters-desktop-dropdown-options-divider-class="w-full bg-zinc-200 pb-px mb-4" data-blocks--jobs-target="filtersForm" action="/jobs" accept-charset="UTF-8" method="get">
+
+      <input value="true" data-name="split_view" type="hidden" name="split_view" id="split_view" />
+        <input value="45" data-blocks--jobs--filters-target="geoboundTopLeftLat" type="hidden" name="geobound_coordinates[top_left_lat]" id="geobound_coordinates[top_left_lat]" />
+        <input value="60" data-blocks--jobs--filters-target="geoboundTopLeftLon" type="hidden" name="geobound_coordinates[top_left_lon]" id="geobound_coordinates[top_left_lon]" />
+        <input value="5" data-blocks--jobs--filters-target="geoboundBottomRightLat" type="hidden" name="geobound_coordinates[bottom_right_lat]" id="geobound_coordinates[bottom_right_lat]" />
+        <input value="95" data-blocks--jobs--filters-target="geoboundBottomRightLon" type="hidden" name="geobound_coordinates[bottom_right_lon]" id="geobound_coordinates[bottom_right_lon]" />
+
+      <div
+        role="search"
+        data-blocks--jobs--filters-target="searchContainer"
+        class="
+          hidden @lg:flex items-center pl-8 pr-12 rounded text-block-base-text/85 focus-within:company-colors-dependant-outline bg-company-primary flex items-center pl-8 pr-12 rounded text-block-base-text/85 w-fit border border-block-base-text/15
+        "
+      >
+        <i class="text-block-base-text/85 fas fa-search text-xs"></i>
+
+        <label for="query" class="sr-only">
+          Search
+</label>
+        <input placeholder="Search" class="bg-transparent outline-hidden! ring-0! border-none text-sm text-block-base-text/85 pl-8 pr-0 leading-[19px] font-medium placeholder-block-base-text" data-name="query" data-action="input-&gt;blocks--jobs--filters#handleSearchInputChange" data-blocks--jobs--filters-target="searchInput" data-turbo-permanent="true" type="text" name="query" id="query" />
+      </div>
+
+    <input type="submit" value="search" class="sr-only" inert="inert" data-blocks--jobs--filters-target="submitButton" data-disable-with="search" />
+
+    <fieldset class="w-full @lg:flex @lg:flex-row @lg:flex-row @lg:items-center @lg:justify-end @lg:flex-wrap hidden gap-12">
+  <legend class="sr-only">
+    Job filters
+</legend>
+
+
+    <div class="relative focus-within:company-colors-dependant-outline common-select" data-controller="common--select" data-common--select-null-value="Departments" data-common--select-options-value="[{&quot;value&quot;:&quot;Accounting&quot;,&quot;label&quot;:&quot;Accounting&quot;},{&quot;value&quot;:&quot;Data Entry&quot;,&quot;label&quot;:&quot;Data Entry&quot;},{&quot;value&quot;:&quot;Dispatch&quot;,&quot;label&quot;:&quot;Dispatch&quot;},{&quot;value&quot;:&quot;Driver Recruiting&quot;,&quot;label&quot;:&quot;Driver Recruiting&quot;},{&quot;value&quot;:&quot;Driver Rep&quot;,&quot;label&quot;:&quot;Driver Rep&quot;},{&quot;value&quot;:&quot;ELD&quot;,&quot;label&quot;:&quot;ELD&quot;},{&quot;value&quot;:&quot;Legal&quot;,&quot;label&quot;:&quot;Legal&quot;},{&quot;value&quot;:&quot;Maintenance&quot;,&quot;label&quot;:&quot;Maintenance&quot;},{&quot;value&quot;:&quot;Marketing&quot;,&quot;label&quot;:&quot;Marketing&quot;},{&quot;value&quot;:&quot;Procurement&quot;,&quot;label&quot;:&quot;Procurement&quot;},{&quot;value&quot;:&quot;Safety&quot;,&quot;label&quot;:&quot;Safety&quot;},{&quot;value&quot;:&quot;Shipper Sales&quot;,&quot;label&quot;:&quot;Shipper Sales&quot;},{&quot;value&quot;:&quot;Software Developement&quot;,&quot;label&quot;:&quot;Software Developement&quot;},{&quot;value&quot;:&quot;Software Sales&quot;,&quot;label&quot;:&quot;Software Sales&quot;}]">
+  <label for="department-select" class="sr-only">
+    Departments
+</label>
+  <select class="opacity-[0.0001] absolute inline-[100%]" id="department-select" data-name="department" data-action="change-&gt;common--select#handleChange change-&gt;blocks--jobs--filters#handleChange">
+    <option value="">
+      All
+</option>
+      <option value="Accounting">
+        Accounting
+</option>      <option value="Data Entry">
+        Data Entry
+</option>      <option value="Dispatch">
+        Dispatch
+</option>      <option value="Driver Recruiting">
+        Driver Recruiting
+</option>      <option value="Driver Rep">
+        Driver Rep
+</option>      <option value="ELD">
+        ELD
+</option>      <option value="Legal">
+        Legal
+</option>      <option value="Maintenance">
+        Maintenance
+</option>      <option value="Marketing">
+        Marketing
+</option>      <option value="Procurement">
+        Procurement
+</option>      <option value="Safety">
+        Safety
+</option>      <option value="Shipper Sales">
+        Shipper Sales
+</option>      <option value="Software Developement">
+        Software Developement
+</option>      <option value="Software Sales">
+        Software Sales
+</option></select>
+  <button type="button" inert="inert" class="rounded leading-[19px] text-sm font-medium py-8 px-12 flex items-center gap-12 border border-solid border-block-base-text/15 bg-white text-gray-700">
+    <span class="truncate inline-block max-w-[200px]" data-common--select-target="buttonText">
+      Departments
+</span>
+    <i class="fas fa-chevron-down size-12 opacity-50"></i>
+</button></div>
+
+
+
+
+    <div class="relative focus-within:company-colors-dependant-outline common-select" data-controller="common--select" data-common--select-null-value="Locations" data-common--select-options-value="[{&quot;value&quot;:&quot;Rockdale&quot;,&quot;label&quot;:&quot;Rockdale&quot;}]">
+  <label for="location-select" class="sr-only">
+    Locations
+</label>
+  <select class="opacity-[0.0001] absolute inline-[100%]" id="location-select" data-name="location" data-action="change-&gt;common--select#handleChange change-&gt;blocks--jobs--filters#handleChange">
+    <option value="">
+      All
+</option>
+      <option value="Rockdale">
+        Rockdale
+</option></select>
+  <button type="button" inert="inert" class="rounded leading-[19px] text-sm font-medium py-8 px-12 flex items-center gap-12 border border-solid border-block-base-text/15 bg-white text-gray-700">
+    <span class="truncate inline-block max-w-[200px]" data-common--select-target="buttonText">
+      Locations
+</span>
+    <i class="fas fa-chevron-down size-12 opacity-50"></i>
+</button></div>
+
+
+    <div class="relative focus-within:company-colors-dependant-outline common-select" data-controller="common--select" data-common--select-null-value="Remote Statuses" data-common--select-options-value="[{&quot;value&quot;:&quot;none&quot;,&quot;label&quot;:&quot;No Remote Work&quot;},{&quot;value&quot;:&quot;temporary&quot;,&quot;label&quot;:&quot;Temporarily Remote&quot;},{&quot;value&quot;:&quot;hybrid&quot;,&quot;label&quot;:&quot;Hybrid&quot;},{&quot;value&quot;:&quot;fully&quot;,&quot;label&quot;:&quot;Fully Remote&quot;},{&quot;value&quot;:&quot;onsite&quot;,&quot;label&quot;:&quot;Onsite&quot;}]">
+  <label for="remote_status_id-select" class="sr-only">
+    Remote Statuses
+</label>
+  <select class="opacity-[0.0001] absolute inline-[100%]" id="remote_status_id-select" data-name="remote_status_id" data-action="change-&gt;common--select#handleChange change-&gt;blocks--jobs--filters#handleChange">
+    <option value="">
+      All
+</option>
+      <option value="none">
+        No Remote Work
+</option>      <option value="temporary">
+        Temporarily Remote
+</option>      <option value="hybrid">
+        Hybrid
+</option>      <option value="fully">
+        Fully Remote
+</option>      <option value="onsite">
+        Onsite
+</option></select>
+  <button type="button" inert="inert" class="rounded leading-[19px] text-sm font-medium py-8 px-12 flex items-center gap-12 border border-solid border-block-base-text/15 bg-white text-gray-700">
+    <span class="truncate inline-block max-w-[200px]" data-common--select-target="buttonText">
+      Remote Statuses
+</span>
+    <i class="fas fa-chevron-down size-12 opacity-50"></i>
+</button></div>
+
+
+
+</fieldset>
+
+      <div id="filters-mobile-modal" data-controller="common--modal" data-common--modal-turbo-value="true" data-common--modal-modal-name-value="filters-mobile-turbo-modal" style="display: none;" class="@lg:hidden absolute left-16 right-16 top-16 z-500">
+  <div data-common--modal-target="linkContainer">
+        <button type="button" class="bg-gray-300/50 w-full px-20 py-12 mb-0 @lg:mb-16 flex items-center text-left rounded-full backdrop-blur-2xl">
+          <i class="text-md fas fa-search text-gray-700"></i>
+
+          <div class="ml-16 w-full">
+            <span class="mb-4 text-base font-semibold text-gray-700">Looking for (Map area)</span>
+
+            <div class="text-sm text-gray-600 flex gap-4">
+              <span class="max-w-[70%] text-ellipsis overflow-hidden whitespace-nowrap activeFiltersContent">
+</span>
+              <span class="extraActiveFiltersCount"></span>
+</div>          </div>
+</button>
+
+</div>
+
+  <template data-common--modal-target="spinnerTemplate">
+    <div class="flex h-full items-center justify-center" id="spinner">
+  <div
+    class="inline-block size-24 animate-[spin_3s_linear_infinite] rounded-full border-6 border-current border-t-transparent "
+    role="status"
+    aria-label="Loading"
+  ></div>
+</div>
+
+  </template>
+
+
+  <template data-common--modal-target="template">
+    <dialog aria-modal="true" aria-label="Job filters" class="text-company-primary bg-company-primary company-links company-links-on-white overflow-y-auto border-0 p-0 backdrop:bg-black/50 backdrop:backdrop-blur-md h-screen w-screen max-w-full max-h-full">
+      <div class="relative w-full h-full py-48 px-16 bg-[rgba(var(--company-link-color),0.03)]">
+                  <div
+            class="flex items-center justify-between pb-16"
+            data-controller="blocks--jobs--filters-mobile"
+          >
+            <button
+              tabindex="0"
+              type="button"
+              class="
+                company-link focus-within:outline-company-secondary-bg
+                cursor-pointer focus-visible:outline-offset-2
+              "
+              data-action="click->blocks--jobs--filters-mobile#resetAllWidgets"
+            >
+              Clear all
+            </button>
+
+            <button
+              type="button"
+              class="
+                company-link bg-company-link/15 flex size-32 cursor-pointer
+                items-center justify-center rounded-full
+              "
+              data-close="close"
+            >
+              <i class="fas fa-regular fa-xmark text-xl" aria-hidden="true"></i>
+              <span class="sr-only">Close modal</span>
+            </button>
+          </div>
+
+
+        <div class="modal-content default-style">
+                    <div id="jobs-filters-mobile" class="h-full" data-controller="blocks--jobs--filters-mobile" data-blocks--jobs--filters-mobile-common--modal-outlet="#filters-mobile-modal" data-blocks--jobs--filters-mobile-blocks--jobs--filters-outlet="#blocks-jobs-filters-form">
+  <div class="flex flex-col gap-20 pb-200">
+      <div class="bg-company-primary flex items-center px-16 py-20 rounded w-full cursor-pointer shadow-option">
+        <i class="fas fa-search text-company-primary text-sm"></i>
+
+        <input placeholder="Search" class="placeholder:opacity-50 placeholder:text-company-primary text-company-primary bg-company-primary outline-hidden! border-none font-medium focus:ring-0 p-0 pl-8 text-[16px] w-full" data-blocks--jobs--filters-mobile-target="searchField" data-action="input-&gt;blocks--jobs--filters-mobile#handleSearchInputChange jobs-filters-mobile-reset-all@window-&gt;blocks--jobs--filters-mobile#resetSearchField" type="text" name="query[]" id="query_" />
+</div>
+
+
+      <div class="options-widget py-20 text-md text-company-primary rounded bg-company-primary cursor-pointer shadow-option" tabindex="0" data-common--options-widget-blocks--jobs--filters-outlet="#blocks-jobs-filters-form" data-common--options-widget-target-field-value="department" data-controller="common--options-widget" data-action="click-&gt;common--options-widget#toggleWidget keydown.enter-&gt;common--options-widget#toggleWidget keydown.space-&gt;common--options-widget#toggleWidget jobs-filters-mobile-reset-all@window-&gt;common--options-widget#reset options-widget-open@window-&gt;common--options-widget#handleToggleOpenedEvent" data-common--options-widget-default-label-value="Any" data-common--options-widget-is-geobound-filter-present-value="false" data-common--options-widget-map-area-translation-value="(Map area)">
+  <div
+    class="labels flex hidden flex-col gap-12"
+    data-common--options-widget-target="labels"
+  >
+    <div class="px-20 font-semibold">Departments</div>
+
+    <div class="scrollbar-hide flex gap-12 overflow-auto p-4 px-20">
+        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Accounting" data-common--options-widget-value-param="Accounting">
+          Accounting
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Data Entry" data-common--options-widget-value-param="Data Entry">
+          Data Entry
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Dispatch" data-common--options-widget-value-param="Dispatch">
+          Dispatch
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Driver Recruiting" data-common--options-widget-value-param="Driver Recruiting">
+          Driver Recruiting
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Driver Rep" data-common--options-widget-value-param="Driver Rep">
+          Driver Rep
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="ELD" data-common--options-widget-value-param="ELD">
+          ELD
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Legal" data-common--options-widget-value-param="Legal">
+          Legal
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Maintenance" data-common--options-widget-value-param="Maintenance">
+          Maintenance
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Marketing" data-common--options-widget-value-param="Marketing">
+          Marketing
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Procurement" data-common--options-widget-value-param="Procurement">
+          Procurement
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Safety" data-common--options-widget-value-param="Safety">
+          Safety
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Shipper Sales" data-common--options-widget-value-param="Shipper Sales">
+          Shipper Sales
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Software Developement" data-common--options-widget-value-param="Software Developement">
+          Software Developement
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Software Sales" data-common--options-widget-value-param="Software Sales">
+          Software Sales
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>    </div>
+  </div>
+
+  <div
+    class="headline flex justify-between px-20"
+    data-common--options-widget-target="headline"
+  >
+    <div class="title text-company-primary text-sm leading-5 font-normal opacity-50">
+      Departments
+    </div>
+
+    <div
+      class="value text-company-primary text-sm leading-5 font-normal"
+      data-common--options-widget-target="selectedOptionLabelContainer"
+    ></div>
+  </div>
+</div>
+
+
+      <div class="options-widget py-20 text-md text-company-primary rounded bg-company-primary cursor-pointer shadow-option" tabindex="0" data-common--options-widget-blocks--jobs--filters-outlet="#blocks-jobs-filters-form" data-common--options-widget-target-field-value="location" data-controller="common--options-widget" data-action="click-&gt;common--options-widget#toggleWidget keydown.enter-&gt;common--options-widget#toggleWidget keydown.space-&gt;common--options-widget#toggleWidget jobs-filters-mobile-reset-all@window-&gt;common--options-widget#reset options-widget-open@window-&gt;common--options-widget#handleToggleOpenedEvent" data-common--options-widget-default-label-value="Any" data-common--options-widget-is-geobound-filter-present-value="true" data-common--options-widget-map-area-translation-value="(Map area)">
+  <div
+    class="labels flex hidden flex-col gap-12"
+    data-common--options-widget-target="labels"
+  >
+    <div class="px-20 font-semibold">Locations</div>
+
+    <div class="scrollbar-hide flex gap-12 overflow-auto p-4 px-20">
+        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Rockdale" data-common--options-widget-value-param="Rockdale">
+          Rockdale
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>    </div>
+  </div>
+
+  <div
+    class="headline flex justify-between px-20"
+    data-common--options-widget-target="headline"
+  >
+    <div class="title text-company-primary text-sm leading-5 font-normal opacity-50">
+      Locations
+    </div>
+
+    <div
+      class="value text-company-primary text-sm leading-5 font-normal"
+      data-common--options-widget-target="selectedOptionLabelContainer"
+    ></div>
+  </div>
+</div>
+
+
+      <div class="options-widget py-20 text-md text-company-primary rounded bg-company-primary cursor-pointer shadow-option" tabindex="0" data-common--options-widget-blocks--jobs--filters-outlet="#blocks-jobs-filters-form" data-common--options-widget-target-field-value="remote_status_id" data-controller="common--options-widget" data-action="click-&gt;common--options-widget#toggleWidget keydown.enter-&gt;common--options-widget#toggleWidget keydown.space-&gt;common--options-widget#toggleWidget jobs-filters-mobile-reset-all@window-&gt;common--options-widget#reset options-widget-open@window-&gt;common--options-widget#handleToggleOpenedEvent" data-common--options-widget-default-label-value="Any" data-common--options-widget-is-geobound-filter-present-value="false" data-common--options-widget-map-area-translation-value="(Map area)">
+  <div
+    class="labels flex hidden flex-col gap-12"
+    data-common--options-widget-target="labels"
+  >
+    <div class="px-20 font-semibold">Remote Statuses</div>
+
+    <div class="scrollbar-hide flex gap-12 overflow-auto p-4 px-20">
+        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="No Remote Work" data-common--options-widget-value-param="none">
+          No Remote Work
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Temporarily Remote" data-common--options-widget-value-param="temporary">
+          Temporarily Remote
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Hybrid" data-common--options-widget-value-param="hybrid">
+          Hybrid
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Fully Remote" data-common--options-widget-value-param="fully">
+          Fully Remote
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>        <button name="button" type="submit" class="flex align-center rounded py-8 px-12 font-normal text-smcompany-link bg-company-link/3 shrink-0 border border-transparent" data-action="click-&gt;common--options-widget#toggleOption" data-label-value="Onsite" data-common--options-widget-value-param="onsite">
+          Onsite
+          <span class="pointer-events-none ml-4 opacity-50"></span>
+
+          <div class="icon-wrapper ml-8 hidden">
+            <i class="fa-regular fa-xmark"></i>
+</div></button>    </div>
+  </div>
+
+  <div
+    class="headline flex justify-between px-20"
+    data-common--options-widget-target="headline"
+  >
+    <div class="title text-company-primary text-sm leading-5 font-normal opacity-50">
+      Remote Statuses
+    </div>
+
+    <div
+      class="value text-company-primary text-sm leading-5 font-normal"
+      data-common--options-widget-target="selectedOptionLabelContainer"
+    ></div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+
+  <button name="button" type="submit" class="careersite-button rounded shadow-button p-16 fixed left-1/2 -translate-x-1/2 bottom-20" data-action="click-&gt;blocks--jobs--filters-mobile#handleSubmit">Show jobs</button>
+</div>
+
+</div></div></dialog>  </template>
+</div></form>
+
+        <template data-blocks--jobs-target="largeMarkerIcon">
+          <i
+            class="
+              fas fa-location-dot text-company-secondary-bg text-3xl
+              drop-shadow filter
+            "
+          ></i>
+        </template>
+        <template data-blocks--jobs-target="smallMarkerIcon">
+          <i
+            class="
+              fas fa-circle-small fa-xs text-company-secondary-bg
+              drop-shadow filter
+            "
+          ></i>
+        </template>
+        <div class="jobs-map-container sticky top-0 @lg:order-2" data-blocks--jobs-target="mapContainer">
+          <div id="jobs-map-650821" class="jobs-map primary block w-full z-career-jobs-map @lg:max-h-[600px] h-[calc(100svh-150px)] @lg:h-[calc(80dvh-40px)] @lg:max-h-[1440px]! @lg:h-full!" data-id="jobs-map-650821" data-blocks--jobs-target="map" data-turbo-permanent="true">
+            <button class="bg-company-primary group flex items-center justify-center absolute size-48 @lg:h-[35px] @lg:w-[35px] z-500 bottom-24 @lg:bottom-[95px] right-[10px] rounded @lg:rounded-b-0 text-company-primary/85" data-action="click-&gt;blocks--jobs#handleCurrentLocation" data-blocks--jobs-target="currentLocation">
+              <i
+                class="
+                  fa fa-location-arrow size-20 group-disabled:opacity-50
+                  @lg:h-[14px] @lg:w-[14px]
+                "
+                aria-hidden="true"
+              ></i>
+
+              <span class="sr-only">Use my location</span>
+</button>
+            <button class="bg-company-primary group flex items-center justify-center absolute size-48 @lg:h-[35px] @lg:w-[35px] z-500 bottom-24 left-[10px] rounded text-company-primary/85 invisible @lg:visible" data-action="click-&gt;blocks--jobs#handleViewChange">
+              <i class="group-disabled:opacity-50 size-20 invisible @lg:visible @lg:w-[14px] @lg:h-[14px] far fa-map" aria-hidden="true"></i>
+
+              <span class="sr-only">Show map above jobs</span>
+</button></div></div>
+        <div class="bg-company-primary relative z-career-jobs-list jobs-list-container pt-32 @lg:pt-40 shadow-[1px_-40px_38px_0px_rgba(0,0,0,0.1)] block-padding-x @lg:basis-[60%] @2xl:basis-[50%] @lg:pt-48! @lg:pb-80 @lg:overflow-auto @lg:h-full @lg:max-h-[1440px] @lg:shadow-none" data-blocks--jobs-target="jobsListContainer">
+            <div class="px-8 @lg:px-0 mx-auto mb-32 flex justify-center @lg:justify-start block-max-w--lg">
+
+              <h2 class="text-lg font-medium">
+                3 jobs
+
+                <span class="text-md font-normal opacity-50">
+                  (out of 15)
+</span></h2></div>
+          <div>
+              <div class="block-max-w--lg mx-auto text-lg">
+    <ul id="jobs_list_container" class="company-links">
+        <li class="w-full">
+
+  <div class="relative flex flex-col items-center py-24 text-center @sm:px-24 @lg:px-64 hover:bg-gradient-block-base-bg">
+
+    <a class="@sm:line-clamp-2 flex" data-turbo="false" href="https://careers.spotter.ai/jobs/707632-remote-backend-django-engineer-ai-algorithmic-systems">
+      <span class="absolute inset-0"></span>
+      Remote Backend Django Engineer – AI &amp; Algorithmic Systems
+</a>
+    <div class="text-md mt-4">
+<span>Software Developement</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span title="Argentina, Colombia, India, Mexico, Pakistan">Multiple locations</span>
+
+    <span class="mx-[2px]">&middot;</span>
+  <span class="inline-flex items-center gap-x-8">
+    Fully Remote
+    <i class="fas fa-wifi h-20 w-16 text-xs"></i>
+</span></div>
+</div>
+    <span class="bg-gradient-block-base-border block h-px w-full"></span>
+</li>
+
+        <li class="w-full">
+
+  <div class="relative flex flex-col items-center py-24 text-center @sm:px-24 @lg:px-64 hover:bg-gradient-block-base-bg">
+
+    <a class="@sm:line-clamp-2 flex" data-turbo="false" href="https://careers.spotter.ai/jobs/557023-product-manager-remote">
+      <span class="absolute inset-0"></span>
+      Product Manager -- Remote
+</a>
+    <div class="text-md mt-4">
+<span>Software Developement</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span title="Argentina, Colombia, India, Mexico, Pakistan">Multiple locations</span>
+
+    <span class="mx-[2px]">&middot;</span>
+  <span class="inline-flex items-center gap-x-8">
+    Fully Remote
+    <i class="fas fa-wifi h-20 w-16 text-xs"></i>
+</span></div>
+</div>
+    <span class="bg-gradient-block-base-border block h-px w-full"></span>
+</li>
+
+        <li class="w-full">
+
+  <div class="relative flex flex-col items-center py-24 text-center @sm:px-24 @lg:px-64 hover:bg-gradient-block-base-bg">
+
+    <a class="@sm:line-clamp-2 flex" data-turbo="false" href="https://careers.spotter.ai/jobs/557020-quality-assurance-engineer-junior-product-manager-ai-trucking">
+      <span class="absolute inset-0"></span>
+      Quality Assurance Engineer -- Junior Product Manager | AI / Trucking
+</a>
+    <div class="text-md mt-4">
+<span>Software Developement</span>
+
+  <span class="mx-[2px]">&middot;</span>
+
+    <span title="India, Colombia, Argentina, Mexico, Pakistan">Multiple locations</span>
+
+    <span class="mx-[2px]">&middot;</span>
+  <span class="inline-flex items-center gap-x-8">
+    Fully Remote
+    <i class="fas fa-wifi h-20 w-16 text-xs"></i>
+</span></div>
+</div>
+</li>
+
+    </ul>
+</div>
+
+          </div>
+
+
+</div>
+</div></div></turbo-frame>
+  </body>
+</html>

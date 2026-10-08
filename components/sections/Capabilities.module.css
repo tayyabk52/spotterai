@@ -1,0 +1,155 @@
+.section {
+  padding-block: var(--section-space);
+}
+.introduction {
+  display: grid;
+  grid-template-columns: minmax(0, 7fr) minmax(0, 4fr);
+  column-gap: var(--space-9);
+  row-gap: var(--space-6);
+  align-items: end;
+  padding-bottom: var(--space-9);
+}
+.introLabel {
+  grid-column: 1 / -1;
+}
+.introHeadline h2 {
+  line-height: 1.15;
+}
+.introHeadline h2 span {
+  display: block;
+}
+.introHeadline h2 span + span {
+  color: var(--color-primary-strong);
+  margin-left: var(--space-6);
+  margin-top: var(--space-2);
+}
+.introContext {
+  display: grid;
+  gap: var(--space-5);
+}
+.introContext p {
+  max-width: 32ch;
+  color: var(--color-body);
+  font-size: var(--text-lead);
+  line-height: 1.6;
+  text-wrap: pretty;
+}
+.suiteMotif {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+.suiteMotif span {
+  width: 12px;
+  height: 12px;
+  border-radius: var(--radius-circle);
+  background: var(--color-pale);
+}
+.suiteMotif span:first-child {
+  background: var(--color-accent);
+}
+.suiteMotif span:nth-child(2) {
+  background: var(--color-primary);
+}
+.suiteMotif span:nth-child(n + 5) {
+  background: transparent;
+  border: var(--rule-width) solid var(--color-primary);
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .introduction {
+    grid-template-columns: minmax(0, 5fr) minmax(0, 4fr);
+    column-gap: var(--space-7);
+    padding-bottom: var(--space-8);
+  }
+  .introHeadline h2 span + span {
+    margin-left: var(--space-4);
+  }
+}
+.product {
+  padding-block: var(--space-7);
+  border-top: var(--rule-width) solid var(--color-rule);
+  scroll-margin-top: var(--header-height);
+}
+.row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: var(--space-8);
+  align-items: center;
+}
+.product:nth-of-type(even) .copy {
+  order: 2;
+}
+.forward {
+  padding-block: var(--space-8) var(--space-9);
+}
+.forward .row {
+  grid-template-columns: minmax(0, 5fr) minmax(0, 6fr);
+  gap: var(--space-9);
+}
+.reverse {
+  padding-block: var(--space-9);
+}
+.reverse .row {
+  grid-template-columns: minmax(0, 6fr) minmax(0, 5fr);
+  gap: var(--space-9);
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .forward .row,
+  .reverse .row {
+    gap: var(--space-7);
+  }
+}
+@media (min-width: 1024px) {
+  .product {
+    padding-block: var(--space-7);
+  }
+}
+@media (min-width: 1024px) and (max-height: 740px) {
+  .product {
+    padding-block: var(--space-6);
+  }
+}
+@media (max-width: 767px) {
+  .introduction {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-5);
+    padding-bottom: var(--space-7);
+  }
+  .introHeadline h2 span + span {
+    margin-left: 0;
+  }
+  .introContext {
+    gap: var(--space-4);
+  }
+  .introContext p {
+    max-width: 34ch;
+  }
+  .suiteMotif {
+    gap: var(--space-2);
+  }
+  .introLabel :global(.eyebrow) {
+    font-size: 14px;
+    letter-spacing: 0.06em;
+  }
+  .row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-6);
+  }
+  .product:nth-of-type(even) .copy {
+    order: 0;
+  }
+  .forward {
+    padding-block: var(--space-7) var(--space-8);
+  }
+  .forward .row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-7);
+  }
+  .reverse {
+    padding-block: var(--space-8);
+  }
+  .reverse .row {
+    grid-template-columns: minmax(0, 1fr);
+    gap: var(--space-7);
+  }
+}

@@ -1,0 +1,112 @@
+Products
+Solutions
+Resources
+Company
+About Spotter
+Building the Freight Execution Infrastructure Layer for Trucking
+
+Most freight software makes recommendations. Spotter.ai executes the work. We provide the full-stack AI operating system that automates the complex, real-world workflows of modern fleets.
+
+Explore Our Platform
+Talk to Sales
+500+
+Global Operations Network
+24/7
+Live Dispatch & Support
+70%
+YoY Net Revenue Growth
+$4.9MM
+Capital Raised Efficiently
+THE EXECUTION PROBLEM
+Built for the Reality of Trucking
+Trucking is not simply a load-matching problem. It is an execution problem. Every shipment depends on a fragile chain of dispatch, routing, safety, compliance, insurance, maintenance, billing, collections, and real-time exception handling. When any one of those functions breaks down, revenue, service quality, and asset utilization suffer.
+
+Freight does not move in a clean software demo. Loads are delayed, trucks face unscheduled roadside repairs, drivers run out of legal hours, and weather patterns disrupt optimal routes. Spotter.ai was built from the inside out to handle these exact real-world operating exceptions automatically.
+WHAT SPOTTER.AI AUTOMATES
+A Single Unified Operating System
+AI Dispatch & Execution
+Automated load-booking and intelligent broker negotiations that route drivers to hot markets.
+Dynamic Routing AI
+Real-time adjustments that instantly replan routes around traffic, weather, detention, and missed appointments.
+Safety & Compliance Automation
+Hands-free management of permits, IFTA, Form 2290 filings, registrations, medical cards, and license monitoring.
+Driver Recruiting & Screening
+End-to-end automation of driver pipeline follow-ups, consent forms, MVR/PSP reviews, and background checks.
+Maintenance Intelligence
+Predictive insights, rapid vendor selection, repair location decisioning, and automated breakdown handling.
+FuelSeek Optimization
+Real-time purchasing optimization driven by live diesel prices, current tank levels, and exact route needs.
+Insurance & Claims Infrastructure
+Lower premiums and reduced claims leakage achieved through proprietary loss data and integrated accident video analysis.
+Billing & Collections AI
+Instant matching of rate confirmations to bills of lading alongside automated collections back-office workflows.
+Workforce & Asset Automation
+Custom, deeply integrated TMS, CRM, payroll, and 24/7 truck/driver utilization monitoring.
+WHY SPOTTER.AI IS DIFFERENT
+Built by Operators. Powered by AI.
+Many technology companies try to automate trucking from the outside. Spotter.ai was built directly inside the live operating environment.
+THE SPOTTER ADVANTAGE
+Our founders combine quantitative finance, enterprise logistics software, and direct trucking operating experience. This unique DNA gives Spotter.ai a practical advantage: we are not just building tools that suggest what should happen; we are building systems that help operators make it happen.
+We have proven our technology stack by running it inside live operations under the harshest market conditions, expanding our ecosystem around the actual, margin-critical problems carriers face every day.
+OUR OPERATING PHILOSOPHY
+The Future of Freight Execution
+The future of logistics will be automated, verified, and data-driven. As trucking rapidly transitions away from manual workflows and relationship-based capacity, carriers need robust systems that control the entire workflow, aggregate data, enforce compliance, and automate margin-critical decisions.
+
+Spotter.ai is building that essential infrastructure layer. Our mission is to help trucking companies operate with the exact same intelligence, discipline, and automation that define the most advanced financial markets in the world.
+OUR STORY
+The Spotter Journey
+2011
+Quant Foundations
+Gabe & Peidi build deep quant finance and high-frequency trading expertise, establishing the mathematical foundations for advanced workflow optimization models.
+2017
+Practical Exposure
+First-hand entry into the logistics space reveals massive, real-world coordination inefficiencies across traditional motor carrier operations.
+2019–2020
+The Vision Takes Shape
+The core idea for Spotter.ai solidifies: applying advanced quantitative models to the fragmented freight execution layer.
+2020
+Dispatch Software Launch
+Spotter.ai launches its initial AI dispatch software, onboarding its first cohort of external carrier customers.
+2020–2021
+The Shift to Execution
+Real-world deployment reveals that carriers face highly fragmented data challenges. Standalone software recommendations are insufficient; operators require automated execution.
+2021–2022
+Full-Stack Integration
+Spotter pivots to a deeply integrated operating model, stress-testing its proprietary AI infrastructure directly within live, complex freight-hauling workflows.
+2022–2024
+Ecosystem Expansion
+The platform expands from standalone dispatch into an all-in-one corporate operating stack, adding custom TMS, compliance automation, insurance infrastructure, and finance workflows.
+Today
+AI Execution at Scale
+Spotter.ai serves as a hard-to-replace operational infrastructure partner for fleets across North America, driving industry-leading truck utilization and massive cost reductions.
+AWARDS & RECOGNITION
+Recognized for Excellence
+JOIN HUNDREDS OF FLEETS
+Ready to transform your fleet operations?
+
+Experience the power of an AI-driven freight execution stack built by operators, for operators.
+
+Request a Demo
+Contact Sales
+Serving fleets across North America
+
+AI-powered tools for modern freight brokers, carriers & drivers.
+
+PRODUCTS
+Spotter App
+Extension
+TMS
+Lens
+Sentinel
+COMPANY
+About
+Careers
+Contact
+Insights
+LEGAL
+Privacy Policy
+Terms of Service
+CCPA
+All systems operational
+
+© 2026 spotter.ai. All rights reserved.  ·  251 Little Falls Dr. Wilmington DE 19808

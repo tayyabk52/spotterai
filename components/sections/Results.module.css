@@ -1,0 +1,128 @@
+.section {
+  padding-block: min(var(--section-space), var(--space-9));
+  background: var(--color-tint);
+  border-top: 1px solid var(--color-rule);
+}
+.layout {
+  display: grid;
+  grid-template-columns: minmax(0, 5fr) minmax(0, 7fr);
+  gap: var(--space-8);
+  align-items: start;
+}
+.introduction h2 {
+  margin-block: var(--space-5);
+}
+.introduction h2 span {
+  display: block;
+}
+.introduction h2 span + span {
+  color: var(--color-primary-strong);
+  margin-top: var(--space-2);
+}
+.description {
+  color: var(--color-body);
+  font-size: var(--text-lead);
+  max-width: 30ch;
+  text-wrap: pretty;
+}
+.mark {
+  display: grid;
+  grid-template-columns: repeat(3, 16px);
+  grid-template-rows: repeat(2, 16px);
+  gap: var(--space-1);
+  margin-top: var(--space-7);
+  width: fit-content;
+}
+.mark i {
+  border-radius: var(--radius-circle);
+  background: var(--color-primary);
+}
+.mark i:first-child {
+  background: var(--color-accent);
+}
+.mark i:nth-child(2) {
+  grid-column: 1;
+  grid-row: 2;
+}
+.mark i:nth-child(n + 3) {
+  background: var(--color-pale);
+  grid-row: 2;
+}
+.metrics {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-7) var(--space-6);
+  margin: 0;
+}
+.metric {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+  padding-top: var(--space-5);
+}
+.rule {
+  position: absolute;
+  inset: 0 0 auto;
+  height: 1px;
+  background: var(--color-control);
+  transform-origin: left;
+}
+.metric dt {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-3);
+  color: var(--color-body);
+  max-width: 24ch;
+}
+.metric dt svg {
+  color: var(--color-primary-strong);
+  flex-shrink: 0;
+  margin-top: var(--space-1);
+}
+.metric dd {
+  order: -1;
+  margin: 0 0 var(--space-4);
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-size: clamp(39px, 4.25vw, 61px);
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.045em;
+  line-height: 1.15;
+  color: var(--color-ink);
+  white-space: nowrap;
+}
+.source {
+  border-top: 1px solid var(--color-rule);
+  padding-top: var(--space-5);
+  margin-top: var(--space-8);
+  color: var(--color-muted);
+  font-size: 14px;
+}
+@media (max-width: 1023px) {
+  .layout {
+    grid-template-columns: 1fr;
+    gap: var(--space-7);
+  }
+  .mark {
+    display: none;
+  }
+  .metrics {
+    gap: var(--space-6);
+  }
+  .source {
+    margin-top: var(--space-7);
+  }
+}
+@media (max-width: 479px) {
+  .metrics {
+    grid-template-columns: 1fr;
+  }
+  .metric dd {
+    font-size: 49px;
+  }
+  .metric dt {
+    max-width: none;
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "initialStatus": [],
+  "markerDisplay": "grid",
+  "attribution": " Leaflet | © OpenStreetMap contributors",
+  "lockedTouchAction": "auto",
+  "interactiveTouchAction": "none",
+  "relockedTouchAction": "auto",
+  "clusterExpandedMarkers": [
+    "3",
+    "3",
+    "12",
+    "3",
+    "3"
+  ],
+  "popup": "Pakistan\nView 3 roles →",
+  "popupHref": "/careers?location=Pakistan&view=map#open-roles",
+  "popupAxe": [],
+  "pinFilteredCount": 3,
+  "geolocation": [
+    "Loading map…",
+    "Map centered on your approximate location. Job locations remain marked."
+  ],
+  "areaFilteredCount": 3,
+  "boundsInURL": "http://localhost:3005/careers?location=Pakistan&geobound_coordinates%5Btop_left_lat%5D=33.7243396617476&geobound_coordinates%5Btop_left_lon%5D=62.40234375000001&geobound_coordinates%5Bbottom_right_lat%5D=26.902476886279832&geobound_coordinates%5Bbottom_right_lon%5D=76.26708984375001&view=map#open-roles",
+  "clearFiltersCount": 15,
+  "clearedForm": {
+    "query": "",
+    "location": ""
+  },
+  "detailAxe375": [],
+  "detailAxe1440": [],
+  "noJs": {
+    "roles": 15,
+    "mapDisplay": "none",
+    "locationLinks": 6,
+    "message": true
+  },
+  "noJsEmpty": true,
+  "tileFailure": "Some map tiles could not load. You can still browse roles by location below.",
+  "retryRecovered": true,
+  "geolocationDenied": "Your location is unavailable. Choose a job location below instead.",
+  "pageErrors": [],
+  "webkitFocus": {
+    "scale": 1,
+    "fieldSize": "16px",
+    "overflow": false
+  }
+}

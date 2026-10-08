@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://www.bb-b.net/_next/static/chunks/905-9ccac967dbbd4e81.js",
+    "key": "requestAnimationFrame",
+    "context": "tionend\",e),i?function(t,e){let s=arguments.length>2&&void 0!==arguments[2]?arguments[2]:300,{scrollHeight:a,style:o}=t;requestAnimationFrame(()=>{o.minHeight=\"initial\",o.height=a+\"px\",o.transition=\"all \".concat(s,\"ms\"),requestAnimationFrame(()=>{o.height=\"0\",o.padding=\"0\",o.margin=\"0\",setTimeout(e,s)})})}(t,u,r):u()};d||(c?e():(m.current=1,t.className+=\" \"."
+  },
+  {
+    "url": "https://www.bb-b.net/_next/static/chunks/584-592a766d519710e8.js",
+    "key": "currentTime",
+    "context": ",a.useEffect)(()=>{u.current=c},[c]),(0,a.useEffect)(()=>{let e=o.current;if(!e)return;let t=0,l=()=>{var t,l,n;let a=e.currentTime,r=S(s,a);if((t=u.current)===r||t&&r&&t.start===r.start&&t.end===r.end&&t.text===r.text||(u.current=r,d(r)),null==r?void 0:r.hasTiming){let e=null!=(n=null==(l=r.text.subtitles)?void 0:l.filter(e=>e.subtitle).length)?n:0;J(a,r.st"
+  },
+  {
+    "url": "https://www.bb-b.net/_next/static/chunks/584-592a766d519710e8.js",
+    "key": "requestAnimationFrame",
+    "context": "ngth)?n:0;for(let l=0;l<a;l+=1){let n=I(t.start,l),a=n+.3;if(e>=n&&e<a)return!0}return!1})(e.currentTime,u.current)&&(t=requestAnimationFrame(a))},a=()=>{l(),n()},r=()=>{l(),n()},i=()=>{r()},c=()=>{cancelAnimationFrame(t),l()};return e.addEventListener(\"play\",i),e.addEventListener(\"playing\",i),e.addEventListener(\"pause\",c),e.addEventListener(\"seeked\",r),e.ad"
+  },
+  {
+    "url": "https://www.bb-b.net/_next/static/chunks/987-3f62792348fb6398.js",
+    "key": "currentTime",
+    "context": " iterationDuration(){let{delay:e=0}=this.options||{};return this.duration+e/1e3}get time(){return(Number(this.animation.currentTime)||0)/1e3}set time(e){let t=null!==this.finishedTime;this.manualStartTime=null,this.finishedTime=null,this.animation.currentTime=es(e),t&&this.animation.pause()}get speed(){return this.animation.playbackRate}set speed(e){e<0&&(th"
+  },
+  {
+    "url": "https://www.bb-b.net/_next/static/chunks/987-3f62792348fb6398.js",
+    "key": "requestAnimationFrame",
+    "context": "r,PP:()=>a,WG:()=>o,uv:()=>s});var n=i(4119);let{schedule:r,cancel:o,state:s,steps:a}=(0,i(4300).I)(\"undefined\"!=typeof requestAnimationFrame?requestAnimationFrame:n.l,!0)},4105:(e,t)=>{function i(e){let{widthInt:t,heightInt:i,blurWidth:n,blurHeight:r,blurDataURL:o,objectFit:s}=e,a=n?40*n:t,l=r?40*r:i,u=a&&l?\"viewBox='0 0 \"+a+\" \"+l+\"'\":\"\";return\"%3Csvg xmlns"
+  }
+]

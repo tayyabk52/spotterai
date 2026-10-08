@@ -1,0 +1,705 @@
+.story {
+  background: var(--claims-ink);
+  font-size: var(--claims-body);
+}
+
+.story section {
+  scroll-margin-top: calc(var(--header-height) + var(--space-5));
+}
+
+.dark,
+.opening {
+  color: var(--color-surface);
+  background: var(--claims-ink);
+}
+
+.light {
+  color: var(--claims-ink);
+  background: var(--claims-light);
+}
+
+.chapterLabel {
+  display: flex;
+  align-items: center;
+  gap: var(--space-5);
+  font-size: var(--claims-caption);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.chapterLabel > span {
+  color: var(--color-pale);
+}
+
+.light .chapterLabel > span,
+.contact .chapterLabel > span {
+  color: var(--color-body);
+}
+
+.chapterLabel::before {
+  content: "";
+  width: var(--space-2);
+  height: var(--space-2);
+  border-radius: var(--radius-circle);
+  background: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.story h2 {
+  font-size: var(--claims-heading);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+.lead {
+  font-size: var(--claims-lead);
+  line-height: 1.5;
+  max-width: 48ch;
+}
+
+/* Hero Section */
+.opening {
+  position: relative;
+  isolation: isolate;
+}
+
+.heroTrack {
+  position: relative;
+  min-height: 100svh;
+}
+
+.heroStage {
+  position: relative;
+  min-height: calc(100svh - var(--header-height));
+  overflow: hidden;
+}
+
+.heroCopy {
+  position: relative;
+  z-index: 2;
+  width: min(65%, 920px);
+  padding: var(--space-6) var(--claims-gutter);
+}
+
+.heroCopy h1 {
+  font-size: var(--claims-title);
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+  max-width: 22ch;
+  margin-block: var(--space-4) var(--space-5);
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+.heroCopy .lead {
+  color: var(--claims-pale);
+  max-width: 44ch;
+  line-height: 1.5;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+}
+
+.primary {
+  min-height: var(--space-8);
+  border-radius: var(--radius-control);
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-pale);
+  color: var(--claims-ink);
+  white-space: normal;
+  text-align: center;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  text-decoration: none;
+  transition: background-color 160ms var(--claims-ease);
+}
+
+.primary:hover {
+  background: var(--color-surface);
+}
+
+.primary svg,
+.secondary svg {
+  width: var(--space-5);
+  height: var(--space-5);
+  flex-shrink: 0;
+  transition: transform 160ms var(--claims-ease);
+}
+
+.primary:hover svg {
+  transform: translate(2px, -2px);
+}
+
+.secondary:hover svg {
+  transform: translateY(3px);
+}
+
+.secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: var(--space-8);
+  padding: var(--space-4) var(--space-2);
+  border-bottom: var(--rule-width) solid var(--color-control);
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+}
+
+.scrollHint {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: var(--space-7);
+  font-size: var(--claims-caption);
+  color: var(--color-pale);
+}
+
+.scrollHint svg {
+  width: var(--space-4);
+  height: var(--space-4);
+}
+
+/* Film / Media */
+.film {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: var(--claims-ink);
+}
+
+.heroFilm {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.heroFilm::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--claims-ink) 92%, transparent) 0%,
+    color-mix(in srgb, var(--claims-ink) 72%, transparent) 45%,
+    transparent 80%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.filmLayer {
+  position: absolute;
+  inset: 0;
+}
+
+.posterContainer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.poster,
+.video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.heroFilm .poster,
+.heroFilm .video {
+  object-fit: cover;
+  object-position: center;
+}
+
+.video {
+  opacity: 0;
+  transition: opacity 240ms ease-in-out;
+}
+
+.videoReady {
+  opacity: 1;
+}
+
+.assetNeededBadge {
+  position: absolute;
+  bottom: var(--space-4);
+  right: var(--space-4);
+  background: color-mix(in srgb, var(--color-ink) 90%, transparent);
+  border: 1px solid var(--color-accent);
+  color: var(--color-pale);
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-control);
+  font-size: var(--claims-caption);
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  z-index: 5;
+}
+
+/* Scenes */
+.chapter {
+  position: relative;
+  width: 100%;
+}
+
+.scene,
+.stickyScene {
+  padding-block: var(--claims-space);
+}
+
+.stickyScene {
+  position: relative;
+}
+
+.sceneLayout {
+  width: min(calc(100% - var(--claims-gutter) * 2), var(--claims-width));
+  margin-inline: auto;
+}
+
+.sceneCopy {
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: var(--claims-gap);
+  align-items: end;
+  margin-bottom: var(--space-7);
+}
+
+.sceneCopy h2 {
+  max-width: 18ch;
+  margin-top: var(--space-6);
+}
+
+.dark .lead {
+  color: var(--color-pale);
+}
+
+.light .lead {
+  color: var(--color-body);
+}
+
+.sceneMedia {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: var(--claims-scene-radius);
+  overflow: hidden;
+  position: relative;
+  background: color-mix(in srgb, var(--color-ink) 70%, transparent);
+  border: 1px solid var(--color-control);
+}
+
+.features {
+  margin-top: var(--space-7);
+  list-style: none;
+  padding: 0;
+}
+
+.features > li {
+  border-top: var(--rule-width) solid var(--color-control);
+  padding-block: var(--space-5);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: var(--space-4);
+}
+
+.featureNumber {
+  font-size: var(--claims-caption);
+  line-height: 2;
+  color: var(--color-pale);
+}
+
+.light .featureNumber {
+  color: var(--color-primary-strong);
+}
+
+.features h3 {
+  font-size: var(--claims-subheading);
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+}
+
+.features p {
+  margin-top: var(--space-2);
+  font-size: var(--claims-body);
+  line-height: 1.5;
+  color: var(--color-pale);
+}
+
+.light .features p {
+  color: var(--color-body);
+}
+
+.compact {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0 var(--claims-gap);
+}
+
+.details {
+  padding-left: var(--space-4);
+  margin-top: var(--space-2);
+  list-style: disc;
+  color: var(--color-pale);
+  font-size: var(--claims-body);
+}
+
+.light .details {
+  color: var(--color-body);
+}
+
+/* Slack Live Automation Section (Styled strictly with Spotter tokens) */
+.slackContainer {
+  margin-top: var(--space-7);
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: var(--claims-gap);
+  align-items: center;
+}
+
+.slackCard {
+  background: color-mix(in srgb, var(--color-ink) 92%, #000);
+  border: 1px solid var(--color-control);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.35);
+}
+
+.slackHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 18px;
+  background: color-mix(in srgb, var(--color-ink) 80%, #000);
+  border-bottom: 1px solid var(--color-control);
+  font-size: var(--claims-caption);
+  font-weight: 600;
+  color: var(--color-pale);
+}
+
+.slackChannel {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  color: var(--color-surface);
+}
+
+.slackChannelMeta {
+  color: var(--color-pale);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.slackBody {
+  padding: 20px;
+  display: flex;
+  gap: 14px;
+}
+
+.slackAvatar {
+  width: 40px;
+  height: 40px;
+  background: var(--color-primary);
+  color: var(--color-surface);
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.875rem;
+  flex-shrink: 0;
+}
+
+.slackMessageContent {
+  flex: 1;
+}
+
+.slackSenderRow {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.slackSenderName {
+  font-weight: 700;
+  color: var(--color-surface);
+  font-size: 0.9375rem;
+}
+
+.slackTimestamp {
+  color: var(--color-pale);
+  font-size: 0.75rem;
+}
+
+.slackText {
+  color: var(--color-surface);
+  font-size: 0.9375rem;
+  line-height: 1.45;
+  margin-bottom: 16px;
+}
+
+.slackActions {
+  display: flex;
+  gap: 10px;
+}
+
+.slackActions span {
+  cursor: default;
+}
+
+.slackBtnPrimary {
+  background: var(--color-primary-strong);
+  color: var(--color-surface);
+  border: none;
+  padding: 8px 16px;
+  border-radius: var(--radius-control);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+  min-height: 44px;
+  transition: background-color 160ms var(--claims-ease);
+}
+
+.slackBtnPrimary:hover {
+  background: var(--color-primary);
+}
+
+.slackBtnSecondary {
+  background: transparent;
+  color: var(--color-pale);
+  border: 1px solid var(--color-control);
+  padding: 8px 16px;
+  border-radius: var(--radius-control);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+  min-height: 44px;
+  transition: border-color 160ms var(--claims-ease);
+}
+
+.slackBtnSecondary:hover {
+  border-color: var(--color-pale);
+  color: var(--color-surface);
+}
+
+/* Operations Role Grid */
+.roleGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-6) var(--claims-gap);
+  margin-top: var(--space-8);
+}
+
+.roleCard {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 16px;
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  box-shadow: 0 4px 16px rgba(16, 42, 43, 0.04);
+}
+
+.roleCard h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-ink);
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.roleCard p {
+  color: var(--color-body);
+  font-size: 0.9375rem;
+  line-height: 1.5;
+}
+
+/* Contact / Closing Section */
+.contact {
+  padding: var(--claims-space) var(--claims-gutter);
+  background: var(--color-pale);
+  color: var(--claims-ink);
+}
+
+.contact h2 {
+  font-size: var(--claims-title);
+  max-width: 15ch;
+  margin-block: var(--space-7) var(--space-8);
+}
+
+.contactBottom {
+  display: flex;
+  gap: var(--claims-gap);
+  justify-content: space-between;
+  align-items: center;
+  padding-top: var(--space-6);
+  border-top: var(--rule-width) solid var(--color-control);
+}
+
+.contact .primary {
+  background: var(--color-primary-strong);
+  color: var(--color-surface);
+  flex-shrink: 0;
+}
+
+/* Chapter Navigation Rail */
+.chapterNav {
+  position: fixed;
+  bottom: var(--space-5);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  border: var(--rule-width) solid var(--color-control);
+  border-radius: var(--radius-control);
+  background: var(--claims-ink);
+  color: var(--color-pale);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.chapterNav ol {
+  display: flex;
+  gap: var(--space-1);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chapterNav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: var(--space-2);
+  border-radius: var(--radius-control);
+  color: var(--color-pale);
+  text-decoration: none;
+  font-size: var(--claims-caption);
+  font-weight: 600;
+  transition: background-color 160ms var(--claims-ease);
+}
+
+.chapterNav a:hover,
+.chapterNav a[aria-current="location"] {
+  background: var(--color-pale);
+  color: var(--claims-ink);
+}
+
+.chapterNav button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  background: transparent;
+  border: none;
+  border-left: var(--rule-width) solid var(--color-control);
+  color: var(--color-pale);
+  cursor: pointer;
+  padding-left: var(--space-3);
+}
+
+/* Sticky / Cinematic Desktop Mode (>= 1024px & >= 850px) */
+@media (min-width: 1024px) and (min-height: 850px) {
+  .heroTrack {
+    min-height: 240svh;
+  }
+
+  .heroStage {
+    position: sticky;
+    top: var(--header-height);
+    height: calc(100svh - var(--header-height));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .pinChapter {
+    min-height: var(--claims-pin-distance);
+  }
+
+  .pinChapter .stickyScene[data-cinematic] {
+    position: sticky;
+    top: var(--header-height);
+    height: calc(100svh - var(--header-height));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-block: 0;
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1023px), (max-height: 849px) {
+  .heroStage {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+  }
+
+  .heroCopy {
+    width: 100%;
+    padding-bottom: var(--space-7);
+    order: -1;
+  }
+
+  .heroFilm {
+    position: relative;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+
+  .scrollHint {
+    display: none;
+  }
+}
+
+@media (max-width: 1023px) {
+  .sceneCopy,
+  .slackContainer,
+  .compact,
+  .roleGrid {
+    grid-template-columns: 1fr;
+  }
+
+  .contactBottom {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pinChapter,
+  .heroTrack {
+    min-height: 0;
+  }
+
+  .stickyScene,
+  .heroStage {
+    position: relative;
+    height: auto;
+    top: auto;
+  }
+}

@@ -1,0 +1,95 @@
+.player {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  max-height: min(44svh, 400px);
+  overflow: hidden;
+  border: 1px solid var(--color-control);
+  border-radius: var(--radius-panel);
+  background: var(--color-ink);
+}
+
+.player video {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.playButton {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  padding: 0;
+  border: 1px solid var(--color-ink);
+  border-radius: var(--radius-circle);
+  background: var(--color-pale);
+  color: var(--color-ink);
+}
+
+.playButton:hover {
+  background: var(--color-surface);
+}
+
+.playButton svg {
+  transform: translateX(2px);
+}
+
+.error {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-4);
+  padding: var(--space-5);
+  background: var(--color-ink);
+  color: var(--color-surface);
+  text-align: center;
+}
+
+.error > div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--space-3);
+}
+
+.error :is(a, button) {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: var(--space-2) var(--space-4);
+  border: 1px solid var(--color-control);
+  border-radius: var(--radius-control);
+  background: transparent;
+  color: var(--color-pale);
+}
+
+.player:has(video:focus-visible) {
+  outline: var(--focus-width) solid var(--color-primary-strong);
+  outline-offset: var(--focus-offset);
+}
+
+.playButton:focus-visible {
+  outline: var(--focus-width) solid var(--color-primary-strong);
+  outline-offset: calc(-1 * var(--space-1));
+}
+
+.error :is(a, button):focus-visible {
+  outline: var(--focus-width) solid var(--color-pale);
+  outline-offset: var(--focus-offset);
+}
+
+@media (max-width: 479px) {
+  .playButton {
+    width: 56px;
+    height: 56px;
+  }
+}

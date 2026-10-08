@@ -1,0 +1,28 @@
+{
+  "source": "https://spotter.ai/lens",
+  "captured": "2026-10-08",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "assets": [
+    {
+      "id": "market-map",
+      "width": 1180,
+      "height": 896,
+      "bytes": 75982
+    },
+    {
+      "id": "market-rankings",
+      "width": 900,
+      "height": 1120,
+      "bytes": 65286
+    },
+    {
+      "id": "market-history",
+      "width": 1200,
+      "height": 850,
+      "bytes": 29028
+    }
+  ]
+}

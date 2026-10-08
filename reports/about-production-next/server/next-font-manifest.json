@@ -1,0 +1,55 @@
+{
+  "app": {
+    "[project]/app/_not-found/page": [
+      "static/media/5ee884228e72c58d-s.p.0kspp8hy-z47w.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.2adce56gso3ku.woff2"
+    ],
+    "[project]/app/about/page": [
+      "static/media/5ee884228e72c58d-s.p.0kspp8hy-z47w.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.2adce56gso3ku.woff2"
+    ],
+    "[project]/app/claims-os/page": [
+      "static/media/5ee884228e72c58d-s.p.0kspp8hy-z47w.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.2adce56gso3ku.woff2"
+    ],
+    "[project]/app/driversapp/page": [
+      "static/media/5ee884228e72c58d-s.p.0kspp8hy-z47w.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.2adce56gso3ku.woff2"
+    ],
+    "[project]/app/extension/page": [
+      "static/media/5ee884228e72c58d-s.p.0kspp8hy-z47w.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.2adce56gso3ku.woff2"
+    ],
+    "[project]/app/lens/page": [
+      "static/media/5ee884228e72c58d-s.p.0kspp8hy-z47w.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.2adce56gso3ku.woff2"
+    ],
+    "[project]/app/loan-calculators/page": [
+      "static/media/5ee884228e72c58d-s.p.0kspp8hy-z47w.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.2adce56gso3ku.woff2"
+    ],
+    "[project]/app/page": [
+      "static/media/5ee884228e72c58d-s.p.0kspp8hy-z47w.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.2adce56gso3ku.woff2"
+    ],
+    "[project]/app/request-quote/page": [
+      "static/media/5ee884228e72c58d-s.p.0kspp8hy-z47w.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.2adce56gso3ku.woff2"
+    ],
+    "[project]/app/sentinel/page": [
+      "static/media/5ee884228e72c58d-s.p.0kspp8hy-z47w.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.2adce56gso3ku.woff2"
+    ],
+    "[project]/app/tms/page": [
+      "static/media/5ee884228e72c58d-s.p.0kspp8hy-z47w.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.2adce56gso3ku.woff2"
+    ],
+    "[project]/app/watch-demo/page": [
+      "static/media/5ee884228e72c58d-s.p.0kspp8hy-z47w.woff2",
+      "static/media/47df9ba1c7236d3b-s.p.2adce56gso3ku.woff2"
+    ]
+  },
+  "appUsingSizeAdjust": true,
+  "pages": {},
+  "pagesUsingSizeAdjust": false
+}

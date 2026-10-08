@@ -1,0 +1,87 @@
+{
+  "start": [
+    {
+      "class": "home-feature-card home-feature-card--1 home-feature-card--portrait",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "rect": {
+        "x": 548.5,
+        "y": -110
+      }
+    },
+    {
+      "class": "home-feature-card home-feature-card--2 home-feature-card--portrait",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "rect": {
+        "x": -139,
+        "y": 280
+      }
+    },
+    {
+      "class": "home-feature-card home-feature-card--3 home-feature-card--landscape",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "rect": {
+        "x": 1267,
+        "y": 200
+      }
+    }
+  ],
+  "pointer": [
+    {
+      "class": "home-feature-card home-feature-card--1 home-feature-card--portrait",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "rect": {
+        "x": 548.5,
+        "y": -110
+      }
+    },
+    {
+      "class": "home-feature-card home-feature-card--2 home-feature-card--portrait",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "rect": {
+        "x": -139,
+        "y": 280
+      }
+    },
+    {
+      "class": "home-feature-card home-feature-card--3 home-feature-card--landscape",
+      "transform": "matrix(1, 0, 0, 1, 0, 0)",
+      "rect": {
+        "x": 1267,
+        "y": 200
+      }
+    }
+  ],
+  "scroll": [
+    {
+      "class": "home-feature-card home-feature-card--1 home-feature-card--portrait",
+      "transform": "matrix(1, 0, 0, 1, -86.1531, -119.657)",
+      "rect": {
+        "x": 462.3468933105469,
+        "y": -229.6571044921875
+      }
+    },
+    {
+      "class": "home-feature-card home-feature-card--2 home-feature-card--portrait",
+      "transform": "matrix(1, 0, 0, 1, -201.024, -69.8)",
+      "rect": {
+        "x": -340.02398681640625,
+        "y": 210.1999969482422
+      }
+    },
+    {
+      "class": "home-feature-card home-feature-card--3 home-feature-card--landscape",
+      "transform": "matrix(1, 0, 0, 1, 201.024, -109.686)",
+      "rect": {
+        "x": 1468.0240478515625,
+        "y": 90.31430053710938
+      }
+    }
+  ],
+  "details": {
+    "feature": "<div class=\"home-feature\" id=\"skip-target\"><div class=\"unicorn-background home-feature-texture\" id=\"unicorn-bg-wgmmt6u\" data-unicorn-background=\"\" data-us-fps=\"24\" data-us-scale=\"1\" data-us-dpi=\"1\" data-us-playback=\"auto\" data-us-fixed=\"\" data-us-project-src=\"/unicornstudio/think-feature-texture.json\" aria-hidden=\"true\" data-scene-id=\"id-z2mfjm3tqq2zgcs310fes\"><canvas width=\"1440\" height=\"1000\" style=\"display: block; width: 100%; height: 100%;\" aria-label=\"Unicorn Studio Scene\" role=\"img\"></canvas></div><div class=\"home-feature-lines\" aria-hidden=\"true\" style=\"opacity: 0;\"><div class=\"animation-lines-connection\" data-script=\"lines-connection\" aria-hidden=\"true\"><style>@keyframes lc-comet {\n0.000% { fill: none; stroke-dasharray: 0.0000 2; stroke-dashoffset: 0.0000; }\n1.250% { fill: none; stroke-dasharray: 0.1394 2; stroke-dashoffset: 0.0000; }\n2.500% { fill: none; stroke-dasharray: 0.2653 2; stroke-dashoffset: 0.0000; }\n3.750% { fill: none; stroke-dasharray: 0.3782 2; stroke-dashoffset: 0.0000; }\n5.000% { fill: none; stroke-dasharray: 0.4789 2; stroke-dashoffset: 0.0000; }\n6.250% { fill: none; stroke-dasharray: 0.5682 2; stroke-dashoffset: 0.0000; }\n7.500% { fill: none; stroke-dasharray: 0.6466 2; stroke-dashoffset: 0.0000; }\n8.750% { fill: none; stroke-dasharray: 0.7148 2; stroke-dashoffset: 0.0000; }\n10.000% { fill: none; stroke-dasharray: 0.7737 2; stroke-dashoffset: 0.0000; }\n11.250% { fill: none; stroke-dasharray: 0.8239 2; stroke-dashoffset: 0.0000; }\n12.500% { fill: none; stroke-dasharray: 0.8660 2; stroke-dashoffset: 0.0000; }\n13.750% { fill: none; stroke-dasharray: 0.9008 2; stroke-dashoffset: 0.0000; }\n15.000% { fill: none; stroke-dasharray: 0.8603 2; stroke-dashoffset: -0.0687; }\n16.250% { fill: none; stroke-dasharray: 0.7498 2; stroke-dashoffset: -0.2015; }\n17.500% { fill: none; stroke-dasharray: 0.6473 2; stroke-dashoffset: -0.3211; }\n18.750% { fill: none; stroke-dasharray: 0.5528 2; stroke-dashoffset: -0.4281; }\n20.000% { fill: none; stroke-dasharray: 0.4664 2; stroke-dashoffset: -0.5232; }\n21.250% { fill: none; stroke-dasharray: 0.3880 2; stroke-dashoffset: -0.6071; }\n22.500% { fill: none; stroke-dasharray: 0.3177 2; stroke-dashoffset: -0.6806; }\n23.750% { fill: none; stroke-dasharray: 0.2554 2; stroke-dashoffset: -0.7442; }\n25.000% { fill: none; stroke-dasharray: 0.2012 2; stroke-dashoffset: -0.7988; }\n26.250% { fill: none; stroke-dasharray: 0.1549 2; stroke-dashoffset: -0.8451; }\n27.500% { fill: none; stroke-dasharray: 0.1164 2; stroke-dashoffset: -0.8836; }\n28.750% { fill: none; stroke-dasharray: 0.0849 2; stroke-dashoffset: -0.9151; }\n30.000% { fill: none; stroke-dasharray: 0.0596 2; stroke-dashoffset: -0.9404; }\n31.250% { fill: none; stroke-dasharray: 0.0399 2; stroke-dashoffset: -0.9601; }\n32.500% { fill: none; stroke-dasharray: 0.0251 2; stroke-dashoffset: -0.9749; }\n33.750% { fill: none; stroke-dasharray: 0.0146 2; stroke-dashoffset: -0.9854; }\n35.000% { fill: none; stroke-dasharray: 0.0075 2; stroke-dashoffset: -0.9925; }\n36.250% { fill: none; stroke-dasharray: 0.0031 2; stroke-dashoffset: -0.9969; }\n37.500% { fill: none; stroke-dasharray: 0.0009 2; stroke-dashoffset: -0.9991; }\n38.750% { fill: none; stroke-dasharray: 0.0001 2; stroke-dashoffset: -0.9999; }\n40.000% { fill: none; stroke-dasharray: 0.0000 2; stroke-dashoffset: -1.0000; }\n100% { fill: none; stroke-dasharray: 0 2; stroke-dashoffset: -1.0000; }\n}\n@keyframes lc-fade {\n\t\t0% { opacity: 0; } 5.60% { opacity: 1; }\n\t\t94.40% { opacity: 1; } 100% { opacity: 0; }\n\t}</style><svg class=\"lines-connection-svg\" viewBox=\"0 0 1920 1080\" preserveAspectRatio=\"xMidYMid slice\"><g class=\"lines-connection-lines\"><path class=\"lines-connection-line\" d=\"M960.0 540.0 C1040.2 667.4 1188.4 725.2 1305.6 776.3\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 0.966s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C678.7 632.3 391.2 518.2 156.8 436.6\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 2.328s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C829.8 590.0 689.0 548.4 574.5 519.5\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 3.048s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C794.1 426.8 757.1 224.6 719.5 64.4\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 3.215s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C1129.6 690.3 1334.8 619.5 1500.5 574.1\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 0.601s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C624.5 649.0 386.0 414.2 185.7 241.7\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 2.86s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C811.0 565.5 741.9 698.6 680.9 801.3\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 2.064s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C1047.6 443.9 1176.9 453.5 1280.2 455.3\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 0.166s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C611.9 499.4 366.7 747.9 160.7 934.7\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 0.877s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C1204.6 440.1 1490.6 462.3 1722.0 473.5\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 1.695s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C1077.1 413.0 1106.6 231.3 1135.6 86.0\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 0.187s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C821.2 401.8 619.3 334.4 458.0 275.4\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 2.576s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C1292.5 502.4 1497.6 755.1 1672.3 945.2\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 2.942s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C819.9 576.7 725.9 475.7 646.6 400.9\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 3.21s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C1207.2 607.4 1476.7 544.0 1695.6 499.5\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 3.064s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C730.5 611.6 530.9 477.7 366.2 379.9\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 1.945s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C1258.3 505.0 1516.8 311.0 1730.2 161.6\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 2.693s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C1106.0 430.5 1294.8 445.9 1446.6 451.4\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 3.966s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C1070.7 256.4 1359.1 218.3 1584.6 173.4\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 3.296s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C1112.9 556.6 1197.9 436.5 1271.1 346.1\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 2.745s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C1260.5 538.1 1470.0 760.5 1646.3 929.6\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 0.018s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C1206.6 282.5 1565.4 301.0 1852.3 300.6\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 2.495s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C729.1 521.7 546.2 359.8 394.1 235.7\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 0.884s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C1148.9 416.9 1368.3 478.2 1545.8 517.8\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 0.592s infinite normal both running lc-comet;\"></path><path class=\"lines-connection-line\" d=\"M960.0 540.0 C731.8 567.8 634.5 769.2 547.6 924.0\" pathLength=\"1\" fill=\"none\" stroke=\"#ff2c17\" stroke-width=\"1\" style=\"animation: 8.929s linear 2.203s infinite normal both running lc-comet;\"></path></g><g class=\"lines-connection-dots\" style=\"animation: 8.929s linear 0s infinite normal both running lc-fade;\"><circle cx=\"1305.6008882545866\" cy=\"776.3278025630862\" r=\"5\" fill=\"#ff2c17\"></circle><circle cx=\"156.7747353776358\" cy=\"436.57684988575056\" r=\"5\" fill=\"#ff2c17\"></circle><circle cx=\"574.5350104537793\" cy=\"519.5119888675399\" r=\"5\" fill=\"#ff2c17\"></circle><circle cx=\"719.5361158037558\"",
+    "headline": {
+      "size": "104px"
+    },
+    "animationCount": 471
+  }
+}

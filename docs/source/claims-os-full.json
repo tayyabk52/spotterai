@@ -1,0 +1,399 @@
+{
+  "title": "ClaimsOS: Freight Claims Management Software | Spotter",
+  "bodyText": "Products\nSolutions\nResources\nCompany\nGet Started\nSPOTTER CLAIMSOS\nThe Centralized Claims Operating System for Transportation Teams.\n\nTrack every freight claim, automate carrier and driver follow-ups, and keep your logistics operations connected directly through Slack.\n\nI'm Interested\nExplore Features\nEverything your team needs\nClaim Tracking\n\nCentralize and monitor every active transportation claim from incident report to final resolution.\n\nFinancial Control\n\nTrack cargo liabilities, salvage values, and payout statuses seamlessly in one system.\n\nSlack Automation\n\nBring operations out of messy email chains with instant, automated Slack channel updates.\n\nActivity Monitoring\n\nGet total visibility into team bottlenecks, open cycle times, and recurring transit issues.\n\nNever let a claim stall out.\n\nLogistics moves fast, and communication gaps cost money. Spotter automatically pushes real-time updates where your team already works.\n\nInstant Notifications\nAlerts the right dispatchers or managers the second a claim status changes.\nAudit Trail\nEvery Slack update maps directly back to the claim history log.\nTeam Collaboration\nTag teammates and resolve disputes without ever leaving your workflow.\n#claims-ops\nSP\nSpotter 2:41 PM\nClaim #4821 status changed to In Review - carrier response due in 24h.\nView Claim\nAssign\nBuilt for the scale of modern logistics.\nCentralized Dashboard\n\nManage multi-unit fleets and cross-dock incidents from a single pane of glass.\n\nDocument Storage\n\nInstantly link BOLs, PODs, and photos directly to the specific claim file.\n\nDriver Integration\n\nLog driver statements and historical incident data to improve overall fleet safety.\n\nDesigned for your entire operation\nClaims Team\n\nSpeed up cycle times, reduce manual data entry, and easily manage carrier disputes.\n\nFreight Accounting\n\nStreamline cargo deductions, track open liabilities, and match payouts perfectly.\n\nFleet Safety\n\nMonitor high-risk lanes, track recurring driver incidents, and implement preventive training.\n\nOperations Management\n\nAccess high-level analytics on claim costs, recovery rates, and operational bottlenecks.\n\nTake control of your logistics claims.\n\nSee how Spotter ClaimsOS can protect your bottom line and keep your operations moving.\n\nI'm Interested\n\nAI-powered tools for modern freight brokers, carriers & drivers.\n\nPRODUCTS\nSpotter App\nExtension\nTMS\nLens\nSentinel\nCOMPANY\nAbout\nCareers\nContact\nInsights\nLEGAL\nPrivacy Policy\nTerms of Service\nCCPA\nAll systems operational\n\n© 2026 spotter.ai. All rights reserved.  ·  251 Little Falls Dr. Wilmington DE 19808",
+  "images": [
+    {
+      "src": "https://spotter.ai/static/media/spotter.ai.f4811cd7bfcabdaadfb7.webp",
+      "currentSrc": "https://spotter.ai/static/media/spotter.ai.f4811cd7bfcabdaadfb7.webp",
+      "alt": "Spotter.ai",
+      "naturalWidth": 640,
+      "naturalHeight": 158,
+      "width": 146,
+      "height": 36,
+      "className": ""
+    },
+    {
+      "src": "https://spotter.ai/static/media/claimos-board.0ee8047bade8e616909a.webp",
+      "currentSrc": "https://spotter.ai/static/media/claimos-board.0ee8047bade8e616909a.webp",
+      "alt": "Spotter ClaimsOS board showing claim tracking status",
+      "naturalWidth": 1692,
+      "naturalHeight": 930,
+      "width": 958,
+      "height": 527,
+      "className": "sc-dWZqqJ bzLYjl"
+    },
+    {
+      "src": "https://spotter.ai/static/media/spotter.ai.f4811cd7bfcabdaadfb7.webp",
+      "currentSrc": "https://spotter.ai/static/media/spotter.ai.f4811cd7bfcabdaadfb7.webp",
+      "alt": "Spotter.ai",
+      "naturalWidth": 640,
+      "naturalHeight": 158,
+      "width": 138,
+      "height": 34,
+      "className": ""
+    },
+    {
+      "src": "https://spotter.ai/static/media/facebook.5ce977f329e60dcbb4c6f208a354a544.svg",
+      "currentSrc": "https://spotter.ai/static/media/facebook.5ce977f329e60dcbb4c6f208a354a544.svg",
+      "alt": "facebook",
+      "naturalWidth": 40,
+      "naturalHeight": 40,
+      "width": 30,
+      "height": 30,
+      "className": "sc-fBdRDi fJXeZj"
+    },
+    {
+      "src": "https://spotter.ai/static/media/linkedin.0f9d774c58d4eb1aa1be081708438001.svg",
+      "currentSrc": "https://spotter.ai/static/media/linkedin.0f9d774c58d4eb1aa1be081708438001.svg",
+      "alt": "linkedin",
+      "naturalWidth": 40,
+      "naturalHeight": 40,
+      "width": 30,
+      "height": 30,
+      "className": "sc-fBdRDi fJXeZj"
+    },
+    {
+      "src": "https://spotter.ai/static/media/instagram.4da6a8a476d120a9b591265dffbe36bd.svg",
+      "currentSrc": "https://spotter.ai/static/media/instagram.4da6a8a476d120a9b591265dffbe36bd.svg",
+      "alt": "instagram",
+      "naturalWidth": 40,
+      "naturalHeight": 40,
+      "width": 30,
+      "height": 30,
+      "className": "sc-fBdRDi fJXeZj"
+    }
+  ],
+  "videos": [],
+  "elements": [
+    {
+      "tag": "LI",
+      "text": "Products",
+      "href": null,
+      "className": "sc-hknOHE iekEkk"
+    },
+    {
+      "tag": "LI",
+      "text": "Solutions",
+      "href": null,
+      "className": "sc-hknOHE iekEkk"
+    },
+    {
+      "tag": "LI",
+      "text": "Resources",
+      "href": null,
+      "className": "sc-hknOHE iekEkk"
+    },
+    {
+      "tag": "LI",
+      "text": "Company",
+      "href": null,
+      "className": "sc-hknOHE iekEkk"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Get Started",
+      "href": null,
+      "className": "sc-kdBSHD XxqFd"
+    },
+    {
+      "tag": "H1",
+      "text": "The Centralized Claims Operating System for Transportation Teams.",
+      "href": null,
+      "className": "sc-SrznA jELuBO"
+    },
+    {
+      "tag": "P",
+      "text": "Track every freight claim, automate carrier and driver follow-ups, and keep your logistics operations connected directly through Slack.",
+      "href": null,
+      "className": "sc-czkgLR bJIqyd"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "I'm Interested",
+      "href": null,
+      "className": "sc-hTUWRQ fCbfYi"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Explore Features",
+      "href": null,
+      "className": "sc-lizKOf ggTBLS"
+    },
+    {
+      "tag": "H2",
+      "text": "Everything your team needs",
+      "href": null,
+      "className": "sc-kFWlue ezsOfZ"
+    },
+    {
+      "tag": "H3",
+      "text": "Claim Tracking",
+      "href": null,
+      "className": "sc-leSDtu jtQKCG"
+    },
+    {
+      "tag": "P",
+      "text": "Centralize and monitor every active transportation claim from incident report to final resolution.",
+      "href": null,
+      "className": "sc-bJBgwP eNcKJE"
+    },
+    {
+      "tag": "H3",
+      "text": "Financial Control",
+      "href": null,
+      "className": "sc-leSDtu jtQKCG"
+    },
+    {
+      "tag": "P",
+      "text": "Track cargo liabilities, salvage values, and payout statuses seamlessly in one system.",
+      "href": null,
+      "className": "sc-bJBgwP eNcKJE"
+    },
+    {
+      "tag": "H3",
+      "text": "Slack Automation",
+      "href": null,
+      "className": "sc-leSDtu jtQKCG"
+    },
+    {
+      "tag": "P",
+      "text": "Bring operations out of messy email chains with instant, automated Slack channel updates.",
+      "href": null,
+      "className": "sc-bJBgwP eNcKJE"
+    },
+    {
+      "tag": "H3",
+      "text": "Activity Monitoring",
+      "href": null,
+      "className": "sc-leSDtu jtQKCG"
+    },
+    {
+      "tag": "P",
+      "text": "Get total visibility into team bottlenecks, open cycle times, and recurring transit issues.",
+      "href": null,
+      "className": "sc-bJBgwP eNcKJE"
+    },
+    {
+      "tag": "H2",
+      "text": "Never let a claim stall out.",
+      "href": null,
+      "className": "sc-fAGzit iKczns"
+    },
+    {
+      "tag": "P",
+      "text": "Logistics moves fast, and communication gaps cost money. Spotter automatically pushes real-time updates where your team already works.",
+      "href": null,
+      "className": "sc-bkSUFG hceOxG"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "View Claim",
+      "href": null,
+      "className": "sc-fUBkdm jqkHqe"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "Assign",
+      "href": null,
+      "className": "sc-fUBkdm jqkHqe"
+    },
+    {
+      "tag": "H2",
+      "text": "Built for the scale of modern logistics.",
+      "href": null,
+      "className": "sc-kFWlue ezsOfZ"
+    },
+    {
+      "tag": "H3",
+      "text": "Centralized Dashboard",
+      "href": null,
+      "className": "sc-bOQTJJ kuLqOx"
+    },
+    {
+      "tag": "P",
+      "text": "Manage multi-unit fleets and cross-dock incidents from a single pane of glass.",
+      "href": null,
+      "className": "sc-eXsaLi jsrLwK"
+    },
+    {
+      "tag": "H3",
+      "text": "Document Storage",
+      "href": null,
+      "className": "sc-bOQTJJ kuLqOx"
+    },
+    {
+      "tag": "P",
+      "text": "Instantly link BOLs, PODs, and photos directly to the specific claim file.",
+      "href": null,
+      "className": "sc-eXsaLi jsrLwK"
+    },
+    {
+      "tag": "H3",
+      "text": "Driver Integration",
+      "href": null,
+      "className": "sc-bOQTJJ kuLqOx"
+    },
+    {
+      "tag": "P",
+      "text": "Log driver statements and historical incident data to improve overall fleet safety.",
+      "href": null,
+      "className": "sc-eXsaLi jsrLwK"
+    },
+    {
+      "tag": "H2",
+      "text": "Designed for your entire operation",
+      "href": null,
+      "className": "sc-kFWlue ezsOfZ"
+    },
+    {
+      "tag": "H3",
+      "text": "Claims Team",
+      "href": null,
+      "className": "sc-fFlnrN dccTy"
+    },
+    {
+      "tag": "P",
+      "text": "Speed up cycle times, reduce manual data entry, and easily manage carrier disputes.",
+      "href": null,
+      "className": "sc-kbdlSk ipeMZs"
+    },
+    {
+      "tag": "H3",
+      "text": "Freight Accounting",
+      "href": null,
+      "className": "sc-fFlnrN dccTy"
+    },
+    {
+      "tag": "P",
+      "text": "Streamline cargo deductions, track open liabilities, and match payouts perfectly.",
+      "href": null,
+      "className": "sc-kbdlSk ipeMZs"
+    },
+    {
+      "tag": "H3",
+      "text": "Fleet Safety",
+      "href": null,
+      "className": "sc-fFlnrN dccTy"
+    },
+    {
+      "tag": "P",
+      "text": "Monitor high-risk lanes, track recurring driver incidents, and implement preventive training.",
+      "href": null,
+      "className": "sc-kbdlSk ipeMZs"
+    },
+    {
+      "tag": "H3",
+      "text": "Operations Management",
+      "href": null,
+      "className": "sc-fFlnrN dccTy"
+    },
+    {
+      "tag": "P",
+      "text": "Access high-level analytics on claim costs, recovery rates, and operational bottlenecks.",
+      "href": null,
+      "className": "sc-kbdlSk ipeMZs"
+    },
+    {
+      "tag": "H2",
+      "text": "Take control of your logistics claims.",
+      "href": null,
+      "className": "sc-gweoQa lpkHCr"
+    },
+    {
+      "tag": "P",
+      "text": "See how Spotter ClaimsOS can protect your bottom line and keep your operations moving.",
+      "href": null,
+      "className": "sc-eIcdZJ eaTEeC"
+    },
+    {
+      "tag": "BUTTON",
+      "text": "I'm Interested",
+      "href": null,
+      "className": "sc-hTUWRQ fCbfYi"
+    },
+    {
+      "tag": "P",
+      "text": "AI-powered tools for modern freight brokers, carriers & drivers.",
+      "href": null,
+      "className": "sc-dBmzty dnllMb"
+    },
+    {
+      "tag": "A",
+      "text": "Spotter App",
+      "href": "https://spotter.ai/driversapp",
+      "className": "sc-iEXKAA iuTvDj"
+    },
+    {
+      "tag": "A",
+      "text": "Extension",
+      "href": "https://spotter.ai/extension",
+      "className": "sc-iEXKAA iuTvDj"
+    },
+    {
+      "tag": "A",
+      "text": "TMS",
+      "href": "https://spotter.ai/tms",
+      "className": "sc-iEXKAA iuTvDj"
+    },
+    {
+      "tag": "A",
+      "text": "Lens",
+      "href": "https://spotter.ai/lens",
+      "className": "sc-iEXKAA iuTvDj"
+    },
+    {
+      "tag": "A",
+      "text": "Sentinel",
+      "href": "https://spotter.ai/sentinel",
+      "className": "sc-iEXKAA iuTvDj"
+    },
+    {
+      "tag": "A",
+      "text": "About",
+      "href": "https://spotter.ai/about",
+      "className": "sc-iEXKAA iuTvDj"
+    },
+    {
+      "tag": "A",
+      "text": "Careers",
+      "href": "https://careers.spotter.ai/",
+      "className": "sc-iEXKAA iuTvDj"
+    },
+    {
+      "tag": "A",
+      "text": "Contact",
+      "href": "https://spotter.ai/request-quote",
+      "className": "sc-iEXKAA iuTvDj"
+    },
+    {
+      "tag": "A",
+      "text": "Insights",
+      "href": "https://spotter.ai/insights",
+      "className": "sc-iEXKAA iuTvDj"
+    },
+    {
+      "tag": "A",
+      "text": "Privacy Policy",
+      "href": "https://spotter.ai/privacy-policy",
+      "className": "sc-ejfMa-d kVRSxc"
+    },
+    {
+      "tag": "A",
+      "text": "Terms of Service",
+      "href": "https://spotter.ai/terms-and-services",
+      "className": "sc-ejfMa-d kVRSxc"
+    },
+    {
+      "tag": "A",
+      "text": "CCPA",
+      "href": "https://spotter.ai/ccpa",
+      "className": "sc-ejfMa-d kVRSxc"
+    },
+    {
+      "tag": "P",
+      "text": "© 2026 spotter.ai. All rights reserved.  ·  251 Little Falls Dr. Wilmington DE 19808",
+      "href": null,
+      "className": "sc-jGKxIK duwfPL"
+    }
+  ]
+}

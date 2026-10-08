@@ -1,0 +1,273 @@
+[
+  {
+    "url": "https://careers.spotter.ai/",
+    "status": 200,
+    "method": "GET",
+    "type": "document"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/cookies-b3e5afe6.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/careersite-66d1f9f7.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/font-awesome-2bbc44ad.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-2AEJVZBA.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-MRVJM7V7.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-WWN3SGU2.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-UIJPAUOQ.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-RJRS4D64.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-GCY5JIOQ.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-3ODYOQTC.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-MIA3YTMX.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-ZP6RSYD3.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-CIPVUDCI.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-6M4KVEAF.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-5QMOQJJC.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-LZFSL35Y.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/preferences-L5GOBGWP.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-WT3I2S4Y.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://careers.spotter.ai/pageview",
+    "status": 200,
+    "method": "POST",
+    "type": "xhr"
+  },
+  {
+    "url": "https://careers.spotter.ai/jobs",
+    "status": 200,
+    "method": "GET",
+    "type": "document"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/cookies-b3e5afe6.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/careersite-66d1f9f7.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/font-awesome-2bbc44ad.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-WWN3SGU2.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-2AEJVZBA.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-MRVJM7V7.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-UIJPAUOQ.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-GCY5JIOQ.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-RJRS4D64.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-ZP6RSYD3.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-MIA3YTMX.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-3ODYOQTC.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-CIPVUDCI.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-6M4KVEAF.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-5QMOQJJC.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-LZFSL35Y.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/preferences-L5GOBGWP.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/chunk-WT3I2S4Y.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://careers.spotter.ai/jobs/faceted_search_data",
+    "status": 200,
+    "method": "GET",
+    "type": "fetch",
+    "body": "{\"faceted_search_counts\":{\"remote_status_id\":{\"fully\":10,\"none\":5,\"All\":15},\"department\":{\"Software Developement\":4,\"Software Sales\":2,\"Accounting\":1,\"Dispatch\":1,\"ELD\":1,\"Maintenance\":1,\"Marketing\":1,\"All\":15},\"location\":{\"All\":15,\"Lemont\":12,\"Pakistan\":3,\"India\":3,\"Colombia\":3,\"Mexico\":3,\"Argentina\":3}}}"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/leaflet-446YTXC5.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/modal-QEIGCLGV.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/leaflet-src-6DHVHCQV.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/MarkerCluster-NBDUTJQ4.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  },
+  {
+    "url": "https://assets-aws.teamtailor-cdn.com/assets/chunks/leaflet.markercluster-src-XGE7NVFF.digested.js",
+    "status": 200,
+    "method": "GET",
+    "type": "script"
+  }
+]

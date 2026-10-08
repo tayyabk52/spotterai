@@ -1,0 +1,82 @@
+[
+  {
+    "tag": "IMG",
+    "src": "https://spotter.ai/static/media/spotter.ai.f4811cd7bfcabdaadfb7.webp",
+    "alt": "Spotter.ai",
+    "width": 640,
+    "height": 158
+  },
+  {
+    "tag": "VIDEO",
+    "src": "https://spotter.ai/extension-assets/extension-main.mp4",
+    "width": 2060,
+    "height": 1240
+  },
+  {
+    "tag": "VIDEO",
+    "src": "https://spotter.ai/extension-assets/extension-gif-email.mp4",
+    "width": 1240,
+    "height": 800
+  },
+  {
+    "tag": "IMG",
+    "src": "https://spotter.ai/extension-assets/click-to-email-icon.png",
+    "alt": "click-to-email-icon",
+    "width": 692,
+    "height": 678
+  },
+  {
+    "tag": "IMG",
+    "src": "https://spotter.ai/extension-assets/template-icon.png",
+    "alt": "template-icon",
+    "width": 512,
+    "height": 512
+  },
+  {
+    "tag": "IMG",
+    "src": "https://spotter.ai/extension-assets/gmail-icon.png",
+    "alt": "gmail-icon",
+    "width": 1024,
+    "height": 768
+  },
+  {
+    "tag": "VIDEO",
+    "src": "https://spotter.ai/extension-assets/extension-gif-market.mp4",
+    "width": 1280,
+    "height": 840
+  },
+  {
+    "tag": "VIDEO",
+    "src": "https://spotter.ai/extension-assets/extension-gif-filters.mp4",
+    "width": 1240,
+    "height": 800
+  },
+  {
+    "tag": "IMG",
+    "src": "https://spotter.ai/static/media/spotter.ai.f4811cd7bfcabdaadfb7.webp",
+    "alt": "Spotter.ai",
+    "width": 640,
+    "height": 158
+  },
+  {
+    "tag": "IMG",
+    "src": "https://spotter.ai/static/media/facebook.5ce977f329e60dcbb4c6f208a354a544.svg",
+    "alt": "facebook",
+    "width": 40,
+    "height": 40
+  },
+  {
+    "tag": "IMG",
+    "src": "https://spotter.ai/static/media/linkedin.0f9d774c58d4eb1aa1be081708438001.svg",
+    "alt": "linkedin",
+    "width": 40,
+    "height": 40
+  },
+  {
+    "tag": "IMG",
+    "src": "https://spotter.ai/static/media/instagram.4da6a8a476d120a9b591265dffbe36bd.svg",
+    "alt": "instagram",
+    "width": 40,
+    "height": 40
+  }
+]

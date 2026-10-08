@@ -1,0 +1,3 @@
+module.exports=[88457,a=>{"use strict";var b=a.i(87924),c=a.i(78577),d=a.i(29653),e=a.i(21216);let f=()=>a.A(30517).then(a=>a.motionFeatures);a.s(["default",0,function({children:a,className:g,entrance:h=!1,delay:i=0}){let j=(0,e.f)();return(0,b.jsx)(c.f,{features:f,strict:!0,children:(0,b.jsx)(d.m.div,{className:g,initial:!1,whileInView:j?void 0:{y:[12,0]},viewport:{once:!0,amount:.12},transition:{duration:h?.24:.32,delay:j?0:Math.min(Math.max(i,0),.16),ease:[.16,1,.3,1]},children:a})})}])},30517,a=>{a.v(b=>Promise.all(["server/chunks/ssr/components_motion-features_ts_1ca2k0krjzjwe._.js"].map(b=>a.l(b))).then(()=>b(46547)))}];
+
+//# sourceMappingURL=components_1w1poyy2s-bim._.js.map

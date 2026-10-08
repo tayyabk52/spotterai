@@ -1,0 +1,939 @@
+.story {
+  background: var(--calc-ink);
+  font-size: var(--calc-body);
+}
+
+.story section {
+  scroll-margin-top: calc(var(--header-height) + var(--space-5));
+}
+
+.dark,
+.opening {
+  color: var(--color-surface);
+  background: var(--calc-ink);
+}
+
+.light {
+  color: var(--calc-ink);
+  background: var(--calc-light);
+}
+
+.chapterLabel {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  font-size: var(--calc-caption);
+  font-weight: 600;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  line-height: 1.5;
+}
+
+.chapterLabel > span {
+  color: var(--calc-pale);
+}
+
+.light .chapterLabel > span,
+.contact .chapterLabel > span {
+  color: var(--color-body);
+}
+
+.chapterLabel::before {
+  content: "";
+  width: var(--space-2);
+  height: var(--space-2);
+  border-radius: var(--radius-circle);
+  background: var(--color-accent);
+  flex-shrink: 0;
+}
+
+.story h2 {
+  font-size: var(--calc-heading);
+  line-height: 1.1;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+.lead {
+  font-size: var(--calc-lead);
+  line-height: 1.5;
+  max-width: 52ch;
+}
+
+/* ==========================================================================
+   Hero Section
+   ========================================================================== */
+.opening {
+  position: relative;
+  isolation: isolate;
+}
+
+.heroTrack {
+  position: relative;
+  min-height: 100svh;
+}
+
+.heroStage {
+  position: relative;
+  min-height: calc(100svh - var(--header-height));
+  overflow: hidden;
+}
+
+.heroCopy {
+  position: relative;
+  z-index: 2;
+  width: min(65%, 920px);
+  padding: var(--space-6) var(--calc-gutter);
+}
+
+.heroCopy h1 {
+  font-size: var(--calc-title);
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+  max-width: 22ch;
+  margin-block: var(--space-4) var(--space-5);
+  font-weight: 600;
+  text-wrap: balance;
+}
+
+.heroCopy .lead {
+  color: var(--calc-pale);
+  max-width: 46ch;
+  line-height: 1.5;
+}
+
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-4);
+  margin-top: var(--space-6);
+}
+
+.primary {
+  min-height: var(--space-8);
+  border-radius: var(--radius-control);
+  padding: var(--space-4) var(--space-5);
+  background: var(--color-pale);
+  color: var(--calc-ink);
+  white-space: normal;
+  text-align: center;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  text-decoration: none;
+  transition: background-color 160ms var(--calc-ease);
+}
+
+.primary:hover {
+  background: var(--color-surface);
+}
+
+.primary svg,
+.secondary svg {
+  width: var(--space-5);
+  height: var(--space-5);
+  flex-shrink: 0;
+  transition: transform 160ms var(--calc-ease);
+}
+
+.primary:hover svg {
+  transform: translate(2px, -2px);
+}
+
+.secondary:hover svg {
+  transform: translateY(3px);
+}
+
+.secondary {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-3);
+  min-height: var(--space-8);
+  padding: var(--space-4) var(--space-2);
+  border-bottom: var(--rule-width) solid var(--color-control);
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+}
+
+.scrollHint {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  margin-top: var(--space-7);
+  font-size: var(--calc-caption);
+  color: var(--calc-pale);
+}
+
+.scrollHint svg {
+  width: var(--space-4);
+  height: var(--space-4);
+}
+
+/* Hero Film & Media Background */
+.film {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  background: var(--calc-ink);
+}
+
+.heroFilm {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.heroFilm::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    color-mix(in srgb, var(--calc-ink) 92%, transparent) 0%,
+    color-mix(in srgb, var(--calc-ink) 72%, transparent) 50%,
+    transparent 85%
+  );
+  pointer-events: none;
+  z-index: 1;
+}
+
+.filmLayer {
+  position: absolute;
+  inset: 0;
+}
+
+.posterContainer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.poster,
+.video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.video {
+  opacity: 0;
+  transition: opacity 240ms ease-in-out;
+}
+
+.videoReady {
+  opacity: 1;
+}
+
+.assetNeededBadge {
+  position: absolute;
+  bottom: var(--space-4);
+  right: var(--space-4);
+  z-index: 3;
+  padding: var(--space-2) var(--space-3);
+  background: rgba(0, 0, 0, 0.75);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: var(--radius-sm, 6px);
+  color: #fbbf24;
+  font-size: 0.75rem;
+  font-family: monospace;
+}
+
+/* ==========================================================================
+   Shared Chapter Layout
+   ========================================================================== */
+.chapterWrapper {
+  padding-block: var(--calc-space);
+  position: relative;
+}
+
+.container {
+  max-width: var(--calc-width);
+  margin-inline: auto;
+  padding-inline: var(--calc-gutter);
+}
+
+.sectionHeader {
+  margin-bottom: var(--calc-gap);
+}
+
+.sectionHeader h2 {
+  margin-block: var(--space-3) var(--space-4);
+}
+
+/* ==========================================================================
+   Calculator Suite Tabs
+   ========================================================================== */
+.tabsNav {
+  display: flex;
+  gap: var(--space-3);
+  overflow-x: auto;
+  padding-bottom: var(--space-2);
+  margin-bottom: var(--calc-gap);
+  border-bottom: 1px solid var(--calc-border);
+  scrollbar-width: thin;
+}
+
+.tabButton {
+  min-height: 48px;
+  padding: var(--space-3) var(--space-5);
+  border: none;
+  background: transparent;
+  color: var(--calc-pale);
+  font-family: inherit;
+  font-size: var(--calc-body);
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2px;
+  transition: color 160ms var(--calc-ease), border-color 160ms var(--calc-ease);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.tabButton:hover {
+  color: var(--color-surface);
+}
+
+.tabButton[aria-selected="true"] {
+  color: var(--color-surface);
+  border-bottom-color: var(--color-accent);
+  font-weight: 600;
+}
+
+.tabDescription {
+  font-size: var(--calc-caption);
+  color: var(--calc-pale);
+}
+
+/* ==========================================================================
+   Calculator Grid & Form Styling
+   ========================================================================== */
+.calcGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--calc-gap);
+  align-items: start;
+}
+
+@media (min-width: 1024px) {
+  .calcGrid {
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+  }
+}
+
+.formCard,
+.resultsCard {
+  background: color-mix(in srgb, var(--color-surface) 4%, transparent);
+  border: 1px solid var(--calc-border);
+  border-radius: var(--calc-radius);
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.light .formCard,
+.light .resultsCard {
+  background: var(--color-surface);
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.04);
+}
+
+.cardHeader {
+  margin-bottom: var(--space-6);
+  border-bottom: 1px solid var(--calc-border);
+  padding-bottom: var(--space-4);
+}
+
+.cardHeader h3 {
+  font-size: clamp(1.25rem, 1.8vw, 1.5rem);
+  font-weight: 600;
+  margin: 0;
+  letter-spacing: -0.02em;
+}
+
+.cardHeader p {
+  color: var(--calc-pale);
+  font-size: var(--calc-caption);
+  margin-top: var(--space-2);
+}
+
+.formFields {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+}
+
+.fieldLabelRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: var(--calc-body);
+  font-weight: 500;
+}
+
+.fieldInputWrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.fieldInput {
+  width: 100%;
+  min-height: 48px;
+  padding: var(--space-3) var(--space-4);
+  background: color-mix(in srgb, var(--color-surface) 6%, transparent);
+  border: 1px solid var(--calc-border);
+  border-radius: var(--radius-control);
+  color: var(--color-surface);
+  font-family: inherit;
+  font-size: var(--calc-body);
+  transition: border-color 160ms var(--calc-ease), box-shadow 160ms var(--calc-ease);
+}
+
+.light .fieldInput {
+  background: var(--color-canvas);
+  color: var(--calc-ink);
+}
+
+.fieldInput:focus {
+  outline: none;
+  border-color: var(--color-accent);
+  box-shadow: 0 0 0 3px color-mix(in srgb, var(--color-accent) 20%, transparent);
+}
+
+.fieldSlider {
+  width: 100%;
+  margin-top: var(--space-2);
+  accent-color: var(--color-accent);
+  cursor: pointer;
+  min-height: 44px;
+  padding-block: var(--space-2);
+  box-sizing: border-box;
+}
+
+.optionsToggle {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--space-2);
+  min-height: 44px;
+  padding: var(--space-2) 0;
+  background: transparent;
+  border: none;
+  color: var(--color-surface);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  font-family: inherit;
+  font-size: var(--calc-body);
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 160ms var(--calc-ease);
+}
+
+.optionsToggle:hover {
+  opacity: 0.85;
+}
+
+.moreOptionsArea {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  padding-top: var(--space-4);
+  border-top: 1px dashed var(--calc-border);
+}
+
+/* ==========================================================================
+   Results Metrics Styling
+   ========================================================================== */
+.resultsSummary {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+}
+
+.primaryMetricCard {
+  background: color-mix(in srgb, var(--color-accent) 12%, transparent);
+  border: 1px solid color-mix(in srgb, var(--color-accent) 30%, transparent);
+  border-radius: var(--radius-control);
+  padding: var(--space-5);
+  text-align: left;
+}
+
+.primaryMetricLabel {
+  font-size: var(--calc-caption);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--calc-pale);
+}
+
+.primaryMetricValue {
+  font-size: clamp(2rem, 3.5vw, 3rem);
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  color: var(--color-surface);
+  line-height: 1.1;
+  margin-top: var(--space-2);
+}
+
+.light .primaryMetricValue {
+  color: var(--calc-ink);
+}
+
+.metricsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: var(--space-4);
+}
+
+.secondaryMetricCard {
+  background: color-mix(in srgb, var(--color-surface) 4%, transparent);
+  border: 1px solid var(--calc-border);
+  border-radius: var(--radius-control);
+  padding: var(--space-4);
+}
+
+.secondaryMetricLabel {
+  font-size: var(--calc-caption);
+  color: var(--calc-pale);
+  font-weight: 500;
+}
+
+.secondaryMetricValue {
+  font-size: clamp(1.25rem, 1.8vw, 1.625rem);
+  font-weight: 600;
+  margin-top: var(--space-2);
+  color: var(--color-surface);
+  letter-spacing: -0.02em;
+}
+
+.light .secondaryMetricValue {
+  color: var(--calc-ink);
+}
+
+.resultsCta {
+  margin-top: var(--space-4);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+}
+
+.quoteBtn {
+  min-height: 48px;
+  width: 100%;
+  border-radius: var(--radius-control);
+  padding: var(--space-3) var(--space-5);
+  background: var(--color-pale);
+  color: var(--calc-ink);
+  font-weight: 600;
+  font-size: var(--calc-body);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3);
+  text-decoration: none;
+  transition: background-color 160ms var(--calc-ease), transform 160ms var(--calc-ease);
+}
+
+.quoteBtn:hover {
+  background: var(--color-surface);
+  transform: translateY(-1px);
+}
+
+/* ==========================================================================
+   Amortization Schedule Table
+   ========================================================================== */
+.scheduleSection {
+  margin-top: var(--calc-gap);
+  background: color-mix(in srgb, var(--color-surface) 3%, transparent);
+  border: 1px solid var(--calc-border);
+  border-radius: var(--calc-radius);
+  padding: clamp(1.5rem, 3vw, 2.5rem);
+}
+
+.scheduleHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: var(--space-4);
+  flex-wrap: wrap;
+  gap: var(--space-4);
+}
+
+.scheduleHeader h3 {
+  font-size: clamp(1.25rem, 1.8vw, 1.5rem);
+  font-weight: 600;
+  margin: 0;
+}
+
+.tableWrapper {
+  overflow-x: auto;
+  border-radius: var(--radius-control);
+  border: 1px solid var(--calc-border);
+}
+
+.scheduleTable {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--calc-caption);
+  text-align: right;
+  min-width: 580px;
+}
+
+.scheduleTable th,
+.scheduleTable td {
+  padding: var(--space-3) var(--space-4);
+  border-bottom: 1px solid var(--calc-border);
+}
+
+.scheduleTable th {
+  background: color-mix(in srgb, var(--color-surface) 8%, transparent);
+  font-weight: 600;
+  color: var(--calc-pale);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-size: 0.75rem;
+}
+
+.scheduleTable th:first-child,
+.scheduleTable td:first-child {
+  text-align: left;
+}
+
+.scheduleTable tr:hover td {
+  background: color-mix(in srgb, var(--color-surface) 4%, transparent);
+}
+
+.tablePagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: var(--space-4);
+  font-size: var(--calc-caption);
+  color: var(--calc-pale);
+  flex-wrap: wrap;
+  gap: var(--space-3);
+}
+
+.paginationButtons {
+  display: flex;
+  gap: var(--space-2);
+}
+
+.paginationBtn {
+  min-height: 44px;
+  min-width: 44px;
+  padding: var(--space-2) var(--space-4);
+  border-radius: var(--radius-control);
+  border: 1px solid var(--calc-border);
+  background: transparent;
+  color: var(--color-surface);
+  font-family: inherit;
+  font-size: var(--calc-caption);
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 160ms var(--calc-ease);
+}
+
+.paginationBtn:hover:not(:disabled) {
+  background: color-mix(in srgb, var(--color-surface) 10%, transparent);
+}
+
+.paginationBtn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+/* ==========================================================================
+   Equipment Benchmarks Chapter
+   ========================================================================== */
+.benchmarksGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--space-5);
+  margin-top: var(--space-6);
+}
+
+.benchmarkCard {
+  background: color-mix(in srgb, var(--color-surface) 4%, transparent);
+  border: 1px solid var(--calc-border);
+  border-radius: var(--calc-radius);
+  padding: var(--space-5);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+  transition: border-color 160ms var(--calc-ease), transform 160ms var(--calc-ease);
+}
+
+.benchmarkCard:hover {
+  border-color: color-mix(in srgb, var(--color-accent) 40%, transparent);
+  transform: translateY(-2px);
+}
+
+.benchmarkCategory {
+  font-size: 1.125rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--color-surface);
+}
+
+.benchmarkPrice {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--color-surface);
+}
+
+.benchmarkDetails {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  font-size: var(--calc-caption);
+  border-top: 1px solid var(--calc-border);
+  padding-top: var(--space-3);
+}
+
+.benchmarkRow {
+  display: flex;
+  justify-content: space-between;
+  gap: var(--space-2);
+}
+
+.benchmarkRowLabel {
+  color: var(--calc-pale);
+}
+
+.benchmarkRowVal {
+  font-weight: 600;
+  color: var(--color-surface);
+}
+
+.benchmarkNotes {
+  font-size: 0.8125rem;
+  color: var(--calc-pale);
+  line-height: 1.4;
+  margin-top: auto;
+  border-top: 1px dashed var(--calc-border);
+  padding-top: var(--space-3);
+}
+
+/* ==========================================================================
+   Fleet Economics Chapter
+   ========================================================================== */
+.economicsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--space-5);
+  margin-top: var(--space-6);
+}
+
+.pillarCard {
+  background: color-mix(in srgb, var(--color-surface) 4%, transparent);
+  border: 1px solid var(--calc-border);
+  border-radius: var(--calc-radius);
+  padding: var(--space-6);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-3);
+  position: relative;
+}
+
+.pillarCard::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: var(--space-6);
+  width: var(--space-8);
+  height: 2px;
+  background: var(--color-accent);
+}
+
+.pillarCard h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--color-surface);
+}
+
+.pillarCard p {
+  color: var(--calc-pale);
+  font-size: var(--calc-body);
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* ==========================================================================
+   Contact CTA Section
+   ========================================================================== */
+.contactSection {
+  padding-block: var(--calc-space);
+  position: relative;
+}
+
+.contactCard {
+  background: linear-gradient(
+    135deg,
+    color-mix(in srgb, var(--color-surface) 8%, transparent) 0%,
+    color-mix(in srgb, var(--color-surface) 2%, transparent) 100%
+  );
+  border: 1px solid var(--calc-border);
+  border-radius: var(--calc-radius);
+  padding: clamp(2rem, 5vw, 4.5rem);
+  text-align: center;
+  max-width: 960px;
+  margin-inline: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-5);
+}
+
+.contactCard h2 {
+  max-width: 24ch;
+  margin: 0;
+}
+
+.contactCard p {
+  max-width: 48ch;
+  color: var(--calc-pale);
+  margin: 0;
+}
+
+/* ==========================================================================
+   Navigation Rail / Chapter Navigation
+   ========================================================================== */
+.chapterNav {
+  position: fixed;
+  bottom: var(--space-5);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+  padding: var(--space-2) var(--space-3);
+  border: var(--rule-width) solid var(--color-control);
+  border-radius: var(--radius-control);
+  background: var(--calc-ink);
+  color: var(--calc-pale);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+.chapterNav ol {
+  display: flex;
+  gap: var(--space-1);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.chapterNav a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  padding: var(--space-2);
+  border-radius: var(--radius-control);
+  color: var(--calc-pale);
+  text-decoration: none;
+  font-size: var(--calc-caption);
+  font-weight: 600;
+  transition: background-color 160ms var(--calc-ease);
+}
+
+.chapterNav a:hover,
+.chapterNav a[aria-current="location"] {
+  background: var(--color-pale);
+  color: var(--calc-ink);
+}
+
+.chapterNav button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 44px;
+  min-height: 44px;
+  background: transparent;
+  border: none;
+  border-left: var(--rule-width) solid var(--color-control);
+  color: var(--calc-pale);
+  cursor: pointer;
+  padding-left: var(--space-3);
+}
+
+/* ==========================================================================
+   Responsive & Accessibility Overrides
+   ========================================================================== */
+@media (max-width: 768px) {
+  .heroCopy {
+    width: 100%;
+    padding: var(--space-5) var(--calc-gutter);
+  }
+
+  .heroCopy h1 {
+    font-size: clamp(2rem, 8vw, 2.75rem);
+  }
+
+  .actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .primary,
+  .secondary {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .primaryMetricValue {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) and (min-height: 850px) and (prefers-reduced-motion: no-preference) {
+  .heroTrack[data-calc-pin] {
+    height: 120vh;
+  }
+
+  .heroTrack[data-calc-pin] .heroStage {
+    position: sticky;
+    top: var(--header-height);
+    height: calc(100vh - var(--header-height));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .heroTrack[data-calc-pin] {
+    min-height: 0 !important;
+    height: auto !important;
+  }
+
+  .heroTrack[data-calc-pin] .heroStage {
+    position: relative !important;
+    top: auto !important;
+    height: auto !important;
+  }
+
+  .story *,
+  .story *::before,
+  .story *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

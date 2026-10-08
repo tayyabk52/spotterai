@@ -1,0 +1,20 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/api/quote/route": "/api/quote",
+  "/claims-os/page": "/claims-os",
+  "/driversapp/page": "/driversapp",
+  "/extension/page": "/extension",
+  "/icon.svg/route": "/icon.svg",
+  "/lens/page": "/lens",
+  "/loan-calculators/page": "/loan-calculators",
+  "/opengraph-image/route": "/opengraph-image",
+  "/page": "/",
+  "/request-quote/page": "/request-quote",
+  "/robots.txt/route": "/robots.txt",
+  "/sentinel/page": "/sentinel",
+  "/sitemap.xml/route": "/sitemap.xml",
+  "/tms/page": "/tms",
+  "/watch-demo/page": "/watch-demo"
+}

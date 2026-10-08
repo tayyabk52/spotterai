@@ -1,0 +1,28 @@
+[
+  {
+    "id": "about-freight-horizon",
+    "sourceFile": "public/brand/aboutus-videos/Geometric_pathways_aligning_into…_1080p_20261008191503.mp4",
+    "src": "/brand/aboutus-videos/web/about-freight-horizon.mp4",
+    "poster": "/brand/aboutus-videos/web/about-freight-horizon.webp",
+    "sourceBytes": 2013792,
+    "bytes": 3286438,
+    "width": 1280,
+    "height": 720,
+    "frames": 143,
+    "duration": 5.958333333333333,
+    "allIntra": true
+  },
+  {
+    "id": "about-execution-layer",
+    "sourceFile": "public/brand/aboutus-videos/Infrastructure_parts_aligning_in…_1080p_20261008191611.mp4",
+    "src": "/brand/aboutus-videos/web/about-execution-layer.mp4",
+    "poster": "/brand/aboutus-videos/web/about-execution-layer.webp",
+    "sourceBytes": 1344302,
+    "bytes": 2429481,
+    "width": 1280,
+    "height": 720,
+    "frames": 144,
+    "duration": 6,
+    "allIntra": true
+  }
+]

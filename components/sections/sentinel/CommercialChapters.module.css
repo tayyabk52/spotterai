@@ -1,0 +1,433 @@
+/* Scoped to Sentinel chapters 04 and 05; the approved root palette stays canonical. */
+.section {
+  padding-block: clamp(var(--space-8), 7vw, var(--space-9));
+  scroll-margin-top: var(--header-height);
+}
+
+.light {
+  color: var(--color-ink);
+  background: var(--color-canvas);
+}
+
+.dark {
+  color: var(--color-surface);
+  background: var(--color-ink);
+}
+
+.container {
+  width: min(calc(100% - var(--gutter) * 2), var(--content-width));
+  margin-inline: auto;
+}
+
+.intro {
+  display: grid;
+  gap: var(--space-5);
+  margin-bottom: var(--space-7);
+}
+
+.chapterLabel {
+  display: flex;
+  align-items: baseline;
+  gap: var(--space-4);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  line-height: 1.6;
+  text-transform: uppercase;
+  margin-bottom: var(--space-5);
+}
+
+.chapterLabel > span {
+  flex-shrink: 0;
+  color: var(--color-primary-strong);
+  font-variant-numeric: tabular-nums;
+}
+
+.dark .chapterLabel > span {
+  color: var(--color-pale);
+}
+
+.section .heading {
+  font-size: clamp(1.9375rem, 3.5vw, 3.0625rem);
+  line-height: 1.16;
+  letter-spacing: -0.035em;
+  text-wrap: balance;
+}
+
+.description {
+  max-width: 60ch;
+  font-size: clamp(1rem, 1.4vw, 1.25rem);
+  line-height: 1.6;
+  color: var(--color-body);
+}
+
+.dark .description {
+  color: var(--color-pale);
+}
+
+.tableCard {
+  border: 1px solid var(--color-rule);
+  border-radius: var(--radius-panel);
+  background: var(--color-surface);
+  overflow: hidden;
+}
+
+.comparisonTable {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: var(--text-body);
+  line-height: 1.5;
+  font-variant-numeric: tabular-nums;
+}
+
+.comparisonTable th,
+.comparisonTable td {
+  padding: var(--space-5);
+  border-bottom: 1px solid var(--color-rule);
+  vertical-align: middle;
+}
+
+.comparisonTable thead th {
+  background: var(--color-tint);
+  color: var(--color-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.comparisonTable tbody th {
+  width: 26%;
+  font-weight: 600;
+}
+
+.comparisonTable td {
+  color: var(--color-body);
+}
+
+.rowSentinel {
+  background: var(--color-pale);
+}
+
+.rowSentinel td {
+  font-weight: 600;
+  color: var(--color-ink);
+}
+
+.sentinelBadge {
+  display: block;
+  width: fit-content;
+  margin-top: var(--space-2);
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--color-body);
+}
+
+.tableFooter {
+  display: grid;
+  gap: var(--space-4);
+  padding: var(--space-5);
+}
+
+.tableFootnote {
+  max-width: 75ch;
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--color-muted);
+}
+
+.tariffLink {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  min-height: 48px;
+  padding: var(--space-3) var(--space-5);
+  border-radius: var(--radius-control);
+  background: var(--color-ink);
+  color: var(--color-surface);
+  font-size: var(--text-body);
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.tariffLink:hover {
+  background: var(--color-primary-strong);
+}
+
+.workflow {
+  display: grid;
+  gap: var(--space-5);
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.workflow li {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr);
+  align-content: start;
+  gap: var(--space-4);
+  border-top: 1px solid var(--color-control);
+  padding-top: var(--space-5);
+}
+
+.stepNumber {
+  color: var(--color-pale);
+  font-size: 0.875rem;
+  line-height: 1.8;
+  font-variant-numeric: tabular-nums;
+}
+
+.workflow h3 {
+  font-family: var(--font-body);
+  font-size: var(--text-lead);
+  line-height: 1.3;
+  font-weight: 600;
+}
+
+.workflow p {
+  margin-top: var(--space-3);
+  color: var(--color-pale);
+  font-size: var(--text-body);
+  line-height: 1.6;
+  max-width: 60ch;
+}
+
+.talentSectionWrap {
+  margin-top: var(--space-7);
+}
+
+.talentFilterBar {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--space-2);
+}
+
+.filterBtn {
+  min-height: 48px;
+  padding: var(--space-3) var(--space-4);
+  border: 1px solid var(--color-control);
+  border-radius: var(--radius-control);
+  background: transparent;
+  color: var(--color-pale);
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.filterBtn:hover {
+  background: var(--color-body);
+  color: var(--color-surface);
+}
+
+.filterBtnActive,
+.filterBtnActive:hover {
+  background: var(--color-pale);
+  border-color: var(--color-pale);
+  color: var(--color-ink);
+}
+
+.resultCount {
+  margin-block: var(--space-4);
+  color: var(--color-pale);
+  font-size: 0.875rem;
+}
+
+.talentGrid {
+  display: grid;
+  gap: var(--space-4);
+}
+
+.driverCard {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-5);
+  min-width: 0;
+  padding: var(--space-5);
+  border: 1px solid var(--color-control);
+  border-radius: var(--radius-panel);
+}
+
+.driverCardHeader {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: start;
+  gap: var(--space-4);
+}
+
+.driverName {
+  font-family: var(--font-display);
+  font-size: var(--text-lead);
+  font-weight: 600;
+  line-height: 1.3;
+  overflow-wrap: anywhere;
+}
+
+.driverMeta {
+  margin-top: var(--space-2);
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--color-pale);
+}
+
+.driverScoreBadge {
+  display: grid;
+  gap: var(--space-1);
+  text-align: right;
+  line-height: 1.3;
+  font-variant-numeric: tabular-nums;
+}
+
+.driverScoreBadge span {
+  font-size: 0.875rem;
+}
+
+.driverScoreBadge strong {
+  font-family: var(--font-display);
+  font-size: 1.9375rem;
+  font-weight: 600;
+}
+
+.driverScoreBadge small {
+  font-family: var(--font-body);
+  font-size: 0.875rem;
+  margin-left: var(--space-1);
+}
+
+.gradeVerified {
+  color: var(--color-pale);
+}
+
+.gradeFlagged {
+  color: var(--color-surface);
+}
+
+.driverStatus {
+  color: var(--color-pale);
+  font-size: var(--text-body);
+  line-height: 1.5;
+}
+
+.accessDriverBtn {
+  display: flex;
+  align-items: center;
+  min-height: 48px;
+  margin-top: auto;
+  padding-top: var(--space-3);
+  border-top: 1px solid var(--color-control);
+  color: var(--color-surface);
+  font-size: var(--text-body);
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.accessDriverBtn:hover {
+  color: var(--color-pale);
+  text-decoration: underline;
+  text-underline-offset: var(--space-1);
+}
+
+.section :is(a, button):focus-visible {
+  outline: var(--focus-width) solid var(--color-primary-strong);
+  outline-offset: var(--focus-offset);
+}
+
+.dark :is(a, button):focus-visible {
+  outline-color: var(--color-pale);
+}
+
+@media (min-width: 768px) {
+  .talentFilterBar {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .talentGrid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-5);
+  }
+
+  .workflow {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: var(--space-6);
+  }
+
+  .workflow li {
+    display: block;
+  }
+
+  .stepNumber {
+    display: block;
+    margin-bottom: var(--space-4);
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro {
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, 0.8fr);
+    align-items: end;
+    gap: var(--space-8);
+  }
+
+  .tableFooter {
+    grid-template-columns: minmax(0, 1fr) auto;
+    align-items: center;
+    gap: var(--space-6);
+  }
+}
+
+/* Reflow the same semantic table so every rate remains visible on phones. */
+@media (max-width: 767px) {
+  .comparisonTable,
+  .comparisonTable tbody {
+    display: block;
+  }
+
+  .comparisonTable thead {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .comparisonTable tbody tr {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--space-4) var(--space-5);
+    padding: var(--space-5);
+    border-bottom: 1px solid var(--color-rule);
+  }
+
+  .comparisonTable tbody th,
+  .comparisonTable td {
+    width: auto;
+    padding: 0;
+    border: 0;
+    overflow-wrap: anywhere;
+  }
+
+  .comparisonTable tbody th {
+    grid-column: 1 / -1;
+    font-size: var(--text-lead);
+  }
+
+  .comparisonTable td::before {
+    content: attr(data-label);
+    display: block;
+    margin-bottom: var(--space-1);
+    color: var(--color-muted);
+    font-size: 0.875rem;
+    font-weight: 400;
+  }
+
+  .rowSentinel td::before {
+    color: var(--color-body);
+  }
+}

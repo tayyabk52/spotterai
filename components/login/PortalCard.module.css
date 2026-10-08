@@ -1,0 +1,212 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: clamp(20px, 2vw, 26px);
+  background: color-mix(in srgb, var(--color-ink) 92%, #000 8%);
+  border: var(--rule-width) solid color-mix(in srgb, var(--color-control) 36%, transparent);
+  border-radius: var(--tms-scene-radius, 24px);
+  box-shadow: 0 16px 40px -12px rgba(0, 0, 0, 0.45);
+  transition:
+    transform var(--dur-fast) var(--ease-out),
+    border-color var(--dur-fast) var(--ease-out),
+    box-shadow var(--dur-fast) var(--ease-out);
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+}
+
+.cardTeal:hover {
+  border-color: color-mix(in srgb, var(--color-pale) 50%, transparent);
+  box-shadow: 0 20px 48px -12px color-mix(in srgb, var(--color-primary) 30%, transparent);
+}
+
+.cardCoral:hover {
+  border-color: color-mix(in srgb, var(--color-accent) 50%, transparent);
+  box-shadow: 0 20px 48px -12px color-mix(in srgb, var(--color-accent) 30%, transparent);
+}
+
+.brandDots {
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--space-3, 12px);
+}
+
+.dotsSvg {
+  width: 40px;
+  height: 26px;
+}
+
+.cardHeader {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: var(--space-3, 12px);
+}
+
+.systemTag {
+  font-family: var(--font-source), sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--color-pale);
+  opacity: 0.75;
+  margin: 0 0 4px 0;
+}
+
+.cardTitle {
+  font-family: var(--font-display);
+  font-size: clamp(1.45rem, 1.8vw, 1.875rem);
+  font-weight: 600;
+  margin: 0 0 4px 0;
+  line-height: 1.15;
+  letter-spacing: -0.03em;
+  color: var(--color-surface);
+}
+
+.cardDesc {
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  line-height: 1.48;
+  color: var(--color-pale);
+  opacity: 0.88;
+  margin: 0;
+  min-height: 40px;
+}
+
+/* Capability list styled with TMS hairline rule dividers (no generic chips) */
+.features {
+  list-style: none;
+  padding: 0;
+  margin: var(--space-2, 8px) 0 var(--space-4, 16px) 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.featureRow {
+  border-top: var(--rule-width) solid color-mix(in srgb, var(--color-control) 25%, transparent);
+  padding-block: 7px;
+  display: grid;
+  grid-template-columns: 24px 1fr;
+  gap: var(--space-3, 12px);
+  align-items: center;
+  transition: border-color var(--dur-fast) var(--ease-out);
+}
+
+.card:hover .featureRow {
+  border-top-color: color-mix(in srgb, var(--color-control) 38%, transparent);
+}
+
+.featureNumber {
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  color: var(--color-pale);
+  opacity: 0.55;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.featureContent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.featureIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cardTeal .featureIcon {
+  color: var(--color-pale);
+}
+
+.cardCoral .featureIcon {
+  color: var(--color-accent);
+}
+
+.featureLabel {
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  font-weight: 600;
+  color: var(--color-surface);
+  letter-spacing: -0.01em;
+}
+
+.actionWrap {
+  margin-top: auto;
+}
+
+/* Primary Action Button identical to TMS chapter action buttons */
+.primary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-3, 12px);
+  width: 100%;
+  min-height: 46px;
+  padding: 10px var(--space-4, 16px);
+  border-radius: var(--radius-control);
+  font-family: var(--font-body);
+  font-size: 14.5px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  text-decoration: none;
+  white-space: nowrap;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition:
+    background var(--dur-fast) var(--ease-out),
+    transform var(--dur-fast) var(--ease-out),
+    color var(--dur-fast) var(--ease-out);
+}
+
+.primaryTeal {
+  background: var(--color-pale);
+  color: var(--tms-ink, var(--color-ink));
+}
+
+.primaryTeal:hover {
+  background: var(--color-surface);
+  transform: translateY(-1px);
+}
+
+.primaryCoral {
+  background: var(--color-accent);
+  color: var(--color-surface);
+}
+
+.primaryCoral:hover {
+  background: #ff5c72;
+  transform: translateY(-1px);
+}
+
+.primary:focus-visible {
+  outline: var(--focus-width) solid var(--color-pale);
+  outline-offset: var(--focus-offset);
+}
+
+.actionArrow {
+  flex-shrink: 0;
+  transition: transform var(--dur-fast) var(--ease-out);
+}
+
+.primary:hover .actionArrow {
+  transform: translate(2px, -2px);
+}
+
+@media (max-width: 640px) {
+  .card {
+    padding: 18px 16px;
+  }
+
+  .cardDesc {
+    min-height: auto;
+  }
+}

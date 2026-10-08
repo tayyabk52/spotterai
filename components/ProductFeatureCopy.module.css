@@ -1,0 +1,117 @@
+.copy {
+  min-width: 0;
+}
+.index {
+  display: flex;
+  align-items: center;
+  gap: var(--space-4);
+  margin-bottom: var(--space-6);
+  color: var(--color-primary-strong);
+}
+.number {
+  font-family: var(--font-display);
+  font-size: var(--text-small-heading);
+  line-height: 1;
+  letter-spacing: -0.02em;
+  position: relative;
+}
+.number::after {
+  content: "";
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  right: -6px;
+  top: 0;
+  border-radius: var(--radius-circle);
+  background: var(--color-accent);
+}
+.category {
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+.copy h3 {
+  margin-bottom: var(--space-5);
+}
+.tagline {
+  max-width: 30ch;
+  font-size: var(--text-lead);
+  line-height: 1.4;
+  color: var(--color-ink);
+  text-wrap: balance;
+}
+.tagline span {
+  display: block;
+  color: var(--color-primary-strong);
+  font-weight: 600;
+}
+.description {
+  color: var(--color-body);
+  max-width: 42ch;
+  margin-top: var(--space-5);
+  text-wrap: pretty;
+}
+.copy .action {
+  justify-content: space-between;
+  gap: var(--space-5);
+  margin-top: var(--space-7);
+  padding: 0;
+  border: 0;
+  border-radius: var(--radius-control);
+  background: transparent;
+  color: var(--color-primary-strong);
+  transform: none;
+}
+.action > span:first-child {
+  position: relative;
+}
+.action > span:first-child::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform var(--dur-fast) var(--ease-out);
+}
+.action > span:last-child {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border: var(--rule-width) solid var(--color-primary-strong);
+  border-radius: var(--radius-control);
+  font-size: 0;
+  transition:
+    background var(--dur-fast) var(--ease-out),
+    color var(--dur-fast) var(--ease-out),
+    transform var(--dur-fast) var(--ease-out);
+}
+.action > span:last-child svg {
+  transition: transform var(--dur-fast) var(--ease-out);
+}
+.copy .action:is(:hover, :focus-visible) > span:first-child::after {
+  transform: scaleX(1);
+}
+.copy .action:is(:hover, :focus-visible) > span:last-child {
+  background: var(--color-primary-strong);
+  color: var(--color-surface);
+  transform: none;
+}
+.copy .action:is(:hover, :focus-visible) > span:last-child svg {
+  transform: rotate(45deg);
+}
+.copy .action:active > span:last-child {
+  transform: scale(0.96);
+}
+@media (max-width: 767px) {
+  .category {
+    font-size: 14px;
+  }
+  .copy .action {
+    margin-top: var(--space-6);
+  }
+}

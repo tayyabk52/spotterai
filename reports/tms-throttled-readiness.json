@@ -1,0 +1,12 @@
+{
+  "latencyMs": 100,
+  "downloadBytesPerSecond": 1048576,
+  "cpuThrottle": 4,
+  "latestTargetProgress": 0.4,
+  "evidence": {
+    "currentTime": 3.169013,
+    "duration": 7.958333,
+    "paused": true,
+    "readyState": 4
+  }
+}

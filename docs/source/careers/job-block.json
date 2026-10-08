@@ -1,0 +1,15 @@
+{
+  "data-layout": "thick",
+  "data-controller": "blocks--jobs",
+  "data-blocks--jobs-show-map-value": "true",
+  "data-blocks--jobs-split-view-value": "true",
+  "data-blocks--jobs-language-code-value": "en",
+  "data-blocks--jobs-first-block-value": "true",
+  "data-blocks--jobs-overflow-auto-class": "@lg:overflow-auto",
+  "data-blocks--jobs-overflow-hidden-class": "@lg:overflow-hidden",
+  "data-blocks--jobs-sibling-element-padding-class": "@lg:[&.bg-block-preset-primary:not(.keep-block-padding)]:pt-80!",
+  "data-blocks--jobs-disabled-map-view-toggle-class": "cursor-not-allowed",
+  "data-blocks--jobs-headquarter-value": "{\"address\":null,\"administrative_area\":\"Illinois\",\"city\":\"Lemont\",\"company_id\":5540,\"contact_email\":null,\"country\":\"United States\",\"created_at\":\"2024-08-22T11:11:08.908-05:00\",\"email\":null,\"headquarters\":true,\"hide_on_careersite\":true,\"id\":11707,\"import_id\":null,\"language_code\":null,\"lat\":\"41.673642\",\"long\":\"-88.0017261\",\"name\":\"Lemont\",\"phone\":null,\"region_id\":null,\"updated_at\":\"2025-11-26T04:35:18.923-06:00\",\"zip\":null,\"state\":\"IL\",\"division_ids\":[]}",
+  "data-blocks--jobs-locations-value": "[{\"id\":49438,\"lat\":\"30.375321\",\"long\":\"69.34511599999999\",\"count\":2},{\"id\":49439,\"lat\":\"20.593684\",\"long\":\"78.96288\",\"count\":2},{\"id\":49440,\"lat\":\"4.570868\",\"long\":\"-74.297333\",\"count\":2},{\"id\":49441,\"lat\":\"23.634501\",\"long\":\"-102.552784\",\"count\":2},{\"id\":49442,\"lat\":\"-38.416097\",\"long\":\"-63.61667199999999\",\"count\":2}]",
+  "data-blocks--jobs-geobounds-value": "{}"
+}

@@ -1,0 +1,69 @@
+/* Approved Spotter system. Exact sampled colors are preserved. */
+:root {
+  --color-primary: #008080;
+  --color-primary-strong: #006d6d;
+  --color-accent: #f8485f;
+  --color-pale: #bbddde;
+  --color-canvas: #f1f7f7;
+  --color-surface: #fafdfd;
+  --color-tint: #e7f1f1;
+  --color-ink: #102a2b;
+  --color-body: #284a4b;
+  --color-muted: #526b6c;
+  --color-rule: #c5d8d8;
+  --color-control: #6a8585;
+  --color-success: #006d6d;
+  --color-error: #b91f37;
+  --font-display: var(--font-quicksand), Arial, sans-serif;
+  --font-body: var(--font-source), Arial, sans-serif;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+  --text-xs: 13px;
+  --text-body: 16px;
+  --text-lead: 20px;
+  --text-small-heading: 25px;
+  --text-section: 31px;
+  --text-hero: 39px;
+  --radius-control: 8px;
+  --radius-panel: 16px;
+  --radius-circle: 50%;
+  --rule-width: 1px;
+  --focus-width: 2px;
+  --focus-offset: 3px;
+  --dur-fast: 160ms;
+  --dur-enter: 240ms;
+  --dur-reveal: 320ms;
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --content-width: 1248px;
+  --gutter: 20px;
+  --grid-gap: 16px;
+  --section-space: 64px;
+  --header-height: 88px;
+}
+@media (min-width: 768px) {
+  :root {
+    --text-section: 39px;
+    --text-hero: 49px;
+    --gutter: 32px;
+    --grid-gap: 24px;
+    --section-space: 96px;
+  }
+}
+@media (min-width: 1200px) {
+  :root {
+    --text-section: 49px;
+    --text-hero: 61px;
+    --text-small-heading: 31px;
+    --gutter: 64px;
+    --grid-gap: 32px;
+    --section-space: 128px;
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "Talk to Sales": [
+    {
+      "html": "<button class=\"sc-eifrsQ sc-fKWMtX eANJXj dPdnvd\">Talk to Sales</button>",
+      "handler": [
+        "()=>e.push(\"/request-quote\")"
+      ]
+    }
+  ],
+  "Request a Demo": [
+    {
+      "html": "<button class=\"sc-lbJcrp fNjEfJ\">Request a Demo<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-arrow-right\" aria-hidden=\"true\"><path d=\"M5 12h14\"></path><path d=\"m12 5 7 7-7 7\"></path></svg></button>",
+      "handler": [
+        "()=>e.push(\"/request-quote\")"
+      ]
+    }
+  ],
+  "Contact Sales": [
+    {
+      "html": "<a href=\"mailto:sales@spotter.ai\" class=\"sc-ijDOKB gnZvJq\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"14\" height=\"14\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" class=\"lucide lucide-mail\" aria-hidden=\"true\"><path d=\"m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7\"></path><rect x=\"2\" y=\"4\" width=\"20\" height=\"16\" rx=\"2\"></rect></svg>Contact Sales</a>",
+      "handler": [
+        null
+      ]
+    }
+  ],
+  "media": [
+    {
+      "tag": "CANVAS",
+      "width": 1440,
+      "height": 899,
+      "cls": null,
+      "aria": null,
+      "text": ""
+    }
+  ]
+}

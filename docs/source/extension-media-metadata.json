@@ -1,0 +1,26 @@
+{
+  "extension-main": {
+    "width": 2060,
+    "height": 1240,
+    "duration": 10.833333,
+    "bytes": 11464476
+  },
+  "extension-gif-email": {
+    "width": 1240,
+    "height": 800,
+    "duration": 8,
+    "bytes": 925332
+  },
+  "extension-gif-market": {
+    "width": 1280,
+    "height": 840,
+    "duration": 11.066667,
+    "bytes": 13742236
+  },
+  "extension-gif-filters": {
+    "width": 1240,
+    "height": 800,
+    "duration": 11,
+    "bytes": 1440699
+  }
+}
