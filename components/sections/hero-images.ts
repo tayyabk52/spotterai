@@ -25,13 +25,5 @@ export const heroPhotos = [
     position: "driverPhoto",
     direction: "left",
   },
-  {
-    src: "/images/hero/terminal-dawn.webp",
-    alt: "Teal tractor and white trailers lined up at a freight terminal's loading bays at dawn",
-    caption: "The operation in motion.",
-    width: 900,
-    height: 600,
-    position: "terminalPhoto",
-    direction: "right",
-  },
+
 ] as const;

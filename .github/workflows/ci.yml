@@ -2,7 +2,10 @@ name: CI
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
 
 jobs:
   build:
@@ -12,18 +15,26 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Set up Node
+
+      - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: '20'
+
       - name: Install dependencies
         run: npm ci
+
       - name: Run lint
         run: npm run lint
+
+      - name: Run type check
+        run: npm run typecheck
+
       - name: Build project
         run: npm run build
-      - name: Push built artifacts (if any)
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          echo "CI completed successfully."
+
+      - name: Install Playwright browsers
+        run: npx playwright install chromium
+
+      - name: Run Playwright tests
+        run: npm test
