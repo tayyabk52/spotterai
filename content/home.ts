@@ -155,7 +155,7 @@ export const products: Product[] = [
 export const home = {
   hero: {
     eyebrow: "Trucking automation, connected",
-    title: "trucking automation that works for you",
+    title: "Trucking automation that works for Fou.",
     lines: ["trucking automation", "that works for you"],
     description:
       "From the freight market to the people behind the wheel, give your team the tools to see more clearly and keep operations moving.",
