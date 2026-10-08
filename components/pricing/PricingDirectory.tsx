@@ -1,4 +1,9 @@
 "use client";
+import { ArrowDownIcon } from "@phosphor-icons/react/dist/ssr/ArrowDown";
+import { ArrowsDownUpIcon } from "@phosphor-icons/react/dist/ssr/ArrowsDownUp";
+import { DownloadSimpleIcon } from "@phosphor-icons/react/dist/ssr/DownloadSimple";
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
+import { ArrowUpIcon } from "@phosphor-icons/react/dist/ssr/ArrowUp";
 
 import { useState } from "react";
 import { MVR_PRICES } from "@/content/mvr-pricing";
@@ -42,7 +47,7 @@ export function PricingDirectory({
       >
         {column === "state" ? "State" : "MVR Price"}
         <span aria-hidden="true">
-          {order.startsWith(column) ? (order.endsWith("asc") ? "↑" : "↓") : "↕"}
+          {order.startsWith(column) ? (order.endsWith("asc") ? <ArrowUpIcon aria-hidden="true" /> : <ArrowDownIcon aria-hidden="true" />) : <ArrowsDownUpIcon aria-hidden="true" />}
         </span>
       </a>
     );
@@ -62,14 +67,14 @@ export function PricingDirectory({
             href={`/mvr-pricing/pricing.csv?${pricingQuery(query, order)}`}
             download
           >
-            Download CSV<span aria-hidden="true">↓</span>
+            Download CSV<DownloadSimpleIcon aria-hidden="true" />
           </a>
           <button
             className={styles.printButton}
             type="button"
             onClick={() => window.print()}
           >
-            Print / save PDF<span aria-hidden="true">↗</span>
+            Print / save PDF<ArrowUpRightIcon aria-hidden="true" />
           </button>
         </div>
       </div>

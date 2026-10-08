@@ -1,4 +1,5 @@
 "use client";
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 
 import { useRef, useState } from "react";
 import Link from "next/link";
@@ -198,7 +199,7 @@ export function CareerMap({ locations, filters, area }: CareerMapProps) {
               <span>{location.name}</span>
               <span>
                 {location.count} {location.count === 1 ? "role" : "roles"}{" "}
-                <span aria-hidden="true">↗</span>
+                <ArrowUpRightIcon aria-hidden="true" />
               </span>
             </Link>
           </li>

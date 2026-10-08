@@ -1,3 +1,4 @@
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 import Image from "next/image";
 import Link from "next/link";
 import { downloads, footerGroups, home, social } from "@/content/home";
@@ -24,7 +25,7 @@ export default function Footer() {
               {downloads.map((link) => (
                 <a key={link.label} href={link.href}>
                   {link.label}
-                  <span aria-hidden="true"> ↗</span>
+                  <ArrowUpRightIcon size={14} aria-hidden="true" />
                 </a>
               ))}
             </div>

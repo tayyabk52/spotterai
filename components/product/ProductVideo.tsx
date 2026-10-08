@@ -1,4 +1,5 @@
 "use client";
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 import Image from "next/image";
 import { useEffect, useRef, useState } from "react";
 import { useInView, useReducedMotion } from "framer-motion";
@@ -85,7 +86,7 @@ export default function ProductVideo({
             }}
           >
             {playLabel}
-            <span aria-hidden="true">↗</span>
+            <ArrowUpRightIcon aria-hidden="true" />
           </button>
         )}
       </div>

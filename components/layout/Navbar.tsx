@@ -1,4 +1,6 @@
 "use client";
+import { ArrowRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowRight";
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
@@ -337,8 +339,8 @@ export default function Navbar() {
                               >
                                 {item.href.startsWith("http") &&
                                 !item.href.includes("spotter.ai")
-                                  ? "↗"
-                                  : "→"}
+                                  ? <ArrowUpRightIcon aria-hidden="true" />
+                                  : <ArrowRightIcon aria-hidden="true" />}
                               </span>
                             </div>
                             {desc && <p className={styles.itemDesc}>{desc}</p>}
@@ -385,7 +387,7 @@ export default function Navbar() {
                                 className={styles.insightArrow}
                                 aria-hidden="true"
                               >
-                                ↗
+                                <ArrowUpRightIcon aria-hidden="true" />
                               </span>
                             </a>
                           </li>
@@ -408,7 +410,7 @@ export default function Navbar() {
                         onClick={() => setActive(null)}
                       >
                         <span>{insightsContent.interface.menuAll}</span>
-                        <span aria-hidden="true">→</span>
+                        <ArrowRightIcon aria-hidden="true" />
                       </Link>
                     </div>
                   ) : active === "Solutions" ? (
@@ -444,7 +446,7 @@ export default function Navbar() {
                                 className={styles.itemArrow}
                                 aria-hidden="true"
                               >
-                                →
+                                <ArrowRightIcon aria-hidden="true" />
                               </span>
                             </div>
                             <p className={styles.itemDesc}>{sol.desc}</p>
@@ -499,8 +501,8 @@ export default function Navbar() {
                                 >
                                   {item.href.startsWith("http") &&
                                   !item.href.includes("spotter.ai")
-                                    ? "↗"
-                                    : "→"}
+                                    ? <ArrowUpRightIcon aria-hidden="true" />
+                                    : <ArrowRightIcon aria-hidden="true" />}
                                 </span>
                               </div>
                               {desc && (
@@ -551,7 +553,7 @@ export default function Navbar() {
                         >
                           <span>{featured.ctaLabel}</span>
                           <span aria-hidden="true" className={styles.ctaArrow}>
-                            {featured.ctaHref.startsWith("http") ? "↗" : "→"}
+                            {featured.ctaHref.startsWith("http") ? <ArrowUpRightIcon aria-hidden="true" /> : <ArrowRightIcon aria-hidden="true" />}
                           </span>
                         </a>
                       </div>
@@ -575,7 +577,7 @@ export default function Navbar() {
 
         <noscript>
           <a className={styles.noScript} href={quoteLink.href}>
-            Request a quote ↗
+            Request a quote <ArrowUpRightIcon aria-hidden="true" />
           </a>
         </noscript>
       </Container>

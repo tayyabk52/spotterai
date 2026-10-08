@@ -1,3 +1,4 @@
+import { ArrowUpIcon } from "@phosphor-icons/react/dist/ssr/ArrowUp";
 import Link from "next/link";
 import Container from "@/components/layout/Container";
 import type { LegalDocument, LegalSection } from "@/content/legal/types";
@@ -108,7 +109,7 @@ export function LegalPage({
             {children}
             <div className={styles.documentEnd}>
               <span>Spotter.ai</span>
-              <a href="#main-content">Back to top ↑</a>
+              <a href="#main-content">Back to top <ArrowUpIcon size={16} aria-hidden="true" /></a>
             </div>
           </article>
         </div>

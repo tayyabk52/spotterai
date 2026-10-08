@@ -1,4 +1,5 @@
 "use client";
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 
 import { useEffect, useRef, useState } from "react";
 import { PlayIcon } from "@phosphor-icons/react/dist/ssr/Play";
@@ -71,7 +72,7 @@ export function DemoPlayer({ demo }: { demo: DemoVideo }) {
             <button type="button" onClick={retryDemo}>
               Try again
             </button>
-            <a href={demo.src}>Open video directly ↗</a>
+            <a href={demo.src}>Open video directly <ArrowUpRightIcon aria-hidden="true" /></a>
           </div>
         </div>
       )}

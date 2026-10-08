@@ -1,3 +1,4 @@
+import { XIcon } from "@phosphor-icons/react/dist/ssr/X";
 import Link from "next/link";
 import {
   careerHref,
@@ -103,7 +104,7 @@ export function CareerFiltersForm({
               : "Showing filtered roles"}
           </p>
           <Link href={careerHref(EMPTY_CAREER_FILTERS, mapView)}>
-            Clear filters <span aria-hidden="true">×</span>
+            Clear filters <XIcon aria-hidden="true" />
           </Link>
         </div>
       )}

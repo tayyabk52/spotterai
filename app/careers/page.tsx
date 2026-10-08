@@ -1,3 +1,4 @@
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Container from "@/components/layout/Container";
@@ -189,7 +190,7 @@ export default async function CareersPage({
                   className={styles.moreJobs}
                 >
                   See remaining openings on the careers site{" "}
-                  <span aria-hidden="true">↗</span>
+                  <ArrowUpRightIcon aria-hidden="true" />
                 </a>
               )}
               <p className={styles.sourceNote}>
@@ -212,7 +213,7 @@ export default async function CareersPage({
                   Try again
                 </a>
                 <a href={`${CAREERS_ORIGIN}/jobs`} className={styles.textLink}>
-                  Visit careers site <span aria-hidden="true">↗</span>
+                  Visit careers site <ArrowUpRightIcon aria-hidden="true" />
                 </a>
               </div>
             </div>

@@ -1,4 +1,6 @@
 "use client";
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
+import { ArrowRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowRight";
 
 import { useEffect, useRef, useState } from "react";
 import {
@@ -204,7 +206,7 @@ export function PrivacyRequestForm() {
           </div>
         </div>
         <button type="submit" className={styles.primary}>
-          Prepare email request<span aria-hidden="true">→</span>
+          Prepare email request<ArrowRightIcon aria-hidden="true" />
         </button>
       </form>
       {draft && (
@@ -223,7 +225,7 @@ export function PrivacyRequestForm() {
             aria-label="Prepared privacy request"
           />
           <a href={draft.href} className={styles.primary}>
-            Open email draft<span aria-hidden="true">↗</span>
+            Open email draft<ArrowUpRightIcon aria-hidden="true" />
           </a>
         </div>
       )}

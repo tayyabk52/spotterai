@@ -1,8 +1,8 @@
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 import { home, products, quoteLink } from "@/content/home";
 import Container from "../layout/Container";
 import ActionLink from "../ActionLink";
 import HeroPhotography from "../HeroPhotography";
-import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 import { ArrowDownIcon } from "@phosphor-icons/react/dist/ssr/ArrowDown";
 import styles from "./Hero.module.css";
 export default function Hero() {
@@ -63,7 +63,7 @@ export default function Hero() {
                     {product.category}
                   </span>
                   <span className={styles.arrow} aria-hidden="true">
-                    ↗
+                    <ArrowUpRightIcon size={16} />
                   </span>
                 </a>
               </li>

@@ -1,3 +1,5 @@
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
+import { ArrowDownIcon } from "@phosphor-icons/react/dist/ssr/ArrowDown";
 import Image from "next/image";
 import Container from "@/components/layout/Container";
 import { CAREERS_ORIGIN } from "@/content/careers";
@@ -20,10 +22,10 @@ export function CareersHero() {
           </p>
           <div className={styles.heroActions}>
             <a href="#open-roles" className={styles.primary}>
-              Explore open roles <span aria-hidden="true">↓</span>
+              Explore open roles <ArrowDownIcon aria-hidden="true" />
             </a>
             <a href={`${CAREERS_ORIGIN}/connect`} className={styles.connect}>
-              Connect with us <span aria-hidden="true">↗</span>
+              Connect with us <ArrowUpRightIcon aria-hidden="true" />
             </a>
           </div>
         </div>

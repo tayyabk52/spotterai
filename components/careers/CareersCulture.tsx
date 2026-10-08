@@ -1,3 +1,4 @@
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 import Container from "@/components/layout/Container";
 import { CAREERS_ORIGIN } from "@/content/careers";
 import styles from "./Careers.module.css";
@@ -43,7 +44,7 @@ export function CareersCulture() {
         <div className={styles.cultureClosing}>
           <p>Stay connected with Spotter.</p>
           <a href={`${CAREERS_ORIGIN}/connect`} className={styles.primary}>
-            Join our talent network <span aria-hidden="true">↗</span>
+            Join our talent network <ArrowUpRightIcon aria-hidden="true" />
           </a>
         </div>
       </Container>

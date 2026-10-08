@@ -1,3 +1,4 @@
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 import type { Metadata } from "next";
 import { QuoteForm } from "@/components/quote/QuoteForm";
 import styles from "./RequestQuote.module.css";
@@ -117,7 +118,7 @@ export default async function RequestQuotePage({
           <div className={styles.contact}>
             <p>Prefer email?</p>
             <a href="mailto:sales@spotter.ai">
-              sales@spotter.ai <span aria-hidden="true">↗</span>
+              sales@spotter.ai <ArrowUpRightIcon aria-hidden="true" />
             </a>
           </div>
         </header>

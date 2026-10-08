@@ -1,3 +1,4 @@
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 import styles from "./ActionLink.module.css";
 
 export default function ActionLink({
@@ -24,7 +25,7 @@ export default function ActionLink({
     >
       <span>{children}</span>
       <span aria-hidden="true" className={styles.arrow}>
-        {arrow ?? "↗"}
+        {arrow ?? <ArrowUpRightIcon size={18} aria-hidden="true" />}
       </span>
     </a>
   );

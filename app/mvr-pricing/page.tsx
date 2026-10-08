@@ -1,3 +1,4 @@
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 import type { Metadata } from "next";
 import Link from "next/link";
 import Container from "@/components/layout/Container";
@@ -33,7 +34,7 @@ export default async function MvrPricingPage({
               </p>
             </div>
             <Link href="/sentinel" className={styles.heroLink}>
-              Explore Sentinel<span aria-hidden="true">↗</span>
+              Explore Sentinel<ArrowUpRightIcon aria-hidden="true" />
             </Link>
           </div>
         </Container>
@@ -65,7 +66,7 @@ export default async function MvrPricingPage({
         />
         <div className={styles.source}>
           <p>Published prices captured October 8, 2026. All amounts in USD.</p>
-          <a href={PRICING_SOURCE}>View source pricing ↗</a>
+          <a href={PRICING_SOURCE}>View source pricing <ArrowUpRightIcon aria-hidden="true" /></a>
         </div>
         <address className={styles.contact}>
           <strong>Spotter Sentinel LLC</strong>

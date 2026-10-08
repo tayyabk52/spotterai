@@ -1,3 +1,5 @@
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
+import { ArrowLeftIcon } from "@phosphor-icons/react/dist/ssr/ArrowLeft";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -67,7 +69,7 @@ export default async function CareerJobPage({ params }: JobPageProps) {
       <main id="main-content" className={styles.jobPage}>
         <Container>
           <Link href="/careers#open-roles" className={styles.back}>
-            ← All open roles
+            <ArrowLeftIcon aria-hidden="true" /> All open roles
           </Link>
           <div className={styles.unavailable}>
             <h1>Role details are temporarily unavailable.</h1>
@@ -76,7 +78,7 @@ export default async function CareerJobPage({ params }: JobPageProps) {
               className={styles.primary}
               href={`${CAREERS_ORIGIN}/jobs/${slug}`}
             >
-              Visit careers site ↗
+              Visit careers site <ArrowUpRightIcon aria-hidden="true" />
             </a>
           </div>
         </Container>
@@ -88,7 +90,7 @@ export default async function CareerJobPage({ params }: JobPageProps) {
     <main id="main-content" className={styles.jobPage}>
       <Container>
         <Link href="/careers#open-roles" className={styles.back}>
-          ← All open roles
+          <ArrowLeftIcon aria-hidden="true" /> All open roles
         </Link>
         <header className={styles.jobHeader}>
           <p className="eyebrow">Careers at Spotter</p>
@@ -110,7 +112,7 @@ export default async function CareerJobPage({ params }: JobPageProps) {
               résumé.
             </p>
             <a href={job.applicationUrl} className={styles.primary}>
-              Apply for this job <span aria-hidden="true">↗</span>
+              Apply for this job <ArrowUpRightIcon aria-hidden="true" />
             </a>
             <p className={styles.applicationNote}>
               Application hosted by Teamtailor.
@@ -119,7 +121,7 @@ export default async function CareerJobPage({ params }: JobPageProps) {
               href={`${CAREERS_ORIGIN}/data-privacy`}
               className={styles.textLink}
             >
-              Candidate data &amp; privacy <span aria-hidden="true">↗</span>
+              Candidate data &amp; privacy <ArrowUpRightIcon aria-hidden="true" />
             </a>
           </aside>
         </div>

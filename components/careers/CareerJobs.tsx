@@ -1,3 +1,4 @@
+import { ArrowUpRightIcon } from "@phosphor-icons/react/dist/ssr/ArrowUpRight";
 import Link from "next/link";
 import { careerJobHref, type CareerJob } from "@/content/careers";
 import styles from "./Careers.module.css";
@@ -20,7 +21,7 @@ export function CareerJobs({ jobs }: { jobs: CareerJob[] }) {
               <h3>{job.title}</h3>
             </div>
             <span className={styles.jobArrow} aria-hidden="true">
-              ↗
+              <ArrowUpRightIcon size={18} />
             </span>
           </Link>
         </li>

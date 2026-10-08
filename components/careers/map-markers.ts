@@ -37,7 +37,7 @@ export function addCareerMarkers(
     name.textContent = location.name;
     const link = document.createElement("a");
     link.href = careerHref({ ...filters, location: location.name }, true);
-    link.textContent = `View ${location.count} ${location.count === 1 ? "role" : "roles"} →`;
+    link.textContent = `View ${location.count} ${location.count === 1 ? "role" : "roles"}`;
     popup.append(name, link);
     markers.addLayer(
       L.marker([location.latitude, location.longitude], {
