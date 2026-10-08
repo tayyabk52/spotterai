@@ -1,5 +1,9 @@
 # Design — Spotter.ai
 
+## Homepage photographic artwork, October 9, 2026
+
+Owner rejected the Lens styling changes and requested restoring the original homepage section and card styling. Keep all layout, copy, typography, colors, spacing, buttons and capability lists unchanged. Retain the generated Lens freight-terminal image and replace the remaining five abstract artworks one at a time with realistic contextual photographs. Images occupy their existing reserved areas with cover sizing and an 8px image corner. These fictional illustrative scenes are not customer evidence or fabricated product interfaces. Image provenance and final prompts: docs/capability-art-direction.md.
+
 ## Careers, 2026-10-08
 
 Owner requested a local careers page using the approved system. Pair a compact ink hero with the existing illustrative freight-terminal photograph; stack the composition on phones. Native 16px / 48px filters lead to flat ruled job rows, list/map navigation and original About copy. Local role descriptions use a 70ch reading limit, accessible section headings and a sticky desktop application aside that follows the description on phones.
