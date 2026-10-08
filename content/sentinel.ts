@@ -102,7 +102,7 @@ export const sentinelContent = {
     description:
       "Screen candidates with instant CDL extraction and predictive A–F scoring, monitor MVR records 24/7 with zero extra dashboard logins, and maintain audit-ready DOT compliance files across your entire carrier network.",
     primaryCta: "Request Sentinel Demo",
-    primaryHref: "https://spotter.ai/request-quote?product=sentinel",
+    primaryHref: "/request-quote?product=sentinel",
     secondaryCta: "Explore Capabilities",
     secondaryHref: "#sentinel-screening",
     savingsStat: "Up to 75%",
@@ -400,7 +400,7 @@ export const sentinelContent = {
     description:
       "Join forward-thinking motor carriers and safety directors who rely on Sentinel to eliminate blind spots, lower screening overhead, and protect their safety rating.",
     primaryCta: "Request Sentinel Demo",
-    primaryHref: "https://spotter.ai/request-quote?product=sentinel",
+    primaryHref: "/request-quote?product=sentinel",
     secondaryCta: "View MVR Pricing Matrix",
     secondaryHref: "https://spotter.ai/mvr-pricing",
     guarantees: [

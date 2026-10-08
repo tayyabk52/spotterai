@@ -11,7 +11,7 @@ export type Product = {
 };
 export const quoteLink = {
   label: "Request a demo or quote",
-  href: "https://spotter.ai/request-quote",
+  href: "/request-quote",
 };
 export const navigation: { label: string; items: SiteLink[] }[] = [
   {

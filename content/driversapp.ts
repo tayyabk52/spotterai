@@ -192,7 +192,7 @@ export const driversApp = {
   },
   quoteLink: {
     label: "Request a fleet demo or quote",
-    href: "https://spotter.ai/request-quote?product=driver-app",
+    href: "/request-quote?product=driver-app",
   },
   story: {
     navigationLabel: "Driver App chapters",

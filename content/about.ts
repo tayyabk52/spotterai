@@ -48,7 +48,7 @@ export const about = {
       },
       {
         label: "Talk to Sales",
-        href: "https://spotter.ai/request-quote",
+        href: "/request-quote",
         copyStatus: {
           label: "exact reuse",
         },
@@ -450,7 +450,7 @@ export const about = {
       },
       {
         label: "Contact Sales",
-        href: "mailto:sales@spotter.ai",
+        href: "/request-quote",
         copyStatus: {
           label: "exact reuse",
         },

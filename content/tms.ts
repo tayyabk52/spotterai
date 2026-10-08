@@ -94,7 +94,7 @@ export const tms = {
   },
   action: {
     label: "Book a Demo",
-    href: "https://spotter.ai/request-quote?product=tms",
+    href: "/request-quote?product=tms",
     copyStatus: "reuse",
   },
   hero: {
