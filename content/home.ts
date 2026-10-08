@@ -156,7 +156,7 @@ export const home = {
   hero: {
     eyebrow: "Trucking automation, connected",
     title: "Trucking automation that works for Fou.",
-    lines: ["trucking automation", "that works for you"],
+    lines: ["Trucking automation", "that works for You."],
     description:
       "From the freight market to the people behind the wheel, give your team the tools to see more clearly and keep operations moving.",
     secondary: "Explore the suite",
