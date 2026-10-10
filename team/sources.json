@@ -1,0 +1,136 @@
+{
+  "accessedDate": "2026-10-10",
+  "sources": [
+    {
+      "id": "era",
+      "title": "Entrepreneurs Roundtable Accelerator: Spotter",
+      "url": "https://www.eranyc.com/company/spotter/",
+      "type": "primary-accelerator",
+      "supports": "Names Peidi Wu and Gabriel Stonys as founders of the freight technology company."
+    },
+    {
+      "id": "peidi-personal",
+      "title": "Peidi Wu personal website",
+      "url": "https://peidiwu.com/",
+      "type": "primary-self-published",
+      "supports": "Founder affiliation with Spotter AI; links to spotter.ai and its careers site."
+    },
+    {
+      "id": "sec-2020",
+      "title": "Spotter Labs Inc. Form D, July 30, 2020",
+      "url": "https://www.sec.gov/Archives/edgar/data/1819583/000181958320000001/xslFormDX08/primary_doc.xml",
+      "type": "primary-historical-filing",
+      "supports": "Names both founders as executive officers/directors; Peidi signs as CEO in 2020.",
+      "publishedDate": "2020-07-30"
+    },
+    {
+      "id": "company-release",
+      "title": "Spotter AI enhanced TMS company press release",
+      "url": "https://www.einpresswire.com/article/880874937/spotter-ai-launches-enhanced-tms-platform-delivering-real-time-visibility-and-fleet-efficiency",
+      "type": "company-issued-press-release",
+      "supports": "Calls Gabriel Stonys CEO and Peidi Wu co-founder; conflicts with directory titles.",
+      "publishedDatePrecision": "January 2026; exact day not recorded"
+    },
+    {
+      "id": "food-logistics",
+      "title": "Spotter AI enhanced TMS coverage",
+      "url": "https://www.foodlogistics.com/software-technology/wms-tms/news/22959864/spotter-ai-spotter-ais-enhanced-tms-platform-to-deliver-realtime-visibility",
+      "type": "secondary-industry-publication",
+      "publishedDate": "2026-02-03",
+      "supports": "Reports Gabriel Stonys as CEO and Peidi Wu as co-founder."
+    },
+    {
+      "id": "crunchbase",
+      "title": "Spotter freight company directory",
+      "url": "https://www.crunchbase.com/organization/spotter-0343/profiles_and_contacts",
+      "type": "secondary-directory",
+      "supports": "Lists Peidi CEO and Gabriel CTO; current title conflict remains unresolved."
+    },
+    {
+      "id": "ahmed-personal",
+      "title": "Ahmed Abdelnaby portfolio",
+      "url": "https://aabdelnaby.com/",
+      "type": "primary-self-published",
+      "supports": "Shows Spotter AI and Sentinel projects; no portrait found."
+    },
+    {
+      "id": "ahmed-linkedin",
+      "title": "Ahmed Abdelnaby LinkedIn",
+      "url": "https://eg.linkedin.com/in/ahmedabnaby",
+      "type": "primary-self-published",
+      "supports": "Public search result associates profile with Spotter Labs; senior developer background."
+    },
+    {
+      "id": "theorg-peidi-wu",
+      "title": "Peidi Wu public directory profile",
+      "url": "https://theorg.com/org/joinspotter/org-chart/peidi-wu",
+      "type": "secondary-unverified-directory",
+      "profileUpdatedAt": "2024-11-04T21:11:15.202",
+      "supports": "Reported role, career timeline and portrait where provided. Employer verification is not established."
+    },
+    {
+      "id": "theorg-gabriel-stonys",
+      "title": "Gabriel Stonys public directory profile",
+      "url": "https://theorg.com/org/joinspotter/org-chart/gabriel-stonys",
+      "type": "secondary-unverified-directory",
+      "profileUpdatedAt": "2024-11-04T21:11:21.648",
+      "supports": "Reported role, career timeline and portrait where provided. Employer verification is not established."
+    },
+    {
+      "id": "theorg-aleksandar-antic",
+      "title": "Aleksandar Antic public directory profile",
+      "url": "https://theorg.com/org/joinspotter/org-chart/aleksandar-antic",
+      "type": "secondary-unverified-directory",
+      "profileUpdatedAt": "2026-02-09T23:04:42.437",
+      "supports": "Reported role, career timeline and portrait where provided. Employer verification is not established."
+    },
+    {
+      "id": "theorg-uros-martinovic",
+      "title": "Uros Martinovic public directory profile",
+      "url": "https://theorg.com/org/joinspotter/org-chart/uros-martinovic",
+      "type": "secondary-unverified-directory",
+      "profileUpdatedAt": "2025-11-13T15:10:39.778",
+      "supports": "Reported role, career timeline and portrait where provided. Employer verification is not established."
+    },
+    {
+      "id": "theorg-ahmed-abdelnaby",
+      "title": "Ahmed Abdelnaby public directory profile",
+      "url": "https://theorg.com/org/joinspotter/org-chart/ahmed-abdelnaby",
+      "type": "secondary-unverified-directory",
+      "profileUpdatedAt": "2026-01-19T01:08:32.326",
+      "supports": "Reported role, career timeline and portrait where provided. Employer verification is not established."
+    },
+    {
+      "id": "theorg-boris-cupic",
+      "title": "Boris Čupić public directory profile",
+      "url": "https://theorg.com/org/joinspotter/org-chart/boris-cupic",
+      "type": "secondary-unverified-directory",
+      "profileUpdatedAt": "2026-01-22T10:34:25.037",
+      "supports": "Reported role, career timeline and portrait where provided. Employer verification is not established."
+    },
+    {
+      "id": "theorg-altin-arifi",
+      "title": "Altin Arifi public directory profile",
+      "url": "https://theorg.com/org/joinspotter/org-chart/altin-arifi",
+      "type": "secondary-unverified-directory",
+      "profileUpdatedAt": "2026-01-21T09:59:37.957",
+      "supports": "Reported role, career timeline and portrait where provided. Employer verification is not established."
+    },
+    {
+      "id": "theorg-bryant-lewis",
+      "title": "Bryant Lewis public directory profile",
+      "url": "https://theorg.com/org/joinspotter/org-chart/bryant-lewis",
+      "type": "secondary-unverified-directory",
+      "profileUpdatedAt": "2026-09-03T08:23:02.213",
+      "supports": "Reported role, career timeline and portrait where provided. Employer verification is not established."
+    },
+    {
+      "id": "theorg-hafiza-irsa",
+      "title": "Hafiza Irsa public directory profile",
+      "url": "https://theorg.com/org/joinspotter/org-chart/hafiza-irsa",
+      "type": "secondary-unverified-directory",
+      "profileUpdatedAt": "2026-08-29T04:05:56.462",
+      "supports": "Reported role, career timeline and portrait where provided. Employer verification is not established."
+    }
+  ]
+}

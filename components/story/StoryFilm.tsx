@@ -1,8 +1,9 @@
 "use client";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef } from "react";
 import Image from "next/image";
 import { useInView, type MotionValue } from "motion/react";
 import { useStoryMotion } from "@/components/motion/StoryMotionProvider";
+import { useVideoReadiness } from "@/components/motion/useVideoReadiness";
 import { useVideoScrub } from "@/components/motion/useVideoScrub";
 import { useChapterProgress } from "@/components/motion/useChapterProgress";
 import type { StoryAsset } from "@/content/story";
@@ -22,8 +23,7 @@ export function StoryFilm({
   const { ref: wrap, progress: ownProgress } =
     useChapterProgress<HTMLDivElement>();
   const video = useRef<HTMLVideoElement>(null);
-  const [ready, setReady] = useState(false);
-  const [failed, setFailed] = useState(false);
+  const { ready, failed, readinessEvents } = useVideoReadiness(video);
   const { enabled, eligible, heroEligible, cinematic, paused } =
     useStoryMotion();
   const scrubEligible = hero ? heroEligible : eligible;
@@ -40,14 +40,6 @@ export function StoryFilm({
   const active =
     scrub && (hero ? heroEligible && !paused : enabled) && inView && mounted;
   useVideoScrub(video, hero && !cinematic ? ownProgress : progress, active);
-  function showDecodedFrame() {
-    // Data-saving browsers can omit loadeddata but still decode requested frames.
-    if (
-      video.current &&
-      video.current.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA
-    )
-      setReady(true);
-  }
   useEffect(() => {
     const element = video.current;
     if (scrub || !element) return;
@@ -80,11 +72,7 @@ export function StoryFilm({
             aria-label={scrub ? undefined : asset.alt}
             tabIndex={scrub ? -1 : 0}
             className={`${styles.video} ${ready ? styles.videoReady : ""}`}
-            onLoadStart={() => setReady(false)}
-            onLoadedData={showDecodedFrame}
-            onCanPlay={showDecodedFrame}
-            onSeeked={showDecodedFrame}
-            onError={() => setFailed(true)}
+            {...readinessEvents}
           />
         )}
       </div>

@@ -1,7 +1,57 @@
 import { expect, test, type Locator } from "@playwright/test";
 
-async function expectScrollFrame(video: Locator, fraction: number) {
-  await video.evaluate((element, fraction) => {
+test.use({ hasTouch: true });
+
+test("mobile scrub catches up when a previous seek completion is delayed", async ({
+  page,
+}) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.addInitScript(() => {
+    const seeking = Object.getOwnPropertyDescriptor(
+      HTMLMediaElement.prototype,
+      "seeking",
+    )!;
+    const time = Object.getOwnPropertyDescriptor(
+      HTMLMediaElement.prototype,
+      "currentTime",
+    )!;
+    Object.defineProperty(HTMLMediaElement.prototype, "seeking", {
+      configurable: true,
+      get() {
+        return this instanceof HTMLVideoElement &&
+          this.dataset.stalledSeek === "true"
+          ? true
+          : seeking.get!.call(this);
+      },
+    });
+    Object.defineProperty(HTMLMediaElement.prototype, "currentTime", {
+      configurable: true,
+      get: time.get,
+      set(value) {
+        if (this instanceof HTMLVideoElement) delete this.dataset.stalledSeek;
+        time.set!.call(this, value);
+      },
+    });
+  });
+  await page.goto("/loan-calculators");
+  const video = page.locator("#calculator-intro video");
+  await expect(video).toHaveCount(1);
+  await expect
+    .poll(() => video.evaluate((v: HTMLVideoElement) => v.readyState))
+    .toBeGreaterThanOrEqual(2);
+  await expectScrollFrame(video, 0.65, 0.15);
+  await video.evaluate((v) => {
+    v.dataset.stalledSeek = "true";
+  });
+  await expectScrollFrame(video, 0.85, 0.15);
+});
+
+async function expectScrollFrame(
+  video: Locator,
+  fraction: number,
+  tolerance = 0.05,
+) {
+  await video.evaluate(async (element, fraction) => {
     const box = element.parentElement!.parentElement!.getBoundingClientRect();
     const header = document
       .querySelector("header")!
@@ -14,18 +64,68 @@ async function expectScrollFrame(video: Locator, fraction: number) {
         (box.height + innerHeight - header) * fraction,
       behavior: "instant",
     });
+    // Allow the native scroll event and Motion's frame subscriber to settle.
+    await new Promise<void>((resolve) =>
+      requestAnimationFrame(() => requestAnimationFrame(() => resolve())),
+    );
   }, fraction);
   const duration = await video.evaluate(
     (element: HTMLVideoElement) => element.duration,
   );
   await expect
     .poll(() =>
-      video.evaluate((element: HTMLVideoElement) => element.currentTime),
+      video.evaluate(
+        (element: HTMLVideoElement, target) =>
+          Math.abs(element.currentTime - target),
+        (duration - 1 / 24) * fraction,
+      ),
     )
-    .toBeCloseTo((duration - 1 / 24) * fraction, 1);
+    .toBeLessThan(tolerance);
+  await expect
+    .poll(() => video.evaluate((element: HTMLVideoElement) => element.seeking))
+    .toBe(false);
   await expect
     .poll(() => video.evaluate((element) => getComputedStyle(element).opacity))
     .toBe("1");
+}
+
+for (const [route, ids] of [
+  ["/claims-os", ["claims-intro", "claims-financials"]],
+  ["/loan-calculators", ["calculator-intro"]],
+  ["/tms", ["tms-intro", "tms-financials"]],
+  ["/driversapp", ["driver-intro", "driver-scoring"]],
+  ["/sentinel", ["sentinel-hero", "sentinel-compliance"]],
+] as const) {
+  test(`${route} mobile films reveal frames when loadeddata is suppressed`, async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.addInitScript(() => {
+      document.addEventListener(
+        "loadeddata",
+        (event) => {
+          if (event.target instanceof HTMLVideoElement)
+            event.stopImmediatePropagation();
+        },
+        true,
+      );
+    });
+    await page.goto(route);
+    for (const id of ids) {
+      await page.locator(`#${id} img`).first().scrollIntoViewIfNeeded();
+      const video = page.locator(`#${id} video`);
+      await expect(video).toHaveCount(1);
+      await expect
+        .poll(() => video.evaluate((v: HTMLVideoElement) => v.readyState))
+        .toBeGreaterThanOrEqual(2);
+      await expectScrollFrame(video, 0.65, 0.15);
+      await expectScrollFrame(video, 0.85, 0.15);
+      await expectScrollFrame(video, 0.7, 0.15);
+      expect(await video.evaluate((v: HTMLVideoElement) => v.paused)).toBe(
+        true,
+      );
+    }
+  });
 }
 
 for (const viewport of [

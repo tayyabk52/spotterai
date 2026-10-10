@@ -2,6 +2,8 @@
 import { useEffect, type RefObject } from "react";
 import type { MotionValue } from "motion/react";
 
+const SEEK_RETRY_DELAY_MS = 250;
+
 export function useVideoScrub(
   ref: RefObject<HTMLVideoElement | null>,
   progress: MotionValue<number>,
@@ -11,12 +13,13 @@ export function useVideoScrub(
     const video = ref.current;
     if (!video || !enabled) return;
     let frame = 0;
+    let retry = 0;
+    let seekStartedAt = 0;
     let disposed = false;
     const seek = () => {
       frame = 0;
       if (
         disposed ||
-        video.seeking ||
         !Number.isFinite(video.duration) ||
         video.readyState < HTMLMediaElement.HAVE_METADATA
       )
@@ -24,8 +27,25 @@ export function useVideoScrub(
       const time =
         Math.max(0, Math.min(1, progress.get())) *
         Math.max(0, video.duration - 1 / 24);
+      // WebKit can delay seeked while scrolling. Coalesce normally, but don't
+      // leave a newer scroll target waiting indefinitely for that event.
+      if (
+        video.seeking &&
+        performance.now() - seekStartedAt < SEEK_RETRY_DELAY_MS
+      ) {
+        if (!retry) {
+          retry = window.setTimeout(() => {
+            retry = 0;
+            schedule();
+          }, SEEK_RETRY_DELAY_MS);
+        }
+        return;
+      }
       // Mobile browsers may defer decoding until a seek requests a frame.
-      if (Math.abs(video.currentTime - time) > 1 / 48) video.currentTime = time;
+      if (Math.abs(video.currentTime - time) > 1 / 48) {
+        seekStartedAt = performance.now();
+        video.currentTime = time;
+      }
     };
     const schedule = () => {
       if (!frame && !disposed) frame = requestAnimationFrame(seek);
@@ -40,6 +60,7 @@ export function useVideoScrub(
     return () => {
       disposed = true;
       cancelAnimationFrame(frame);
+      clearTimeout(retry);
       unsubscribe();
       video.removeEventListener("loadedmetadata", schedule);
       video.removeEventListener("loadeddata", schedule);

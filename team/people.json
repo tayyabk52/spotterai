@@ -1,0 +1,422 @@
+{
+  "schemaVersion": 1,
+  "researchDate": "2026-10-10",
+  "company": {
+    "name": "Spotter.ai / Spotter Labs",
+    "url": "https://spotter.ai/",
+    "legacyDomain": "joinspotter.com",
+    "linkedin": "https://www.linkedin.com/company/spotter-labs/"
+  },
+  "people": [
+    {
+      "id": "peidi-wu",
+      "name": "Peidi Wu",
+      "category": "Founders",
+      "safeDisplayRole": "Co-founder",
+      "reportedRole": "Co-founder",
+      "affiliationStatus": "corroborated",
+      "currentExecutiveTitleVerified": false,
+      "currentRoleVerified": false,
+      "draftBio": "Co-founded Spotter, the freight technology company. Public biographies describe experience in quantitative finance and software leadership.",
+      "bioStatus": "Original paraphrase for review; not publication-approved",
+      "portrait": {
+        "file": "images/peidi-wu.jpg",
+        "sourceUrl": "https://cdn.theorg.com/aea85b87-3dec-4bd5-b9e1-0f909ef86d22_large.jpg",
+        "sourceProfileId": "theorg-peidi-wu",
+        "downloadedAt": "2026-10-10",
+        "contentType": "image/jpeg",
+        "bytes": 21691,
+        "sha256": "4ad53e9b2e28c82b956c66b5906e017b844336e88633ff7004ef436396d12c56",
+        "advertisedSize": "large",
+        "usageRights": "Not established. Obtain company-approved headshot and reuse clearance before publication.",
+        "lowResolution": false,
+        "alt": "Peidi Wu",
+        "width": 512,
+        "height": 512
+      },
+      "roleTimeline": [
+        {
+          "role": "Co-founder",
+          "current": true,
+          "startDate": {
+            "year": 2019,
+            "month": 11,
+            "day": null
+          }
+        }
+      ],
+      "sourceIds": [
+        "theorg-peidi-wu",
+        "era",
+        "peidi-personal",
+        "sec-2020",
+        "crunchbase"
+      ],
+      "notes": [
+        "Safe public title: Co-founder. CEO title appears in historical SEC filings and directories, but conflicts with 2026 reporting naming Gabriel Stonys CEO."
+      ],
+      "publishReady": false,
+      "researchDate": "2026-10-10"
+    },
+    {
+      "id": "gabriel-stonys",
+      "name": "Gabriel Stonys",
+      "category": "Founders",
+      "safeDisplayRole": "Co-founder",
+      "reportedRole": "Co-founder",
+      "affiliationStatus": "corroborated",
+      "currentExecutiveTitleVerified": false,
+      "currentRoleVerified": false,
+      "draftBio": "Co-founded Spotter. Public biographies describe experience in trucking operations, software development and quantitative trading.",
+      "bioStatus": "Original paraphrase for review; not publication-approved",
+      "portrait": {
+        "file": "images/gabriel-stonys.jpg",
+        "sourceUrl": "https://cdn.theorg.com/5f9f3870-35a2-400b-8cae-784eefb0ced6_large.jpg",
+        "sourceProfileId": "theorg-gabriel-stonys",
+        "downloadedAt": "2026-10-10",
+        "contentType": "image/jpeg",
+        "bytes": 54436,
+        "sha256": "8b32e8f37ee800c26d4c3b2071aef5e6406c9d3a2d046b756bf29be3a2a52ecc",
+        "advertisedSize": "large",
+        "usageRights": "Not established. Obtain company-approved headshot and reuse clearance before publication.",
+        "lowResolution": false,
+        "alt": "Gabriel Stonys",
+        "width": 560,
+        "height": 560
+      },
+      "roleTimeline": [
+        {
+          "role": "Co-founder",
+          "current": true,
+          "startDate": {
+            "year": 2019,
+            "month": 11,
+            "day": null
+          }
+        }
+      ],
+      "sourceIds": [
+        "theorg-gabriel-stonys",
+        "era",
+        "company-release",
+        "food-logistics",
+        "crunchbase"
+      ],
+      "notes": [
+        "Safe public title: Co-founder. A 2026 company release calls him CEO; Crunchbase lists CTO. Confirm current executive title with the company."
+      ],
+      "publishReady": false,
+      "researchDate": "2026-10-10"
+    },
+    {
+      "id": "aleksandar-antic",
+      "name": "Aleksandar Antic",
+      "category": "Operations",
+      "safeDisplayRole": null,
+      "reportedRole": "Team Lead Manager",
+      "affiliationStatus": "directory-only-unconfirmed",
+      "currentExecutiveTitleVerified": false,
+      "currentRoleVerified": false,
+      "draftBio": "A directory-reported team lead with a background in dispatching and logistics operations.",
+      "bioStatus": "Original paraphrase for review; not publication-approved",
+      "portrait": {
+        "file": "images/aleksandar-antic.jpg",
+        "sourceUrl": "https://cdn.theorg.com/81c38d63-9af7-4e81-b848-1fcefd7f4fe1_thumb.jpg",
+        "sourceProfileId": "theorg-aleksandar-antic",
+        "downloadedAt": "2026-10-10",
+        "contentType": "image/jpeg",
+        "bytes": 9247,
+        "sha256": "61ad5c0ba20a47000f0ed9cc58a1cf8bd1376f07526d7fd188c209be9a1e2448",
+        "advertisedSize": "thumb",
+        "usageRights": "Not established. Obtain company-approved headshot and reuse clearance before publication.",
+        "lowResolution": true,
+        "alt": "Aleksandar Antic",
+        "width": 200,
+        "height": 200
+      },
+      "roleTimeline": [
+        {
+          "role": "Team Lead Manager",
+          "current": true,
+          "startDate": {
+            "year": 2023,
+            "month": 8,
+            "day": null
+          }
+        },
+        {
+          "role": "Operations Manager",
+          "current": false,
+          "startDate": {
+            "year": 2024,
+            "month": 5,
+            "day": null
+          }
+        }
+      ],
+      "sourceIds": [
+        "theorg-aleksandar-antic"
+      ],
+      "notes": [
+        "Directory headline says Team Lead Manager; biography also says Operations Manager. Confirm the current title."
+      ],
+      "publishReady": false,
+      "researchDate": "2026-10-10"
+    },
+    {
+      "id": "uros-martinovic",
+      "name": "Uros Martinovic",
+      "category": "Operations",
+      "safeDisplayRole": null,
+      "reportedRole": "Team Lead Manager",
+      "affiliationStatus": "directory-only-unconfirmed",
+      "currentExecutiveTitleVerified": false,
+      "currentRoleVerified": false,
+      "draftBio": "A directory-reported team lead with prior dispatching experience across trucking businesses.",
+      "bioStatus": "Original paraphrase for review; not publication-approved",
+      "portrait": {
+        "file": "images/uros-martinovic.jpg",
+        "sourceUrl": "https://cdn.theorg.com/643b6a65-7147-4791-8191-b1c43343153b_large.jpg",
+        "sourceProfileId": "theorg-uros-martinovic",
+        "downloadedAt": "2026-10-10",
+        "contentType": "image/jpeg",
+        "bytes": 18429,
+        "sha256": "3cb9e302e7b595c916845ea37a9370b5b24be82351d08f187f8b9a4e5097ee33",
+        "advertisedSize": "large",
+        "usageRights": "Not established. Obtain company-approved headshot and reuse clearance before publication.",
+        "lowResolution": false,
+        "alt": "Uros Martinovic",
+        "width": 400,
+        "height": 400
+      },
+      "roleTimeline": [
+        {
+          "role": "Team Lead Manager",
+          "current": true,
+          "startDate": {
+            "year": 2024,
+            "month": 1,
+            "day": 1
+          }
+        },
+        {
+          "role": "Dispatching Specialist",
+          "current": false,
+          "startDate": {
+            "year": 2023,
+            "month": 6,
+            "day": null
+          }
+        }
+      ],
+      "sourceIds": [
+        "theorg-uros-martinovic"
+      ],
+      "notes": [
+        "Directory timeline lists Team Lead Manager; biography still describes a dispatching role. Confirm current title."
+      ],
+      "publishReady": false,
+      "researchDate": "2026-10-10"
+    },
+    {
+      "id": "ahmed-abdelnaby",
+      "name": "Ahmed Abdelnaby",
+      "category": "Engineering",
+      "safeDisplayRole": null,
+      "reportedRole": "Senior Full Stack Developer",
+      "affiliationStatus": "corroborated",
+      "currentExecutiveTitleVerified": false,
+      "currentRoleVerified": false,
+      "draftBio": "A software developer whose public portfolio includes Spotter AI and the Sentinel driver safety app. His directory profile reports full-stack engineering work.",
+      "bioStatus": "Original paraphrase for review; not publication-approved",
+      "portrait": null,
+      "roleTimeline": [
+        {
+          "role": "Senior Full Stack Developer",
+          "current": true,
+          "startDate": {
+            "year": 2024,
+            "month": 11,
+            "day": null
+          }
+        }
+      ],
+      "sourceIds": [
+        "theorg-ahmed-abdelnaby",
+        "ahmed-personal",
+        "ahmed-linkedin"
+      ],
+      "notes": [
+        "Public portfolio and LinkedIn corroborate affiliation; current senior title requires confirmation. No personal portrait found in the directory or portfolio."
+      ],
+      "publishReady": false,
+      "researchDate": "2026-10-10"
+    },
+    {
+      "id": "boris-cupic",
+      "name": "Boris Čupić",
+      "category": "Operations",
+      "safeDisplayRole": null,
+      "reportedRole": "Logistics Manager",
+      "affiliationStatus": "directory-only-unconfirmed",
+      "currentExecutiveTitleVerified": false,
+      "currentRoleVerified": false,
+      "draftBio": "A directory-reported logistics manager with previous experience in transportation logistics.",
+      "bioStatus": "Original paraphrase for review; not publication-approved",
+      "portrait": {
+        "file": "images/boris-cupic.jpg",
+        "sourceUrl": "https://cdn.theorg.com/cf7b9422-ddd3-41e6-8f6a-01bd82db1d83_thumb.jpg",
+        "sourceProfileId": "theorg-boris-cupic",
+        "downloadedAt": "2026-10-10",
+        "contentType": "image/jpeg",
+        "bytes": 9927,
+        "sha256": "8d02057f276e616f61c872b95bd215a698b28604f453721d69134552167c09bc",
+        "advertisedSize": "thumb",
+        "usageRights": "Not established. Obtain company-approved headshot and reuse clearance before publication.",
+        "lowResolution": true,
+        "alt": "Boris Čupić",
+        "width": 200,
+        "height": 200
+      },
+      "roleTimeline": [
+        {
+          "role": "Logistics Manager",
+          "current": true,
+          "startDate": {
+            "year": 2023,
+            "month": 4,
+            "day": null
+          }
+        }
+      ],
+      "sourceIds": [
+        "theorg-boris-cupic"
+      ],
+      "notes": [],
+      "publishReady": false,
+      "researchDate": "2026-10-10"
+    },
+    {
+      "id": "altin-arifi",
+      "name": "Altin Arifi",
+      "category": "Operations",
+      "safeDisplayRole": null,
+      "reportedRole": "Team Leader",
+      "affiliationStatus": "directory-only-unconfirmed",
+      "currentExecutiveTitleVerified": false,
+      "currentRoleVerified": false,
+      "draftBio": null,
+      "bioStatus": "Missing",
+      "portrait": {
+        "file": "images/altin-arifi.jpg",
+        "sourceUrl": "https://cdn.theorg.com/d3b0ec49-80bc-4f41-add3-e3c9d8181f4f_thumb.jpg",
+        "sourceProfileId": "theorg-altin-arifi",
+        "downloadedAt": "2026-10-10",
+        "contentType": "image/jpeg",
+        "bytes": 6178,
+        "sha256": "d719f2599aed41e217b02e923140b73f73c625a593bfd0162b2dc906141f7195",
+        "advertisedSize": "thumb",
+        "usageRights": "Not established. Obtain company-approved headshot and reuse clearance before publication.",
+        "lowResolution": true,
+        "alt": "Altin Arifi",
+        "width": 200,
+        "height": 200
+      },
+      "roleTimeline": [
+        {
+          "role": "Team Leader",
+          "current": true,
+          "startDate": {
+            "year": 2022,
+            "month": 10,
+            "day": null
+          }
+        }
+      ],
+      "sourceIds": [
+        "theorg-altin-arifi"
+      ],
+      "notes": [
+        "Directory lists Team Leader but provides no biography. Obtain a company-approved bio."
+      ],
+      "publishReady": false,
+      "researchDate": "2026-10-10"
+    },
+    {
+      "id": "bryant-lewis",
+      "name": "Bryant Lewis",
+      "category": "Commercial",
+      "safeDisplayRole": null,
+      "reportedRole": "Enterprise Account Executive",
+      "affiliationStatus": "directory-only-unconfirmed",
+      "currentExecutiveTitleVerified": false,
+      "currentRoleVerified": false,
+      "draftBio": "A directory-reported enterprise account executive associated with Spotter Labs transportation management software.",
+      "bioStatus": "Original paraphrase for review; not publication-approved",
+      "portrait": {
+        "file": "images/bryant-lewis.jpg",
+        "sourceUrl": "https://cdn.theorg.com/a16bce9a-8686-4005-a8a9-65356b1053b7_thumb.jpg",
+        "sourceProfileId": "theorg-bryant-lewis",
+        "downloadedAt": "2026-10-10",
+        "contentType": "image/jpeg",
+        "bytes": 7954,
+        "sha256": "72a9fec55293f862a1fea54780d0133c3dadfbb338bb13c878f5cda6c80e45d8",
+        "advertisedSize": "thumb",
+        "usageRights": "Not established. Obtain company-approved headshot and reuse clearance before publication.",
+        "lowResolution": true,
+        "alt": "Bryant Lewis",
+        "width": 200,
+        "height": 200
+      },
+      "roleTimeline": [
+        {
+          "role": "Enterprise Account Executive",
+          "current": true,
+          "startDate": {
+            "year": 2026,
+            "month": 7,
+            "day": null
+          }
+        }
+      ],
+      "sourceIds": [
+        "theorg-bryant-lewis"
+      ],
+      "notes": [],
+      "publishReady": false,
+      "researchDate": "2026-10-10"
+    },
+    {
+      "id": "hafiza-irsa",
+      "name": "Hafiza Irsa",
+      "category": "Commercial",
+      "safeDisplayRole": null,
+      "reportedRole": "Business Development Manager",
+      "affiliationStatus": "directory-only-unconfirmed",
+      "currentExecutiveTitleVerified": false,
+      "currentRoleVerified": false,
+      "draftBio": "A directory-reported business development manager with a background in customer service and client support.",
+      "bioStatus": "Original paraphrase for review; not publication-approved",
+      "portrait": null,
+      "roleTimeline": [
+        {
+          "role": "Business Development Manager",
+          "current": true,
+          "startDate": {
+            "year": 2026,
+            "month": 1,
+            "day": null
+          }
+        }
+      ],
+      "sourceIds": [
+        "theorg-hafiza-irsa"
+      ],
+      "notes": [
+        "No portrait is provided by the directory. Obtain a company-approved headshot."
+      ],
+      "publishReady": false,
+      "researchDate": "2026-10-10"
+    }
+  ]
+}
