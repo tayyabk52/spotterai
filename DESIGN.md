@@ -1,5 +1,9 @@
 # Design — Spotter.ai
 
+## Homepage mobile hero photography, October 10, 2026
+
+Owner requested a more deliberate mobile photograph composition while preserving the approved desktop hero. Below 768px, a full-width fleet photograph leads a separate two-column pair for the operations team and driver. The fleet uses a 3:2 crop centered at 50% / 55% to retain the truck; supporting images use 4:3 crops. Keep 48px of space after the hero actions, 32px between photographic rows, and 16px between the supporting photographs. Each caption stays below its own image, with 12px separation and 13px / 1.5 typography. The group follows the existing gutters and caps at 560px. Preserve all three approved assets, copy, static mobile motion behavior, and desktop layout.
+
 ## Homepage photographic artwork, October 9, 2026
 
 Owner rejected the Lens styling changes and requested restoring the original homepage section and card styling. Keep all layout, copy, typography, colors, spacing, buttons and capability lists unchanged. Retain the generated Lens freight-terminal image and replace the remaining five abstract artworks one at a time with realistic contextual photographs. Images occupy their existing reserved areas with cover sizing and an 8px image corner. These fictional illustrative scenes are not customer evidence or fabricated product interfaces. Image provenance and final prompts: docs/capability-art-direction.md.

@@ -35,7 +35,11 @@ export default function HeroPhotography() {
               alt={image.alt}
               width={image.width}
               height={image.height}
-              sizes="(max-width: 767px) 45vw, (max-width: 1199px) 150px, 240px"
+              sizes={
+                image.position === "fleetPhoto"
+                  ? "(max-width: 600px) calc(100vw - 40px), (max-width: 767px) 560px, (max-width: 1199px) 150px, 240px"
+                  : "(max-width: 767px) 45vw, (max-width: 1199px) 150px, 240px"
+              }
               className={styles.photoImage}
             />
             <figcaption>{image.caption}</figcaption>
