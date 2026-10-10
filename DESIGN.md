@@ -1,5 +1,9 @@
 # Design — Spotter.ai
 
+## Mobile film activation correction, October 10, 2026
+
+Owner reported frozen TMS hero and financial management footage on mobile. Coarse-pointer devices now briefly activate muted inline decoding, pause on the first playback-ready event, and resume native-scroll seeking. A direct touch-release retry handles browser activation restrictions. This decoder warm-up is not continuous playback; preserve paused scroll control, reduced-motion posters, media-error fallbacks, all existing compositions and fine-pointer desktop behavior.
+
 ## Homepage mobile hero photography, October 10, 2026
 
 Owner requested a more deliberate mobile photograph composition while preserving the approved desktop hero. Below 768px, a full-width fleet photograph leads a separate two-column pair for the operations team and driver. The fleet uses a 3:2 crop centered at 50% / 55% to retain the truck; supporting images use 4:3 crops. Keep 48px of space after the hero actions, 32px between photographic rows, and 16px between the supporting photographs. Each caption stays below its own image, with 12px separation and 13px / 1.5 typography. The group follows the existing gutters and caps at 560px. Preserve all three approved assets, copy, static mobile motion behavior, and desktop layout.

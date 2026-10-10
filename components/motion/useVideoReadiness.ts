@@ -23,6 +23,7 @@ export function useVideoReadiness(ref: RefObject<HTMLVideoElement | null>) {
       onLoadStart: () => setReady(false),
       onLoadedData: showDecodedFrame,
       onCanPlay: showDecodedFrame,
+      onPlaying: showDecodedFrame,
       onSeeked: showDecodedFrame,
       onError: () => setFailed(true),
     },
